@@ -1,0 +1,353 @@
+﻿{
+  "PolicyId": null,
+  "ProposerId": null,
+  "Risk": {
+    "Affinity": "",
+    "ChannelCode": "",
+    "SchemeCode": "",
+    "OptionalExtras": null,
+    "ExtraDuqs": null,
+    "Product": {
+      "Vehicle": {
+        "VehicleDetail": [
+          {
+            "VRN": "EX70NKJ",
+            "AbiCode": "",
+            "ProductionPeriod": "",
+            "YearOfManufacture": "1995",
+            "EngineCc": "2287",
+            "EngineGroup": "",
+            "FuelType": "FuelDiesel",
+            "Manufacturer": "Unlisted",
+            "Model": "Fiat-1st Time Leisure-Friendee conversion",
+            "BodyStyle": "",
+            "Seats": "1",
+            "TransmissionType": "TransMan",
+            "HandednessDrivingType": "RightHand",
+            "DatePurchased": "2021-05-11",
+            "Modifications": [
+              {
+                "ModificationCode": "137"
+              }
+            ],
+            "Owner": "Spouse",
+            "RegisteredKeeper": true,
+            "LocationParkedOvernight": "Driveway",
+            "PostCodeParkedOvernight": "ST3 5ED",
+            "ParkOvernightAtHome": true,
+            "ClassOfUse": "SDPexC",
+            "Mileage": [
+              {
+                "Type": "Total",
+                "Value": "2999"
+              },
+              {
+                "Type": "EU",
+                "Value": "1"
+              }
+            ],
+            "CurrentValue": "1234",
+            "PurchasePrice": "1234",
+            "MainDriverId": 1,
+            "SecurityDevices": [
+              {
+                "Type": "Immobiliser",
+                "Code": "NONE"
+              },
+              {
+                "Type": "Tracking",
+                "Code": "NONE"
+              }
+            ],
+            "IsModified": true,
+            "Abs": null,
+            "NotBoughtYet": true,
+            "EuDriving": true,
+            "ForeignUseDuration": "C",
+            "VehicleTypeId": "d86c86bc-3f43-4884-bb2e-0f8a4c8bd219",
+            "ManufactureCached": "85022d70-cebc-4f71-a029-5f3a3decb093",
+            "ModelCached": "3db3cc1f-2eab-46fa-bab8-91f305ab4a3b",
+            "NoImmobiliserType": false,
+            "NoTrackerType": false,
+            "NumberOfDoors": "2",
+            "Motorhome": {
+              "Converted": "Y",
+              "BaseVehicle": "Fiat",
+              "MHType": "2"
+            },
+            "CoverType": "C"
+          }
+        ],
+        "AdditionalDrivers": [
+          {
+            "AdditionalDrivingExperience": [],
+            "Address": null,
+            "ClientCategory": null,
+            "ClientStatus": null,
+            "DateOfBirth": "1960-02-01",
+            "DriverType": null,
+            "DrivingLicence": [
+              {
+                "Type": "Full Licence",
+                "TypeOf": "Vehicle",
+                "DateObtained": "2018-01-01",
+                "CbtObtained": null,
+                "HoldCbtCertificate": null
+              }
+            ],
+            "EmailAddress": null,
+            "Employment": [
+              {
+                "Type": "fulltime",
+                "EmploymentCode": "Employee",
+                "EmploymentDesc": null,
+                "OccupationCode": "391",
+                "EmployerCode": "189",
+                "EmployerDesc": null
+              },
+              {
+                "Type": "parttime",
+                "EmploymentCode": "None",
+                "EmploymentDesc": null,
+                "OccupationCode": "220",
+                "EmployerCode": "186",
+                "EmployerDesc": null
+              }
+            ],
+            "Forenames": "Viet",
+            "FsaClass": null,
+            "Gender": "M",
+            "HomeOwner": null,
+            "IamCert": null,
+            "Id": 2,
+            "InsureOtherVehicle": null,
+            "LargestNcbInOtherVehicle": null,
+            "MaritalStatus": "M",
+            "MedicalConditions": null,
+            "Membership": null,
+            "NCB": {
+              "OtherBikeEngineCc": null,
+              "OtherBikeLastRide": null,
+              "OtherBikeNcd": null,
+              "OtherBikeOwnership": null,
+              "OtherBikeStyle": null,
+              "OtherBikeYearOfManufacture": null,
+              "OwnOtherBike": false,
+              "ProtectedBonus": null,
+              "PreviousNCBProtected": false,
+              "Years": null,
+              "AppliedToOtherVehicle": false,
+              "BonusProofType": null
+            },
+            "NonRTAConviction": null,
+            "OtherVehicleUse": "Owner",
+            "PhoneNumbers": [],
+            "Preferences": null,
+            "PreviousInsurance": {
+              "Type": "PC",
+              "ExpiryDate": "2020-05-26T00:00:00",
+              "YearsHeld": null,
+              "InsurerCode": null,
+              "InsurerName": null,
+              "PolicyNumber": null
+            },
+            "RelationshipToProposer": "SPOUSEREL",
+            "Salutation": "Mr Beo",
+            "Smoker": null,
+            "StarRider": null,
+            "Suffix": null,
+            "Surname": "Beo",
+            "Tests": "",
+            "Title": "Mr",
+            "UKResidentSinceDate": "1960-02-01",
+            "VatRegistered": null
+          }
+        ]
+      },
+      "PaymentMethod": "",
+      "NumberOfVehiclesInHousehold": "2",
+      "PolicyStartDate": "<<PolicyStartDate>>",
+      "VoluntaryExcess": "100",
+      "Restrict": "INSANDSPSE",
+      "Claims": [
+        {
+          "Id": 1,
+          "PersonId":1,
+          "Code": "S006",
+          "Date": "2017-02-01",
+          "NcbAffected": true,
+          "Costs": "1",
+          "PersonalInjury": false,
+          "ThisPolicy": null,
+          "ThirdPartyCost": null,
+          "Comments": null,
+          "BrokerReference": null
+        }
+      ],
+      "Convictions": [
+        {
+          "Id": 1,
+          "PersonId": 1,
+          "Type": null,
+          "Code": "AC14",
+          "Date": "2017-03-01",
+          "BanLength": "0",
+          "FineAmount": "0",
+          "PenaltyPoints": "1",
+          "DrinkReading": null,
+          "DrinkReadingLevel": null,
+          "RelatedAccident": null,
+          "OffenceDate": "2017-03-01"
+        }
+      ],
+      "HowDoYouPayForInsurance": "ANNUALLY",
+      "PreferredPaymentMethod": null
+    },
+    "Proposer": {
+      "AdditionalDrivingExperience": [],
+      "Address": {
+        "AddressLine1": "Albert Street",
+        "AddressLine2": "STOKE-ON-TRENT",
+        "AddressLine3": "",
+        "AddressLine4": "",
+        "AddressLine5": "",
+        "PostCode": "ST3 5ED",
+        "AbodeType": "",
+        "Usage": "",
+        "CountryCode": "",
+        "HouseNameOrNumber": "12"
+      },
+      "ClientCategory": null,
+      "ClientStatus": null,
+      "DateOfBirth": "1980-02-01",
+      "DriverType": null,
+      "DrivingLicence": [
+        {
+          "Type": "Full Licence",
+          "TypeOf": "Vehicle",
+          "DateObtained": "2016-05-11",
+          "CbtObtained": null,
+          "HoldCbtCertificate": null
+        }
+      ],
+      "EmailAddress": "hoant.trinhthi@nashtechglobal.com",
+      "Employment": [
+        {
+          "Type": "fulltime",
+          "EmploymentCode": "Employee",
+          "EmploymentDesc": null,
+          "OccupationCode": "01A",
+          "EmployerCode": "190",
+          "EmployerDesc": null
+        },
+        {
+          "Type": "parttime",
+          "EmploymentCode": "None",
+          "EmploymentDesc": null,
+          "OccupationCode": "220",
+          "EmployerCode": "186",
+          "EmployerDesc": null
+        }
+      ],
+      "Forenames": "Hoan",
+      "FsaClass": null,
+      "Gender": "F",
+      "HomeOwner": null,
+      "IamCert": null,
+      "Id": 1,
+      "InsureOtherVehicle": true,
+      "LargestNcbInOtherVehicle": "7",
+      "MaritalStatus": "M",
+      "MedicalConditions": null,
+
+      "Membership": [
+        {
+          "Type": "MotorCaravanClub",
+          "Value": "Y",
+          "Number": null
+        }
+      ],
+      "NCB": {
+        "OtherBikeEngineCc": null,
+        "OtherBikeLastRide": null,
+        "OtherBikeNcd": null,
+        "OtherBikeOwnership": null,
+        "OtherBikeStyle": null,
+        "OtherBikeYearOfManufacture": null,
+        "OwnOtherBike": false,
+        "ProtectedBonus": false,
+        "PreviousNCBProtected": false,
+        "Years": "2",
+        "AppliedToOtherVehicle": false,
+        "BonusProofType": null
+      },
+      "NonRTAConviction": null,
+      "OtherVehicleUse": "Owner",
+      "PhoneNumbers": [
+        {
+          "Type": "Work",
+          "Number": "074545444",
+          "Id": null,
+          "Extension": ""
+        },
+        {
+          "Type": "Home",
+          "Number": "012343254353",
+          "Id": null,
+          "Extension": ""
+        }
+      ],
+      "Preferences": [
+        {
+          "Type": "Marketing",
+          "SubType": "post",
+          "Code": null,
+          "Value": "Yes",
+          "DisplaySubType": "Post"
+        },
+        {
+          "Type": "Marketing",
+          "SubType": "email",
+          "Code": null,
+          "Value": "No",
+          "DisplaySubType": "Email"
+        },
+        {
+          "Type": "Marketing",
+          "SubType": "tel",
+          "Code": null,
+          "Value": "Yes",
+          "DisplaySubType": "Telephone"
+        },
+        {
+          "Type": "Marketing",
+          "SubType": "sms",
+          "Code": null,
+          "Value": "No",
+          "DisplaySubType": "SMS"
+        }
+      ],
+      "PreviousInsurance": {
+        "Type": "PC",
+        "ExpiryDate": "2020-05-26T00:00:00",
+        "YearsHeld": null,
+        "InsurerCode": null,
+        "InsurerName": null,
+        "PolicyNumber": null
+      },
+      "RelationshipToProposer": null,
+      "Salutation": "Miss Trinh",
+      "Smoker": null,
+      "StarRider": null,
+      "Suffix": null,
+      "Surname": "Trinh",
+      "Tests": "",
+      "Title": "Miss",
+      "UKResidentSinceDate": "1980-02-01",
+      "VatRegistered": null
+    },
+    "SourceOfSale": null,
+    "WebReference": null,
+    "Referrer": ""
+  }
+}

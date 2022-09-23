@@ -1,0 +1,18 @@
+{
+    "sessionId": "{{sessionID}}",
+    "agreementConfirmation": true,
+    "preferredDeliveryMethod": "Email",
+    "email": "hien1.hathi@nashtechglobal.com",
+    "phoneNumber": "0745738545",
+    "regNumbers": [
+        {
+            "id": "1",
+            "vrn": "MK56YCO"
+        }
+    ],
+    "markEm": "N",
+    "markP": "N",
+    "markSms": "N",
+    "markTel": "N",
+    "groupPartnerContact": "N"
+}

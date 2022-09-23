@@ -1,0 +1,19 @@
+{
+  "Convictions": [
+    {
+      "Id": "1",
+      "points": "0",
+      "PersonId": "1",
+      "Code": "DR40",
+      "Date": "2019-01-01",
+      "Type": "BA40",
+      "BanLength": "0",
+      "FineAmount": "999999",
+      "PenaltyPoints": "1",
+      "DrinkReading": "BLOOD",
+      "DrinkReadingLevel": "250",
+      "RelatedACcident": null,
+      "OffenceDate": "2019-10-10"
+    }
+  ]
+}

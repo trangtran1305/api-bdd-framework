@@ -1,0 +1,78 @@
+# ASP.NET Core (.NET Framework)
+# Build and test ASP.NET Core projects targeting the full .NET Framework.
+# Add steps that publish symbols, save build artifacts, and more:
+# https://docs.microsoft.com/azure/devops/pipelines/languages/dotnet-core
+parameters: 
+  - name: env
+    displayName: Environment
+    type: string
+    default: QA
+    values: 
+      - QA
+      - STG
+  
+  - name: category
+    displayName: Category 
+    type: string
+    default: ANCarClassic
+    values: 
+      - ANCarClassic
+      - BeWiser
+      - CNBike
+      - CNRenewalPortal
+      - CNSelectedBike
+      - SafeGuardMH 
+      - ScenicMotorhome
+      
+trigger:
+- none
+jobs:
+- job: BuildQA
+  timeoutInMinutes: 300
+  continueOnError: true
+  pool:
+    vmImage: 'windows-latest'
+
+  variables:
+    solution: '**/*.sln'
+    buildPlatform: 'Any CPU'
+    buildConfiguration: 'QA'
+
+  steps:
+  - task: UseDotNet@2
+    displayName: Set .NET version
+    inputs:
+      packageType: 'sdk'
+      version: '3.1.x'
+      includePreviewVersions: true
+      performMultiLevelLookup: true
+  - task: PowerShell@2
+    displayName: Set Environment
+    inputs:
+      targetType: 'inline'
+      script: |
+        # Write your PowerShell commands here.
+        setx ASPNETCORE_ENVIRONMENT ${{ parameters.env }}
+
+  - script: dotnet build --configuration ${{ parameters.env }}  
+    displayName: 'Build project'
+
+  - task: DotNetCoreCLI@2
+    displayName: Run test
+    inputs:  
+        command: test 
+        projects: 'AtlantaApi/AtlantaApi.csproj'  
+        arguments: '--filter Category=${{ parameters.category }} --configuration ${{ parameters.env }}'  
+        testRunTitle: 'Run test for ${{ parameters.category }}' 
+
+  # - task: PublishTestResults@2
+  #   inputs:
+  #     testResultsFormat: 'XUnit'
+  #     testResultsFiles: '**/TestExecution*.txt'
+      
+  - task: SpecFlowPlus@0
+    inputs:
+      generatorSource: 'FeatureFolder'
+      projectFilePath: '${Build.SourceDirectory}\AtlantaApi\Feature'
+      projectName: 'AtlantaApi'
+      testExecutionJson: '${Build.SourceDirectory}\AtlantaApi\bin\Debug\netcoreapp3.1\TestExecution.json'

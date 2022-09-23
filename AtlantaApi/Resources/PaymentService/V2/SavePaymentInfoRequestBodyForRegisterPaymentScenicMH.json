@@ -1,0 +1,7 @@
+{
+  "SessionId": "<sessionId>",
+  "PaymentMethodType": "payinfull",
+  "OptionalExtras": [
+  ],
+  "TotalAmountTopay": "0"
+}

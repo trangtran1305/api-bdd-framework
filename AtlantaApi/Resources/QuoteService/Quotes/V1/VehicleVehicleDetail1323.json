@@ -1,0 +1,144 @@
+{
+  "VehicleDetail": [
+    {
+      "VRN": " GX08  NNT ",
+      "AbiCode": "81320048",
+      "Abs": true,
+      "BodyStyle": "---5",
+      "ClassOfUse": "SDPexC",
+      "CoverType": "TPO",
+      "CurrentValue": "1500",
+      "DatePurchased": "2019-01-01",
+      "EngineCc": "100",
+      "FuelType": "FuelDiesel",
+      "GoodsVehicle": null,
+      "Id": null,
+      "LeftHandDrive": true,
+      "LocationParkedOvernight": "G",
+      "MainDriverId": "2",
+      "Manufacturer": "Honda",
+      "Mileage": [
+        {
+          "Type": "UK",
+          "Value": "12000"
+        }
+      ],
+      "Model": "GP 150",
+      "ModificationInd": null,
+      "Modifications": [
+        {
+          "ModificationCode": "89"
+        }
+      ],
+      "Owner": "Spouse",
+      "PostCodeParkedOvernight": "EC2N 4Ay",
+      "PowerOutput": null,
+      "PrivateCar": null,
+      "ProductionPeriod": "2006-2008",
+      "PurchasePrice": "1700",
+      "RegisteredKeeper": true,
+      "Seats": "5",
+      "SecurityDevices": [
+        {
+          "Type": "Alarm",
+          "Code": "DATA"
+        },
+        {
+          "Type": "GroundAnchor",
+          "Code": "NONE"
+        },
+        {
+          "Type": "Immobiliser",
+          "Code": "NONE"
+        },
+        {
+          "Type": "Physicaldevice",
+          "Code": "NONE"
+        },
+        {
+          "Type": "Tracking",
+          "Code": "NONE"
+        }
+      ],
+      "YearOfManufacture": "2018",
+      "Motorcycle": {
+        "PillionPassenger": true
+      },
+      "Motorhome": null,
+      "NumberOfDoors": "5",
+      "TransmissionType": "TransMan",
+      "Vrn": "MK57OBD",
+      "WhereManufactured": null
+    },
+    {
+      "VRN": " GX08  NNT ",
+      "AbiCode": "81320048",
+      "Abs": true,
+      "BodyStyle": "---5",
+      "ClassOfUse": "SDPexC",
+      "CoverType": "TPO",
+      "CurrentValue": "1500",
+      "DatePurchased": "2019-01-01",
+      "EngineCc": "100",
+      "FuelType": "FuelDiesel",
+      "GoodsVehicle": null,
+      "Id": null,
+      "LeftHandDrive": true,
+      "LocationParkedOvernight": "G",
+      "MainDriverId": "2",
+      "Manufacturer": "Honda",
+      "Mileage": [
+        {
+          "Type": "UK",
+          "Value": "12000"
+        }
+      ],
+      "Model": "GP 150",
+      "ModificationInd": null,
+      "Modifications": [
+        {
+          "ModificationCode": "89"
+        }
+      ],
+      "Owner": "Spouse",
+      "PostCodeParkedOvernight": "EC2N 4Ay",
+      "PowerOutput": null,
+      "PrivateCar": null,
+      "ProductionPeriod": "2006-2008",
+      "PurchasePrice": "1700",
+      "RegisteredKeeper": true,
+      "Seats": "5",
+      "SecurityDevices": [
+        {
+          "Type": "Alarm",
+          "Code": "DATA"
+        },
+        {
+          "Type": "GroundAnchor",
+          "Code": "NONE"
+        },
+        {
+          "Type": "Immobiliser",
+          "Code": "NONE"
+        },
+        {
+          "Type": "Physicaldevice",
+          "Code": "NONE"
+        },
+        {
+          "Type": "Tracking",
+          "Code": "NONE"
+        }
+      ],
+      "YearOfManufacture": "2018",
+      "Motorcycle": {
+        "PillionPassenger": true
+      },
+      "Motorhome": null,
+      "NumberOfDoors": "5",
+      "TransmissionType": "TransMan",
+      "Vrn": "MK57OBD",
+      "WhereManufactured": null
+    }
+  ]
+}

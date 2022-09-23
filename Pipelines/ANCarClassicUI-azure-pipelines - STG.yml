@@ -1,0 +1,45 @@
+# ASP.NET Core (.NET Framework)
+# Build and test ASP.NET Core projects targeting the full .NET Framework.
+# Add steps that publish symbols, save build artifacts, and more:
+# https://docs.microsoft.com/azure/devops/pipelines/languages/dotnet-core
+
+trigger:
+- master
+jobs:
+- job: BuildSTG
+  timeoutInMinutes: 300
+  continueOnError: true
+  pool:
+    vmImage: 'windows-latest'
+
+  variables:
+    solution: '**/*.sln'
+    buildPlatform: 'Any CPU'
+    buildConfiguration: 'STG'
+
+  steps:
+  - task: UseDotNet@2
+    displayName: Set .NET version
+    inputs:
+      packageType: 'sdk'
+      version: '3.1.x'
+      includePreviewVersions: true
+      performMultiLevelLookup: true
+  - task: PowerShell@2
+    displayName: Set Environment
+    inputs:
+      targetType: 'inline'
+      script: |
+        # Write your PowerShell commands here.
+        setx ASPNETCORE_ENVIRONMENT STG
+
+  - script: dotnet build --configuration $(buildConfiguration)  
+    displayName: 'Build project'
+
+  - task: DotNetCoreCLI@2
+    displayName: Run test
+    continueOnError: true
+    inputs:  
+        command: test 
+        projects: 'ANCarClassic/ANCarClassic.csproj'  
+        arguments: '--configuration $(buildConfiguration)' 

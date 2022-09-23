@@ -1,0 +1,470 @@
+{
+  "QuoteStore": {
+    "PolicyId": null,
+    "Risk": {
+      "PreviousInsurance": {
+        "Ncb": {
+          "ProtectedBonusSpecified": false,
+          "AppliedToOtherVehicle": false,
+          "AppliedToOtherVehicleSpecified": true,
+          "BonusProofType": null,
+          "Years": 0,
+          "YearsSpecified": true
+        },
+        "PreviousPolicyBonusProtectedSpecified": false,
+        "ExpiryDateSpecified": true,
+        "ExpiryDate": "<<ExpiryDate>>",
+        "YearsHeld": "9",
+        "Type": "PC",
+        "InsurerCode": null,
+        "InsurerName": null,
+        "PolicyNumber": null
+      },
+      "Cover": "C",
+      "DrivingExperience": null,
+      "TotalMileage": "100000",
+      "BusinessMileage": "0",
+      "Restrict": "ANYDRVR",
+      "ClassOfUse": "C1",
+      "TrailerCover": null,
+      "Vehicle": {
+        "Abs": false,
+        "AbsSpecified": true,
+        "BodyStyle": "Mcaravan",
+        "Lhd": "true",
+        "LhdSpecified": true,
+        "Doors": "3",
+        "Seats": "5",
+        "Id": null,
+        "AbiCode": "92100101",
+        "AbiProductionYears": "1930 -",
+        "Alarm": "PROF",
+        "Purchased": "2019-04-01T00:00:00",
+        "PurchasedSpecified": true,
+        "Cc": "6502",
+        "Fuel": "FuelDiesel",
+        "ImmobFit": true,
+        "Immob": "MZMVSS",
+        "Manufacturer": "<UNLISTED>",
+        "ModelDescription": " Caterpillar-Acorn Motorhomes-Van Conversion (over 19ft)   ",
+        "Owner": "VehCivPtnr",
+        "Value": "1111",
+        "PaId": "30000",
+        "WhereManufactured": "USA",
+        "Keeper": true,
+        "KeeperSpecified": true,
+        "RegNumber": "YA18RML",
+        "TrackerFit": true,
+        "Tracker": "1248",
+        "Transmission": "TransMan",
+        "WhereKept": "Driveway",
+        "KeptPostCode": "BD2 1LR",
+        "YearOfManufacture": "2018",
+        "Modifications": null,
+        "ModificationInd": false,
+        "ModificationIndSpecified": true,
+        "DerivedType": "Motorcycle"
+      },
+      "Id": null,
+      "Frequency": "PlcyAnnual",
+      "Affinity": "SAFE",
+      "PolicyTypeCode": "PC",
+      "VolXS": "100",
+      "StartDate": "<<StartDate>>",
+      "StartDateSpecified": true,
+      "RenewalDate": "2020-04-25T18:19:38.9529813+07:00",
+      "RenewalDateSpecified": true,
+      "QuoteDate": "2019-04-25T18:19:38.9916651+07:00",
+      "QuoteDateSpecified": true,
+      "EndDate": "2022-04-25T18:19:39.0120868+07:00",
+      "EndDateSpecified": true,
+      "QuoteType": "NewQuotTyp",
+      "PolicyInceptionDate": "2019-04-25T06:19:39.0515975+07:00",
+      "PolicyInceptionDateSpecified": true,
+      "SourceOfBusiness": "Website",
+      "PreferredDeliveryMethod": "",
+      "Proposer": {
+        "FullTimeOccupation": {
+          "Type": "Employee",
+          "OccCode": "167",
+          "EmpCode": "077"
+        },
+        "PartTimeOccupation": {
+          "Type": "Employee",
+          "OccCode": "220",
+          "EmpCode": "186"
+        },
+        "Licence": {
+          "Type": "Full Licence",
+          "Date": "1993-01-01T00:00:00",
+          "DateSpecified": true,
+          "Category": null,
+          "Convictions": null
+        },
+        "Name": {
+          "Title": "Mr",
+          "Forenames": "Nic",
+          "Surname": "Waddington",
+          "Suffix": null,
+          "Salutation": "Mr Waddington"
+        },
+        "DateOfBirth": "1973-05-16T00:00:00",
+        "DateOfBirthSpecified": true,
+        "Gender": "M",
+        "ResIdentSince": "1973-05-16T00:00:00",
+        "ResIdentSinceSpecified": true,
+        "InsuranceRefused": false,
+        "InsuranceRefusedSpecified": true,
+        "MaritalStatus": "M",
+        "MedicalCondition": {
+          "Code": "FJ",
+          "Date": "2019-05-15",
+          "DvlcNotified": true
+        },
+        "NonRTAConviction": false,
+        "NonRTAConvictionspecified": true,
+        "Smoker": false,
+        "SmokerSpecified": true,
+        "AccessToOtherVehicles": "Owner",
+        "Tests": null,
+        "VehicleUse": "MainUser",
+        "NumberOfOtherVehicles": "1",
+        "DriverType": "Prpsr",
+        "StarRIder": null,
+        "IamCertSpecified": false,
+        "LoyaltyCardNumber": null,
+        "LoyaltyCardLookup": null,
+        "ConsentForMedicalConditions": null,
+        "ConsentForConvictions": null,
+        "Id": null,
+        "Address": {
+          "PostCode": "S74 0LJ",
+          "AbodeType": "House",
+          "Usage": "Main",
+          "CountryCode": "GB",
+          "HouseNameOrNumber": "54",
+          "AddressLine1": "Roebuck RIdge",
+          "AddressLine2": "Jump",
+          "AddressLine3": "",
+          "AddressLine4": ""
+        },
+        "VatRegistered": true,
+        "VatRegisteredSpecified": true,
+        "ClientCategory": null,
+        "ClientStatus": "Prospect",
+        "Claimspecified": true,
+        "Claims": [
+          {
+            "ClaimDate": "2016-12-01T18:19:39.2338768+07:00",
+            "ClaimDateSpecified": true,
+            "OwnDamageCost": "100",
+            "ThirdPartyCost": "100",
+            "NcbPrejudiced": true,
+            "NcbPrejudicedSpecified": true,
+            "PersonalInjury": false,
+            "PersonalInjurySpecified": true,
+            "UnderPolicyHoldersCover": true,
+            "UnderPolicyHoldersCoverSpecified": true,
+            "Code": "F002",
+            "Comments": null,
+            "BrokerReference": "421342/211/C3213"
+          }
+        ],
+        "TelePhoneNumbers": [
+          {
+            "Id": "1",
+            "AreaCode": "01161",
+            "PhoneNumber": "581614",
+            "Extension": "",
+            "Usage": "Home"
+          }
+        ],
+        "Email": "mikey.moose73@gmail.com",
+        "FsaClass": "RETAIL",
+        "MotoringOrg": "",
+        "RelationshipToProposer": "Proposer",
+        "UserFields": [
+
+          {
+            "ScreenPrompt": "43234",
+            "IsList": true,
+            "Code": "PAY",
+            "Response": "MONTHLY",
+            "ShortResponse": "MONTHLY"
+          },
+
+          {
+            "ScreenPrompt": "43234",
+            "IsList": true,
+            "Code": "MARKTEL",
+            "Response": "YES",
+            "ShortResponse": "YES"
+          },
+          {
+            "ScreenPrompt": "43234",
+            "IsList": true,
+            "Code": "MARKSMS",
+            "Response": "YES",
+            "ShortResponse": "YES"
+          },
+          {
+            "ScreenPrompt": "43234",
+            "IsList": true,
+            "Code": "MARKEM",
+            "Response": "YES",
+            "ShortResponse": "YES"
+          },
+
+          {
+            "ScreenPrompt": "43234",
+            "IsList": true,
+            "Code": "MARKP",
+            "Response": "YES",
+            "ShortResponse": "YES"
+          },
+          {
+            "ScreenPrompt": "43234",
+            "IsList": true,
+            "Code": "SOURCE",
+            "Response": "abc",
+            "ShortResponse": "DIRECTWE"
+          }
+        ]
+      },
+      "AdditionalInsuredSet": [
+        {
+          "FullTimeOccupation": {
+            "Type": "UnEmploy",
+            "OccCode": "",
+            "EmpCode": ""
+          },
+          "PartTimeOccupation": {
+            "Type": "UnEmploy",
+            "OccCode": "",
+            "EmpCode": ""
+          },
+          "Licence": {
+            "Type": "Other European",
+            "Date": "1972-06-16T00:00:00",
+            "DateSpecified": true,
+            "Category": null,
+            "Convictions": null
+          },
+          "Name": {
+            "Title": "Mrs",
+            "Forenames": "Pauline abcdf fdg bvbvbvcb",
+            "Surname": "house name's - ac",
+            "Suffix": null,
+            "Salutation": "Mrs Ardiles"
+          },
+          "DateOfBirth": "1954-06-16T00:00:00",
+          "DateOfBirthSpecified": true,
+          "Gender": "F",
+          "ResIdentSince": "2019-04-16T00:00:00",
+          "ResIdentSinceSpecified": true,
+          "InsuranceRefused": false,
+          "InsuranceRefusedSpecified": true,
+          "MaritalStatus": "M",
+          "NonRTAConviction": false,
+          "NonRTAConvictionspecified": true,
+          "Smoker": false,
+          "SmokerSpecified": true,
+          "AccessToOtherVehicles": "Owner",
+          "Tests": null,
+          "VehicleUse": "Daily",
+          "NumberOfOtherVehicles": "1",
+          "DriverType": "NmdDrvr",
+          "StarRIder": null,
+          "IamCert": false,
+          "IamCertSpecified": false,
+          "LoyaltyCardNumber": null,
+          "LoyaltyCardLookup": null,
+          "ConsentForMedicalConditions": null,
+          "ConsentForConvictions": null,
+          "Id": null,
+          "Address": {
+            "PostCode": "GIR 0AA",
+            "AbodeType": "House",
+            "Usage": "Main",
+            "CountryCode": "GB",
+            "HouseNameOrNumber": "house number 123",
+            "AddressLine1": "house name ",
+            "AddressLine2": "house name",
+            "AddressLine3": " ",
+            "AddressLine4": " "
+          },
+          "VatRegistered": true,
+          "VatRegisteredSpecified": true,
+          "ClientCategory": null,
+          "ClientStatus": "Prospect",
+          "TelePhoneNumbers": [
+            {
+              "Id": "4",
+              "AreaCode": "01233",
+              "PhoneNumber": "123459",
+              "Extension": "",
+              "Usage": "Home"
+            },
+            {
+              "Id": "5",
+              "AreaCode": "01222",
+              "PhoneNumber": "0123444",
+              "Extension": "",
+              "Usage": "Home"
+            }
+          ],
+          "Email": "mikey.mouse73@gmail.com",
+          "FsaClass": "RETAIL",
+          "MotoringOrg": "",
+          "RelationshipToProposer": "Proposer",
+          "Users": [
+            {
+              "ScreenPrompt": "43234",
+              "IsList": true,
+              "Code": null,
+              "Response": null,
+              "ShortResponse": null
+            }
+          ]
+        }
+      ],
+      "Duqs": [
+        {
+          "Id": "122",
+          "QuestionNumber": "429",
+          "Response": "No",
+          "ShortResponse": "N",
+          "ScreenPrompt": ""
+        },
+        {
+          "Id": "122",
+          "QuestionNumber": "534",
+          "Response": "Yes",
+          "ShortResponse": "Y",
+          "ScreenPrompt": ""
+        },
+        {
+          "Id": "122",
+          "QuestionNumber": "535",
+          "Response": "90 or more days",
+          "ShortResponse": "",
+          "ScreenPrompt": ""
+        },
+        {
+          "Id": "122",
+          "QuestionNumber": "544",
+          "Response": "No",
+          "ShortResponse": "N",
+          "ScreenPrompt": ""
+        },
+        {
+          "Id": "122",
+          "QuestionNumber": "552",
+          "Response": "No",
+          "ShortResponse": "N",
+          "ScreenPrompt": ""
+        },
+        {
+          "Id": "122",
+          "QuestionNumber": "620",
+          "Response": "Yes",
+          "ShortResponse": "Y",
+          "ScreenPrompt": ""
+        },
+        {
+          "Id": "122",
+          "QuestionNumber": "876",
+          "Response": "92004008 - UK 2001 - 2300",
+          "ShortResponse": "",
+          "ScreenPrompt": ""
+        },
+        {
+          "Id": "122",
+          "QuestionNumber": "877",
+          "Response": "2",
+          "ShortResponse": "2",
+          "ScreenPrompt": ""
+        },
+        {
+          "Id": "122",
+          "QuestionNumber": "878",
+          "Response": "2000",
+          "ShortResponse": "2000",
+          "ScreenPrompt": ""
+        }
+      ],
+      "UserFields": [
+
+        {
+          "ScreenPrompt": "43234",
+          "IsList": true,
+          "Code": "PAY",
+          "Response": "MONTHLY",
+          "ShortResponse": "MONTHLY"
+        },
+
+        {
+          "ScreenPrompt": "43234",
+          "IsList": true,
+          "Code": "MARKTEL",
+          "Response": "YES",
+          "ShortResponse": "YES"
+        },
+        {
+          "ScreenPrompt": "43234",
+          "IsList": true,
+          "Code": "MARKSMS",
+          "Response": "YES",
+          "ShortResponse": "YES"
+        },
+        {
+          "ScreenPrompt": "43234",
+          "IsList": true,
+          "Code": "MARKEM",
+          "Response": "YES",
+          "ShortResponse": "YES"
+        },
+
+        {
+          "ScreenPrompt": "43234",
+          "IsList": true,
+          "Code": "MARKP",
+          "Response": "YES",
+          "ShortResponse": "YES"
+        },
+        {
+          "ScreenPrompt": "43234",
+          "IsList": true,
+          "Code": "SOURCE",
+          "Response": "abc",
+          "ShortResponse": "DIRECTWE"
+        }
+      ],
+      "Enrichments": null,
+      "ScratchData": "",
+      "MedicalConsentQuestionsActive": true,
+      "MedicalConsentQuestionsActiveSpecified": true,
+      "ConvictionsConsentQuestionsActive": true,
+      "ConvictionsConsentQuestionsActiveSpecified": true,
+      "DerivedType": "MotorRisk"
+    },
+    "OptionalExtensions": null,
+    "SubagentCodes": null,
+    "MaxNumOfQuotes": "5",
+    "MaxNumOfQuotesToStore": "5",
+    "FsaSaleType": "NON-ADV",
+    "QuoteGrade": 0,
+    "QuoteGradeSpecified": true,
+    "Enrichments": null,
+    "Context": {
+      "BranchCode": "2548",
+      "OperatorLoginName": "swu_webint",
+      "PartyId": null,
+      "PolicyId": null,
+      "SchemeCode": null,
+      "SchemeGroup": null,
+      "SourceOfBusiness": null
+    },
+    "NameOfInsured": ""
+  }
+}

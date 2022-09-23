@@ -1,0 +1,2022 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp6.0</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+
+    <ApplicationIcon />
+
+    <OutputType>Library</OutputType>
+
+    <StartupObject />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="bin\**" />
+    <Compile Remove="Feature\ANCarClassic\CacheService\**" />
+    <Compile Remove="Feature\ANCarClassic\IdentityServer\**" />
+    <Compile Remove="Feature\ANCarClassic\PaymentService\V1\**" />
+    <Compile Remove="Feature\ANCarClassic\QuoteService\Quotes\V0\**" />
+    <Compile Remove="Feature\ANCarClassic\QuoteService\Quotes\V1\**" />
+    <Compile Remove="Feature\ANCarClassic\QuoteService\Recall\V0\**" />
+    <Compile Remove="Feature\ANCarClassic\QuoteService\Recall\V1\**" />
+    <Compile Remove="Feature\ANCarClassic\QuoteService\SaveMarketing\V0\**" />
+    <Compile Remove="Feature\ANCarClassic\TrackingService\**" />
+    <Compile Remove="Feature\ANCarClassic\ValidateBankDetailsService\**" />
+    <Compile Remove="Feature\ANCarClassic\VehicleService\V0\**" />
+    <Compile Remove="Feature\ANCarClassic\VehicleService\V1\**" />
+    <Compile Remove="Feature\CNSelectedBike\CacheService\**" />
+    <Compile Remove="Feature\CNSelectedBike\IdentityServer\**" />
+    <Compile Remove="Feature\LoggingService\**" />
+    <Compile Remove="Feature\SafeGuard\IdentityServer\**" />
+    <Compile Remove="Resources\CacheService\**" />
+    <Compile Remove="Resources\QuoteService\StorePartialQuote\**" />
+    <Compile Remove="Resources\VehicleService\V0\**" />
+    <Compile Remove="StepDefinition\QuoteService\Quotes\V1\**" />
+    <Compile Remove="StepDefinition\QuoteService\Quotes\V2\**" />
+    <EmbeddedResource Remove="bin\**" />
+    <EmbeddedResource Remove="Feature\ANCarClassic\CacheService\**" />
+    <EmbeddedResource Remove="Feature\ANCarClassic\IdentityServer\**" />
+    <EmbeddedResource Remove="Feature\ANCarClassic\PaymentService\V1\**" />
+    <EmbeddedResource Remove="Feature\ANCarClassic\QuoteService\Quotes\V0\**" />
+    <EmbeddedResource Remove="Feature\ANCarClassic\QuoteService\Quotes\V1\**" />
+    <EmbeddedResource Remove="Feature\ANCarClassic\QuoteService\Recall\V0\**" />
+    <EmbeddedResource Remove="Feature\ANCarClassic\QuoteService\Recall\V1\**" />
+    <EmbeddedResource Remove="Feature\ANCarClassic\QuoteService\SaveMarketing\V0\**" />
+    <EmbeddedResource Remove="Feature\ANCarClassic\TrackingService\**" />
+    <EmbeddedResource Remove="Feature\ANCarClassic\ValidateBankDetailsService\**" />
+    <EmbeddedResource Remove="Feature\ANCarClassic\VehicleService\V0\**" />
+    <EmbeddedResource Remove="Feature\ANCarClassic\VehicleService\V1\**" />
+    <EmbeddedResource Remove="Feature\CNSelectedBike\CacheService\**" />
+    <EmbeddedResource Remove="Feature\CNSelectedBike\IdentityServer\**" />
+    <EmbeddedResource Remove="Feature\LoggingService\**" />
+    <EmbeddedResource Remove="Feature\SafeGuard\IdentityServer\**" />
+    <EmbeddedResource Remove="Resources\CacheService\**" />
+    <EmbeddedResource Remove="Resources\QuoteService\StorePartialQuote\**" />
+    <EmbeddedResource Remove="Resources\VehicleService\V0\**" />
+    <EmbeddedResource Remove="StepDefinition\QuoteService\Quotes\V1\**" />
+    <EmbeddedResource Remove="StepDefinition\QuoteService\Quotes\V2\**" />
+    <None Remove="bin\**" />
+    <None Remove="Feature\ANCarClassic\CacheService\**" />
+    <None Remove="Feature\ANCarClassic\IdentityServer\**" />
+    <None Remove="Feature\ANCarClassic\PaymentService\V1\**" />
+    <None Remove="Feature\ANCarClassic\QuoteService\Quotes\V0\**" />
+    <None Remove="Feature\ANCarClassic\QuoteService\Quotes\V1\**" />
+    <None Remove="Feature\ANCarClassic\QuoteService\Recall\V0\**" />
+    <None Remove="Feature\ANCarClassic\QuoteService\Recall\V1\**" />
+    <None Remove="Feature\ANCarClassic\QuoteService\SaveMarketing\V0\**" />
+    <None Remove="Feature\ANCarClassic\TrackingService\**" />
+    <None Remove="Feature\ANCarClassic\ValidateBankDetailsService\**" />
+    <None Remove="Feature\ANCarClassic\VehicleService\V0\**" />
+    <None Remove="Feature\ANCarClassic\VehicleService\V1\**" />
+    <None Remove="Feature\CNSelectedBike\CacheService\**" />
+    <None Remove="Feature\CNSelectedBike\IdentityServer\**" />
+    <None Remove="Feature\LoggingService\**" />
+    <None Remove="Feature\SafeGuard\IdentityServer\**" />
+    <None Remove="Resources\CacheService\**" />
+    <None Remove="Resources\QuoteService\StorePartialQuote\**" />
+    <None Remove="Resources\VehicleService\V0\**" />
+    <None Remove="StepDefinition\QuoteService\Quotes\V1\**" />
+    <None Remove="StepDefinition\QuoteService\Quotes\V2\**" />
+    <SpecFlowFeatureFiles Remove="bin\**" />
+    <SpecFlowFeatureFiles Remove="Feature\ANCarClassic\CacheService\**" />
+    <SpecFlowFeatureFiles Remove="Feature\ANCarClassic\IdentityServer\**" />
+    <SpecFlowFeatureFiles Remove="Feature\ANCarClassic\PaymentService\V1\**" />
+    <SpecFlowFeatureFiles Remove="Feature\ANCarClassic\QuoteService\Quotes\V0\**" />
+    <SpecFlowFeatureFiles Remove="Feature\ANCarClassic\QuoteService\Quotes\V1\**" />
+    <SpecFlowFeatureFiles Remove="Feature\ANCarClassic\QuoteService\Recall\V0\**" />
+    <SpecFlowFeatureFiles Remove="Feature\ANCarClassic\QuoteService\Recall\V1\**" />
+    <SpecFlowFeatureFiles Remove="Feature\ANCarClassic\QuoteService\SaveMarketing\V0\**" />
+    <SpecFlowFeatureFiles Remove="Feature\ANCarClassic\TrackingService\**" />
+    <SpecFlowFeatureFiles Remove="Feature\ANCarClassic\ValidateBankDetailsService\**" />
+    <SpecFlowFeatureFiles Remove="Feature\ANCarClassic\VehicleService\V0\**" />
+    <SpecFlowFeatureFiles Remove="Feature\ANCarClassic\VehicleService\V1\**" />
+    <SpecFlowFeatureFiles Remove="Feature\CNSelectedBike\CacheService\**" />
+    <SpecFlowFeatureFiles Remove="Feature\CNSelectedBike\IdentityServer\**" />
+    <SpecFlowFeatureFiles Remove="Feature\LoggingService\**" />
+    <SpecFlowFeatureFiles Remove="Feature\SafeGuard\IdentityServer\**" />
+    <SpecFlowFeatureFiles Remove="Resources\CacheService\**" />
+    <SpecFlowFeatureFiles Remove="Resources\QuoteService\StorePartialQuote\**" />
+    <SpecFlowFeatureFiles Remove="Resources\VehicleService\V0\**" />
+    <SpecFlowFeatureFiles Remove="StepDefinition\QuoteService\Quotes\V1\**" />
+    <SpecFlowFeatureFiles Remove="StepDefinition\QuoteService\Quotes\V2\**" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="bin\**" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Feature\ANCarClassic\CacheService\**" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Feature\ANCarClassic\IdentityServer\**" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Feature\ANCarClassic\PaymentService\V1\**" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Feature\ANCarClassic\QuoteService\Quotes\V0\**" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Feature\ANCarClassic\QuoteService\Quotes\V1\**" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Feature\ANCarClassic\QuoteService\Recall\V0\**" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Feature\ANCarClassic\QuoteService\Recall\V1\**" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Feature\ANCarClassic\QuoteService\SaveMarketing\V0\**" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Feature\ANCarClassic\TrackingService\**" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Feature\ANCarClassic\ValidateBankDetailsService\**" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Feature\ANCarClassic\VehicleService\V0\**" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Feature\ANCarClassic\VehicleService\V1\**" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Feature\CNSelectedBike\CacheService\**" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Feature\CNSelectedBike\IdentityServer\**" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Feature\LoggingService\**" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Feature\SafeGuard\IdentityServer\**" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Resources\CacheService\**" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Resources\QuoteService\StorePartialQuote\**" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Resources\VehicleService\V0\**" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="StepDefinition\QuoteService\Quotes\V1\**" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="StepDefinition\QuoteService\Quotes\V2\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Feature\ANCarClassic\ReferenceDataService\V0\MetaDataByKeyWordNormalCase.feature.feature.cs" />
+    <Compile Remove="Feature\ANCarClassic\ReferenceDataService\V0\MetaDataByKeyWordValidate.feature.feature.cs" />
+    <Compile Remove="Feature\ANCarClassic\ReferenceDataService\V0\MetaDataByValueNormalCase.feature.feature.cs" />
+    <Compile Remove="Feature\ANCarClassic\ReferenceDataService\V0\MetaDataByValueValidate.feature.feature.cs" />
+    <Compile Remove="Feature\CNSelectedBike\QuoteService\Quotes\V2\CheckQuoteDataAfterGetANewQuote.feature.cs" />
+    <Compile Remove="Feature\CNSelectedBike\QuoteService\Recall\V2\RecallRequestCheckDoQuoteFalse.feature.cs" />
+    <Compile Remove="Feature\CNSelectedBike\QuoteService\Recall\V2\RecallRequestValidParameter.feature.cs" />
+    <Compile Remove="Feature\ScenicMH\QuoteService\Recall\V2\ValidationRecallQuote.feature.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <SpecFlowFeatureFiles Remove="Feature\CNSelectedBike\QuoteService\Quotes\V2\CheckQuoteDataAfterGetANewQuote.feature" />
+    <SpecFlowFeatureFiles Remove="Feature\CNSelectedBike\QuoteService\Recall\V2\RecallRequestCheckDoQuoteFalse.feature" />
+    <SpecFlowFeatureFiles Remove="Feature\CNSelectedBike\QuoteService\Recall\V2\RecallRequestValidParameter.feature" />
+    <SpecFlowFeatureFiles Remove="Feature\ScenicMH\QuoteService\Recall\V2\ValidationRecallQuote.feature" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <SpecFlowObsoleteCodeBehindFiles Remove="Feature\ANVanClassic\AddressService\V2\AddressDataValidationCases.feature.cs" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Feature\ANVanClassic\AddressService\V2\AddressInvalidRequestCases.feature.cs" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Feature\ANVanClassic\AddressService\V2\AddressNormalCases.feature.cs" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Feature\ANVanClassic\Aggregator\V2\CheckDataPaymentByDeepLink.feature.cs" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Feature\ANVanClassic\BrandService\V1\BrandingAggreator.feature.cs" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Feature\ANVanClassic\BrandService\V1\BrandingOpenHours.feature.cs" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Feature\ANVanClassic\PaymentService\V3\RegisterPaymentInvalidRequestCases.feature.cs" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Feature\ANVanClassic\PaymentService\V3\RegisterPaymentRequestNormalCases.feature.cs" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Feature\ANVanClassic\PaymentService\V3\RegisterPaymentValidationCase.feature.cs" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Feature\ANVanClassic\QuoteService\PartialQuote\V3\GetPartialQuoteContextValidation.feature.cs" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Feature\ANVanClassic\QuoteService\PartialQuote\V3\GetPartialQuoteInvalidRequest.feature.cs" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Feature\ANVanClassic\QuoteService\PartialQuote\V3\GetPartialQuoteNormalCase.feature.cs" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Feature\ANVanClassic\QuoteService\PartialQuote\V3\PartialQuoteSingleFieldDataValidationExcel.feature.cs" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Feature\ANVanClassic\QuoteService\Quotes\V3\GetQuoteContextValidation.feature.cs" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Feature\ANVanClassic\QuoteService\Quotes\V3\GetQuoteInvalidRequest.feature.cs" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Feature\ANVanClassic\QuoteService\Quotes\V3\GetQuoteNormalCase.feature.cs" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Feature\ANVanClassic\QuoteService\Quotes\V3\QuoteSingleFieldDataValidationExcel.feature.cs" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Feature\ANVanClassic\QuoteService\Recall\V3\RecallInvalidRequestCases.feature.cs" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Feature\ANVanClassic\QuoteService\Recall\V3\RecallQuoteValidation.feature.cs" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Feature\ANVanClassic\QuoteService\Recall\V3\RecallRequestCheckDoQuote.feature.cs" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Feature\ANVanClassic\QuoteService\Recall\V3\RecallRequestNormalCases.feature.cs" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Feature\ANVanClassic\QuoteService\SaveDebit\V3\SaveDebitInvalidRequestCases.feature.cs" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Feature\ANVanClassic\QuoteService\SaveDebit\V3\SaveDebitNormalCases.feature.cs" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Feature\ANVanClassic\QuoteService\SaveDebit\V3\SaveDebitValidationCasesSingleField.feature.cs" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Feature\ANVanClassic\QuoteService\SaveDebit\V3\SaveDebitWithOldSessionId.feature.cs" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Feature\ANVanClassic\QuoteService\SaveMarketing\V1-V3\SaveMarketingDuplicateField.feature.cs" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Feature\ANVanClassic\QuoteService\SaveMarketing\V1-V3\SaveMarketingInvalidRequestCase.feature.cs" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Feature\ANVanClassic\QuoteService\SaveMarketing\V1-V3\SaveMarketingNormalCases.feature.cs" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Feature\ANVanClassic\QuoteService\SaveMarketing\V1-V3\SaveMarketingRegNumberValidation.feature.cs" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Feature\ANVanClassic\QuoteService\SaveMarketing\V1-V3\SaveMarketingValidationCasesPart1.feature.cs" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Feature\ANVanClassic\QuoteService\SaveMarketing\V1-V3\SaveMarketingWithOldSessionId.feature.cs" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Feature\ANVanClassic\QuoteService\SavePaymentInfo\V2\SavePaymentInfoInvalidRequestCases.feature.cs" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Feature\ANVanClassic\QuoteService\SavePaymentInfo\V2\SavePaymentInfoNormalCases.feature.cs" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Feature\ANVanClassic\QuoteService\SavePaymentInfo\V2\SavePaymentInfoTotalAmountSentToCDL.feature.cs" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Feature\ANVanClassic\QuoteService\SavePaymentInfo\V2\SavePaymentInfoValidationCasesSingleField.feature.cs" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Feature\ANVanClassic\QuoteService\SavePaymentInfo\V2\SavePaymentInfoValidationCasesSingleFieldCDL.feature.cs" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Feature\ANVanClassic\QuoteService\SavePaymentInfo\V2\SavePaymentInfoWithOldSessionId.feature.cs" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Feature\ANVanClassic\ReferenceDataService\V0\CheckHeaderValidationAndNormalCases.feature.cs" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Feature\ANVanClassic\ReferenceDataService\V0\CheckReferenceDataOrderFromExcel .feature.cs" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Feature\ANVanClassic\ReferenceDataService\V0\CheckReferenceDataSourceFromExcel.feature.cs" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Feature\ANVanClassic\ReferenceDataService\V0\MetaDataByKeyWordNormalCase.feature.cs" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Feature\ANVanClassic\ReferenceDataService\V0\MetaDataByKeyWordValidate.feature.cs" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Feature\ANVanClassic\ReferenceDataService\V0\MetaDataByValueNormalCase.feature.cs" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Feature\ANVanClassic\ReferenceDataService\V0\MetaDataByValueValidate.feature.cs" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Feature\ANVanClassic\ReferenceDataService\V0\MetaDataNormalCase.feature.cs" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Feature\ANVanClassic\ReferenceDataService\V0\MetaDataValidate.feature.cs" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Feature\ANVanClassic\VehicleService\V2\VehicleSearchCheckFormatResponse.feature.cs" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Feature\ANVanClassic\VehicleService\V2\VehicleSearchInvalidAuthorization.feature.cs" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Feature\ANVanClassic\VehicleService\V2\VehicleSearchNoDataFromCDLStrata.feature.cs" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Feature\ANVanClassic\VehicleService\V2\VehicleSearchNormalCases.feature.cs" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Feature\ANVanClassic\VehicleService\V2\VehicleSearchValidate.feature.cs" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Feature\ANVanClassic\WebHookService\V3\PaymentOutcomeMissingStartYear.feature.cs" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Feature\ANVanClassic\WebHookService\V3\PaymentOutcomeNormalCase.feature.cs" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Feature\ANVanClassic\WebHookService\V3\PaymentOutcomeNormalCaseWithoutCardConsent.feature.cs" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Feature\ANVanClassic\WebHookService\V3\PaymentOutcomeValidation.feature.cs" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Feature\ANVanClassic\WebHookService\V3\PaymentOutcomeValidationCasesInstalments.feature.cs" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Feature\ANVanClassic\WebHookService\V3\PaymentOutcomeValidationInvalidCasesPayInFull.feature.cs" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Feature\ANCarClassic\PaymentService\V3\RegisterPaymentInvalidRequestCases.feature.cs" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Feature\ANCarClassic\PaymentService\V3\RegisterPaymentRequestNormalCases.feature.cs" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Feature\ANCarClassic\PaymentService\V3\RegisterPaymentValidationCase.feature.cs" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Feature\ANCarClassic\QuoteService\Quotes\V3\GetQuoteContextValidation.feature.cs" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Feature\ANCarClassic\QuoteService\Quotes\V3\GetQuoteInvalidRequest.feature.cs" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Feature\ANCarClassic\QuoteService\Quotes\V3\GetQuoteNormalCase.feature.cs" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Feature\ANCarClassic\QuoteService\Quotes\V3\QuoteSingleFieldDataValidationExcel.feature.cs" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Feature\CNSelectedBike\QuoteService\Quotes\V2\QuoteSingleFieldDataValidationExcel.feature.cs" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Feature\SafeguardMH\AddressService\AddressDataValidationCases.feature.cs" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Feature\SafeguardMH\AddressService\AddressInvalidRequestCases.feature.cs" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Feature\SafeguardMH\AddressService\AddressNormalCases.feature.cs" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Feature\SafeguardMH\ReferenceDataService\CheckInvalidHeader.feature.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.0.0" />
+    <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="96.0.4664.4500" />
+    <PackageReference Include="SpecFlow" Version="3.9.22" />
+    <PackageReference Include="SpecFlow.Plus.LivingDocPlugin" Version="3.9.57" />
+    <PackageReference Include="SpecFlow.Tools.MsBuild.Generation" Version="3.9.22" />
+    <PackageReference Include="SpecFlow.xUnit" Version="3.9.22" />
+    <PackageReference Include="xunit" Version="2.4.1" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="StepDefinition\VehicleService\V0\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ANCarClassic\ANCarClassic.csproj" />
+    <ProjectReference Include="..\ProjectCore\ProjectCore.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Feature\ANVanClassic\AddressService\V2\AddressDataValidationCases.feature.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
+    <Compile Update="Feature\ANVanClassic\AddressService\V2\AddressInvalidRequestCases.feature.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
+    <Compile Update="Feature\ANVanClassic\AddressService\V2\AddressNormalCases.feature.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
+    <Compile Update="Feature\ANVanClassic\Aggregator\V2\CheckDataPaymentByDeepLink.feature.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
+    <Compile Update="Feature\ANVanClassic\BrandService\V1\BrandingAggreator.feature.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Update="Feature\ANVanClassic\BrandService\V1\BrandingOpenHours.feature.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Update="Feature\ANVanClassic\PaymentService\V3\RegisterPaymentInvalidRequestCases.feature.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
+    <Compile Update="Feature\ANVanClassic\PaymentService\V3\RegisterPaymentRequestNormalCases.feature.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
+    <Compile Update="Feature\ANVanClassic\PaymentService\V3\RegisterPaymentValidationCase.feature.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Update="Feature\ANVanClassic\QuoteService\PartialQuote\V3\GetPartialQuoteContextValidation.feature.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
+    <Compile Update="Feature\ANVanClassic\QuoteService\PartialQuote\V3\GetPartialQuoteInvalidRequest.feature.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
+    <Compile Update="Feature\ANVanClassic\QuoteService\PartialQuote\V3\GetPartialQuoteNormalCase.feature.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
+    <Compile Update="Feature\ANVanClassic\QuoteService\PartialQuote\V3\PartialQuoteSingleFieldDataValidationExcel.feature.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
+    <Compile Update="Feature\ANVanClassic\QuoteService\Quotes\V3\GetQuoteContextValidation.feature.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
+    <Compile Update="Feature\ANVanClassic\QuoteService\Quotes\V3\GetQuoteInvalidRequest.feature.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
+    <Compile Update="Feature\ANVanClassic\QuoteService\Quotes\V3\GetQuoteNormalCase.feature.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
+    <Compile Update="Feature\ANVanClassic\QuoteService\Quotes\V3\QuoteSingleFieldDataValidationExcel.feature.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
+    <Compile Update="Feature\ANVanClassic\QuoteService\Recall\V3\RecallInvalidRequestCases.feature.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
+    <Compile Update="Feature\ANVanClassic\QuoteService\Recall\V3\RecallQuoteValidation.feature.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
+    <Compile Update="Feature\ANVanClassic\QuoteService\Recall\V3\RecallRequestCheckDoQuote.feature.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
+    <Compile Update="Feature\ANVanClassic\QuoteService\Recall\V3\RecallRequestNormalCases.feature.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
+    <Compile Update="Feature\ANVanClassic\QuoteService\SaveDebit\V3\SaveDebitInvalidRequestCases.feature.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
+    <Compile Update="Feature\ANVanClassic\QuoteService\SaveDebit\V3\SaveDebitNormalCases.feature.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
+    <Compile Update="Feature\ANVanClassic\QuoteService\SaveDebit\V3\SaveDebitValidationCasesSingleField.feature.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
+    <Compile Update="Feature\ANVanClassic\QuoteService\SaveDebit\V3\SaveDebitWithOldSessionId.feature.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
+    <Compile Update="Feature\ANVanClassic\QuoteService\SaveMarketing\V1-V3\SaveMarketingDuplicateField.feature.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
+    <Compile Update="Feature\ANVanClassic\QuoteService\SaveMarketing\V1-V3\SaveMarketingInvalidRequestCase.feature.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
+    <Compile Update="Feature\ANVanClassic\QuoteService\SaveMarketing\V1-V3\SaveMarketingNormalCases.feature.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
+    <Compile Update="Feature\ANVanClassic\QuoteService\SaveMarketing\V1-V3\SaveMarketingRegNumberValidation.feature.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
+    <Compile Update="Feature\ANVanClassic\QuoteService\SaveMarketing\V1-V3\SaveMarketingValidationCasesPart1.feature.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
+    <Compile Update="Feature\ANVanClassic\QuoteService\SaveMarketing\V1-V3\SaveMarketingWithOldSessionId.feature.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
+    <Compile Update="Feature\ANVanClassic\QuoteService\SavePaymentInfo\V2\SavePaymentInfoInvalidRequestCases.feature.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
+    <Compile Update="Feature\ANVanClassic\QuoteService\SavePaymentInfo\V2\SavePaymentInfoNormalCases.feature.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
+    <Compile Update="Feature\ANVanClassic\QuoteService\SavePaymentInfo\V2\SavePaymentInfoTotalAmountSentToCDL.feature.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
+    <Compile Update="Feature\ANVanClassic\QuoteService\SavePaymentInfo\V2\SavePaymentInfoValidationCasesSingleField.feature.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
+    <Compile Update="Feature\ANVanClassic\QuoteService\SavePaymentInfo\V2\SavePaymentInfoValidationCasesSingleFieldCDL.feature.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
+    <Compile Update="Feature\ANVanClassic\QuoteService\SavePaymentInfo\V2\SavePaymentInfoWithOldSessionId.feature.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
+    <Compile Update="Feature\ANVanClassic\ReferenceDataService\V0\CheckHeaderValidationAndNormalCases.feature.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
+    <Compile Update="Feature\ANVanClassic\ReferenceDataService\V0\CheckReferenceDataOrderFromExcel .feature.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
+    <Compile Update="Feature\ANVanClassic\ReferenceDataService\V0\CheckReferenceDataSourceFromExcel.feature.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
+    <Compile Update="Feature\ANVanClassic\ReferenceDataService\V0\MetaDataByKeyWordNormalCase.feature.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
+    <Compile Update="Feature\ANVanClassic\ReferenceDataService\V0\MetaDataByKeyWordValidate.feature.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
+    <Compile Update="Feature\ANVanClassic\ReferenceDataService\V0\MetaDataByValueNormalCase.feature.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
+    <Compile Update="Feature\ANVanClassic\ReferenceDataService\V0\MetaDataByValueValidate.feature.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
+    <Compile Update="Feature\ANVanClassic\ReferenceDataService\V0\MetaDataNormalCase.feature.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
+    <Compile Update="Feature\ANVanClassic\ReferenceDataService\V0\MetaDataValidate.feature.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
+    <Compile Update="Feature\ANVanClassic\VehicleService\V2\VehicleSearchValidate.feature.cs">
+      <DependentUpon>VehicleSearchValidate.feature</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="Feature\ANVanClassic\WebHookService\V3\PaymentOutcomeMissingStartYear.feature.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
+    <Compile Update="Feature\ANVanClassic\WebHookService\V3\PaymentOutcomeNormalCase.feature.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
+    <Compile Update="Feature\ANVanClassic\WebHookService\V3\PaymentOutcomeNormalCaseWithoutCardConsent.feature.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
+    <Compile Update="Feature\ANVanClassic\WebHookService\V3\PaymentOutcomeValidation.feature.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
+    <Compile Update="Feature\ANVanClassic\WebHookService\V3\PaymentOutcomeValidationCasesInstalments.feature.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
+    <Compile Update="Feature\ANVanClassic\WebHookService\V3\PaymentOutcomeValidationInvalidCasesPayInFull.feature.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
+    <Compile Update="Feature\ANCarClassic\QuoteService\Quotes\V3\GetQuoteContextValidation.feature.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
+    <Compile Update="Feature\ANCarClassic\QuoteService\Quotes\V3\GetQuoteInvalidRequest.feature.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
+    <Compile Update="Feature\ANCarClassic\QuoteService\Quotes\V3\GetQuoteNormalCase.feature.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
+    <Compile Update="Feature\ANCarClassic\QuoteService\Quotes\V3\QuoteSingleFieldDataValidationExcel.feature.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
+    <Compile Update="Feature\ANCarClassic\Aggregator\V2\CheckDataAfterPaymentByDeepLink.feature.cs">
+      <DependentUpon>CheckDataAfterPaymentByDeepLink.feature</DependentUpon>
+    </Compile>
+    <Compile Update="Feature\ANCarClassic\Aggregator\V2\CheckDataBeforePaymentByDeepLink - Copy.feature.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
+    <Compile Update="Feature\ANCarClassic\Aggregator\V2\CheckDataBeforePaymentByDeepLink.feature.cs">
+      <DependentUpon>CheckDataBeforePaymentByDeepLink.feature</DependentUpon>
+    </Compile>
+    <Compile Update="Feature\ANCarClassic\BrandService\V1\BrandingAggreator.feature.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>BrandingAggreator.feature</DependentUpon>
+    </Compile>
+    <Compile Update="Feature\ANCarClassic\BrandService\V1\BrandingOpenHours.feature.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>BrandingOpenHours.feature</DependentUpon>
+    </Compile>
+    <Compile Update="Feature\ANCarClassic\PaymentService\V3\RegisterPaymentInvalidRequestCases.feature.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
+    <Compile Update="Feature\ANCarClassic\PaymentService\V3\RegisterPaymentRequestNormalCases.feature.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
+    <Compile Update="Feature\ANCarClassic\PaymentService\V3\RegisterPaymentValidationCase.feature.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Update="Feature\ANCarClassic\ReferenceDataService\V0\CheckHeaderValidationAndNormalCases.feature.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>CheckHeaderValidationAndNormalCases.feature</DependentUpon>
+    </Compile>
+    <Compile Update="Feature\ANCarClassic\ReferenceDataService\V0\CheckHeaderValidationCases.feature.cs">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>CheckHeaderValidationCases.feature.feature.cs</LastGenOutput>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>CheckHeaderValidationCases.feature</DependentUpon>
+    </Compile>
+    <Compile Update="Feature\ANCarClassic\ReferenceDataService\V0\CheckHeaderValidationCases.feature.feature.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>CheckHeaderValidationCases.feature.cs</DependentUpon>
+    </Compile>
+    <Compile Update="Feature\ANCarClassic\ReferenceDataService\V0\CheckReferenceDataOrderFromExcel .feature.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>CheckReferenceDataOrderFromExcel .feature</DependentUpon>
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>CheckReferenceDataOrderFromExcel .feature.feature.cs</LastGenOutput>
+    </Compile>
+    <Compile Update="Feature\ANCarClassic\ReferenceDataService\V0\CheckReferenceDataOrderFromExcel .feature.feature.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>CheckReferenceDataOrderFromExcel .feature.cs</DependentUpon>
+    </Compile>
+    <Compile Update="Feature\ANCarClassic\ReferenceDataService\V0\CheckReferenceDataSourceFromExcel.feature.cs">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>CheckReferenceDataSourceFromExcel.feature.feature.cs</LastGenOutput>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>CheckReferenceDataSourceFromExcel.feature</DependentUpon>
+    </Compile>
+    <Compile Update="Feature\ANCarClassic\ReferenceDataService\V0\CheckReferenceDataSourceFromExcel.feature.feature.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>CheckReferenceDataSourceFromExcel.feature.cs</DependentUpon>
+    </Compile>
+    <Compile Update="Feature\ANCarClassic\ReferenceDataService\V0\MetaDataByKeyWordNormalCase.feature.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>MetaDataByKeyWordNormalCase.feature</DependentUpon>
+    </Compile>
+    <Compile Update="Feature\ANCarClassic\ReferenceDataService\V0\MetaDataByKeyWordValidate.feature.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>MetaDataByKeyWordValidate.feature</DependentUpon>
+    </Compile>
+    <Compile Update="Feature\ANCarClassic\ReferenceDataService\V0\MetaDataByValueNormalCase.feature.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>MetaDataByValueNormalCase.feature</DependentUpon>
+    </Compile>
+    <Compile Update="Feature\ANCarClassic\ReferenceDataService\V0\MetaDataByValueValidate.feature.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>MetaDataByValueValidate.feature</DependentUpon>
+    </Compile>
+    <Compile Update="Feature\ANCarClassic\ReferenceDataService\V0\MetaDataNormalCase.feature.cs">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>MetaDataNormalCase.feature.feature.cs</LastGenOutput>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>MetaDataNormalCase.feature</DependentUpon>
+    </Compile>
+    <Compile Update="Feature\ANCarClassic\ReferenceDataService\V0\MetaDataNormalCase.feature.feature.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>MetaDataNormalCase.feature.cs</DependentUpon>
+    </Compile>
+    <Compile Update="Feature\ANCarClassic\ReferenceDataService\V0\MetaDataValidate.feature.cs">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>MetaDataValidate.feature.feature.cs</LastGenOutput>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>MetaDataValidate.feature</DependentUpon>
+    </Compile>
+    <Compile Update="Feature\ANCarClassic\ReferenceDataService\V0\MetaDataValidate.feature.feature.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>MetaDataValidate.feature.cs</DependentUpon>
+    </Compile>
+    <Compile Update="Feature\ANCarClassic\VehicleService\V2\VehicleSearchValidate.feature.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>VehicleSearchValidate.feature</DependentUpon>
+    </Compile>
+    <Compile Update="Feature\CNSelectedBike\QuoteService\Quotes\V2\QuoteSingleFieldDataValidationExcel.feature.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
+    <Compile Update="Feature\CNSelectedBike\QuoteService\Recall\V2\ValidationRecallQuote.feature.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>ValidationRecallQuote.feature</DependentUpon>
+    </Compile>
+    <Compile Update="Feature\SafeguardMH\AddressService\AddressInvalidRequestCases.feature.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
+    <Compile Update="Feature\SafeguardMH\AddressService\AddressNormalCases.feature.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
+    <Compile Update="Feature\SafeguardMH\ReferenceDataService\CheckInvalidHeader.feature.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
+    <Compile Update="StepDefinition\PaymentService\PrepurchaseSGSteps.cs">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Compile>
+    <Compile Update="StepDefinition\QuoteService\Prepurchase\PrepurchaseSGSteps.cs">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Compile>
+    <Compile Update="StepDefinition\QuoteService\Prepurchase\SavePaymentInfoSGSteps.cs">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="appsettings.Development.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="appsettings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="appsettings.QA.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="appsettings.STG.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\AddressService\V1\AddressResponseBody.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\PaymentService\V1\RegisterPaymentRequestBody.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\PaymentService\V1\RegisterPaymentRequestBodyCNBike.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\PaymentService\V1\RegisterPaymentRequestBodyScenicMH.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\PaymentService\V1\RegisterPaymentRequestBodySG.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\PaymentService\V2\RegisterPaymentRequestBodyBeWiser.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\PaymentService\V2\RegisterPaymentRequestBodyANCarClassic.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\PaymentService\V2\RegisterPaymentRequestBody.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\PaymentService\V2\RegisterPaymentRequestBodyCNSBike.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\PaymentService\V2\RegisterPaymentRequestBodyScenicMH.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\PaymentService\V2\SavePaymentInfoRequestBodyForRegisterPaymentBeWiser.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\PaymentService\V2\SavePaymentInfoRequestBodyForRegisterPaymentANCarClassic.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\PaymentService\V2\SavePaymentInfoRequestBodyForRegisterPayment.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\PaymentService\V2\SavePaymentInfoRequestBodyForRegisterPaymentCNSBike.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\PaymentService\V2\SavePaymentInfoRequestBodyForRegisterPaymentScenicMH.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\PaymentService\V2\SavePaymentInfoRequestBodyPaymentMethodBeWiser.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\PaymentService\V2\SavePaymentInfoRequestBodyPaymentMethodANCarClassic.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\PaymentService\V2\SavePaymentInfoRequestBodyPaymentMethod.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\PaymentService\V2\SavePaymentInfoRequestBodyPaymentMethodCNSBike.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\PartialQuote\V2\ProductClaims383.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\PartialQuote\V2\ProductConvictions408.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\PartialQuote\V2\ProposerEmployment64.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\PartialQuote\V2\AdditionalDriversEmployment190.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\PartialQuote\V2\ProposerPhoneNumbers97.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\PartialQuote\V2\ValidPartialQuotePart4.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\PartialQuote\V2\ValidPartialQuotePart4CNSBike.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\PartialQuote\V2\ValidQuote.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\PartialQuote\V2\ValidQuoteCNSBike.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\PartialQuote\V2\ValidQuoteForPrepurchase.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\PartialQuote\V2\ValidQuoteForRecall.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\PartialQuote\V2\VehicleAdditionalDrives143.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\PartialQuote\V2\VehicleAdditionalDrivesId147.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\PartialQuote\V2\VehicleAdditionalDrivesId148.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\PartialQuote\V2\VehicleAdditionalDrivesId149.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\PartialQuote\V2\VehicleDetailMileage327.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\PartialQuote\V2\VehicleVehicleDetail241.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\PartialQuote\V2\VehicleVehicleDetail246.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\PartialQuote\V2\VehicleVehicleDetailMileage871.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V0\LicenceConvictions474.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V0\LicenceConvictions475.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V0\ProposerClaim455.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V0\ProposerClaim457.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V0\ValidQuote.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V0\ValidQuoteForPrepurchase.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V0\ValidQuoteForRecall.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V0\ValidQuoteForSaveMarketing.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V1\ProductClaims929.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V1\ProductConvictions954.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V1\ProposerEmployment602.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V1\ProposerEmployment602CNBike.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V1\ProposerPhoneNumbers637.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V1\ProposerPhoneNumbers637CNBike.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V1\SavePaymentInfoSGquestBodyInstalmnts.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V1\ValidPartialQuoteForCNBike.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V1\ValidPartialQuoteForCNBikePart4.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V1\ValidQuote.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V1\ValidQuoteForCNBike.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V1\ValidQuoteForCNBikePart4.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V1\ValidQuoteForPrepurchase.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V1\ValidQuoteForPrepurchaseCNBike.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V1\ValidQuoteForRecall.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V1\ValidQuoteForRecallCNBike.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V1\ValidQuoteForRegisterPayment.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V1\ValidQuoteForRegisterPaymentCNBike.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V1\ValidQuoteForScenicMH.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V1\ValidQuoteForScenicMHWebHook.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V1\VehicleAdditionalDrives684.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V1\VehicleAdditionalDrives684CNBike.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V1\VehicleAdditionalDrives688.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V1\VehicleAdditionalDrives688CNBike.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V1\VehicleAdditionalDrives689.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V1\VehicleAdditionalDrives689CNBike.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V1\VehicleAdditionalDrives690.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V1\VehicleAdditionalDrives690CNBike.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V1\VehicleDetailMileage1411.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V1\VehicleDetailMileage871.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V1\VehicleVehicleDetail1323.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V1\VehicleVehicleDetail1323CNBike.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V1\VehicleVehicleDetail782.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V1\VehicleVehicleDetail782CNBike.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V1\VehicleVehicleDetail787.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V1\VehicleVehicleDetail787CNBike.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V1\VehicleVehicleDetailMileage871.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V1\VehicleVehicleDetailMileage871CNBike.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V2\BeWiserQuoteValidation.xlsx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V2\BeWiserPartialQuoteValidation.xlsx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V2\ANCarClassicPartialQuoteValidation.xlsx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V3\ANCarClassicPartialQuoteValidation.xlsx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V3\AutonetVanPartialQuoteValidation.xlsx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V3\AutonetVanQuoteValidation.xlsx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V3\BeWiserPartialQuoteValidation.xlsx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V3\BeWiserQuoteValidation.xlsx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V3\ANCarClassicQuoteValidation.xlsx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V3\ANCarClassicQuoteValidation1.xlsx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V3\ValidQuoteANCarClassic2VehicleDetails.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V3\ValidQuoteANCarClassic6Claims.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V3\ValidQuoteANCarClassic6Convictions.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V3\ValidQuoteANCarClassic6Riders.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V3\ValidQuoteANCarClassicAggSite.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V3\ValidQuoteANCarClassicAlarmTypeNull.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V3\ValidQuoteANCarClassicDupplicatedRider.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V3\ValidQuoteANCarClassicSuccess.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V3\ValidQuoteANCarClassicSuccessForRecall.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V3\ValidQuoteANCarClassicTitleMr.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V3\ValidQuoteANCarClassicTrackingTypeNull.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V3\ValidQuoteANCarClassicValidation.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V3\ValidQuoteAutonetVanValidation.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V3\ValidQuoteBeWiserSuccess.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V3\ValidQuoteBeWiserSuccessForRecall.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V3\ValidQuoteBeWiserValidation.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V2\ANCarClassicQuoteValidation.xlsx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V2\CannotQuoteForBothMultiBikeMultiRiderCNSBike.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V2\ProductClaims929CNSBike.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V2\ProductConvictions954CNSBike.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V2\ProposerEmployment602CNBike.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V2\ProposerEmployment602CNSBike.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V2\ProposerPhoneNumbers637.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V2\ProposerPhoneNumbers637CNBike.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V2\ProposerPhoneNumbers637CNSBike.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V2\ValidPartialQuote.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V2\InvalidQuote.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V2\ValidPartialQuoteForCNBike.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V2\ValidPartialQuoteForCNBikePart4.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V2\ValidPartialQuotePart4.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V2\CannotQuoteForBothMultiBikeMultiRider.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V2\ValidPartialQuotePart4CNSBike.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V2\ValidQuoteANCarClassic6Convictions.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V2\ValidQuoteANCarClassic6Claims.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V2\ValidQuoteANCarClassic2VehicleDetails.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V2\ValidQuoteANCarClassic6Riders.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V2\ValidQuoteANCarClassicDupplicatedRider.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V2\ValidQuoteANCarClassicAggSite.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V2\ValidQuoteANCarClassicSuccessForRecall.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V2\ValidQuoteANCarClassicTitleMr.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V2\ValidQuoteANCarClassicAlarmTypeNull.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V2\ValidQuoteANCarClassicTrackingTypeNull.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V2\ValidQuoteBeWiserSuccessForRecall.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V2\ValidQuoteBeWiserSuccess.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V2\ValidQuoteANCarClassicSuccess.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V2\ValidQuoteBeWiserValidation.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V2\ValidQuoteANCarClassicValidation.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V2\ValidQuoteCNSBike.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V2\ValidQuoteForCNBike.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V2\ValidQuoteForGenderFCNSBike.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V2\ValidQuoteForGenderM.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V2\ValidQuoteForGenderF.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V2\ValidQuoteForGenderMCNSBike.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V2\ValidQuoteForPrepurchaseCNBike.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V2\ValidQuoteForPrepurchaseCNSBike.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V2\ValidQuoteForRecallCNBike.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V2\ValidQuoteForRecallCNSBike.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V2\ValidQuoteForRecallScenicMH.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V2\ValidQuoteForRegisterPaymentCNBike.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V2\ValidQuoteForRegisterPaymentCNSBike.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V2\ValidQuoteForScenicMH.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V2\ValidQuoteForScenicMHGetQuote.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V2\ValidQuoteForScenicMHWebHook.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V2\ValidQuoteForScenicSGGetQuote.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V2\ValidQuoteForSGGetQuote.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V2\ValidQuoteForSGGetQuote1.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V2\ValidQuotePart4.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V2\ValidQuoteForRegisterPayment.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V2\ValidQuotePart4CNSBike.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V2\VehicleAdditionalDrives684CNBike.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V2\VehicleAdditionalDrives684CNSBike.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V2\VehicleAdditionalDrives684ScenicMH.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V2\VehicleAdditionalDrives688CNBike.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V2\VehicleAdditionalDrives689CNBike.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V2\VehicleAdditionalDrives690CNBike.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V2\VehicleAdditionalDrives690CNSBike.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V2\VehicleAdditionalDrives690ScenicMH.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V2\VehicleDetailMileage1411.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V2\VehicleDetailMileage1411CNSBike.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V2\VehicleDetailMileage871.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V2\VehicleAdditionalDrives690.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V2\VehicleAdditionalDrives689.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V2\VehicleAdditionalDrives688.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V2\VehicleAdditionalDrives684.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V2\ProductConvictions954.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V2\ProductClaims929.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V2\ProposerEmployment602.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V2\VehicleDetailMileage871CNSBike.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V2\VehicleVehicleDetail1323.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V2\VehicleVehicleDetail1323CNBike.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V2\VehicleVehicleDetail1323CNSBike.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V2\VehicleVehicleDetail782CNBike.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V2\VehicleVehicleDetail782CNSBike.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V2\VehicleVehicleDetail787CNBike.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V2\VehicleVehicleDetail787CNSBike.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V2\VehicleVehicleDetail787ScenicMH.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V2\VehicleVehicleDetailMileage871.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V2\VehicleVehicleDetail787.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V2\VehicleVehicleDetail782.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V2\ValidQuoteForRecall.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V2\VehicleVehicleDetailMileage871CNBike.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V2\VehicleVehicleDetailMileage871CNSBike.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Recall\V1\RecallBody.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Recall\V1\RecallBodyCNBike.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Recall\V2\RecallBody.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Recall\V2\RecallBodyBeWiser.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Recall\V2\RecallBodyANCarClassic.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Recall\V2\RecallBodyANCarStrata.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Recall\V2\RecallBodyCNBike.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Recall\V2\RecallBodyCNSBike.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Recall\V2\RecallBodyScenicMH.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Recall\V2\RecallBodyScenicSG.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Recall\V2\ValidQuoteForRecall.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Recall\V2\ValidQuoteForRecallCNBike.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\SaveDebit\V1\SaveDebitRequestBody.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\SaveDebit\V1\SaveDebitRequestBodyCNBike.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\SaveDebit\V2\SaveDebitRequestBodyBeWiser.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\SaveDebit\V2\SaveDebitRequestBodyANCarClassic.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\SaveDebit\V2\SaveDebitRequestBodyCNSBike.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\SaveDebit\V2\SaveDebitRequestBodyScenicMH.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\SaveDebit\V2\SaveDebitRequestBodySG.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\SaveMarketing\V1\SaveMarketingInvalidRegInfosCNSBike.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\SaveMarketing\V1\SaveMarketingInvalidRegInfosScenicMH.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\SaveMarketing\V1\SaveMarketingInvalidRegNumber.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\SaveMarketing\V1\SaveMarketingRequestBodyBeWiser.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\SaveMarketing\V1\SaveMarketingRequestBodyANCarClassic.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\SaveMarketing\V1\SaveMarketingRequestBodyANCarStrata.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\SaveMarketing\V1\SaveMarketingRequestBodyCNBike.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\SaveMarketing\V1\SaveMarketingRequestBodyCNSBike.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\SaveMarketing\V1\SaveMarketingRequestBodyScenicMH.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\SaveMarketing\V2\SaveMarketingRequestBody.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\SavePaymentInfo\V1\SavePaymentInfoRequestBodyBeWiser.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\SavePaymentInfo\V1\SavePaymentInfoRequestBodyANCarClassic.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\SavePaymentInfo\V1\SavePaymentInfoRequestBodyANCarStrata.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\SavePaymentInfo\V1\SavePaymentInfoRequestBodyCNBike.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\SavePaymentInfo\V1\SavePaymentInfoRequestBodyCNSBike.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\SavePaymentInfo\V1\SavePaymentInfoRequestBodyForRegister.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\SavePaymentInfo\V1\SavePaymentInfoRequestBodyInstalmntsBeWiser.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\SavePaymentInfo\V1\SavePaymentInfoRequestBodyInstalmntsANCarClassic.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\SavePaymentInfo\V1\SavePaymentInfoRequestBodyInstalmnts.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\SavePaymentInfo\V1\SavePaymentInfoRequestBodyInstalmntsScenicMH.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\SavePaymentInfo\V1\SavePaymentInfoRequestBodyInstalmntsSG.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\SavePaymentInfo\V1\SavePaymentInfoRequestBodyPaymentMethodBeWiser.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\SavePaymentInfo\V1\SavePaymentInfoRequestBodyPaymentMethodANCarClassic.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\SavePaymentInfo\V1\SavePaymentInfoRequestBodyPaymentMethodCNBike.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\SavePaymentInfo\V1\SavePaymentInfoRequestBodyPaymentMethodCNSBike.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\SavePaymentInfo\V1\SavePaymentInfoRequestBodyRK.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\SavePaymentInfo\V1\SavePaymentInfoRequestBodyRO.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\SavePaymentInfo\V1\SavePaymentInfoRequestBodyScenicMH.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\SavePaymentInfo\V1\SavePaymentInfoSGquestBodyInstalmnts.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\SavePaymentInfo\V1\SavePaymentInfoSGquestBodyPayInFull.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\SavePaymentInfo\V1\SavePaymentInfoTotalAmountTopayRequestBody.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\SavePaymentInfo\V2\SavePaymentInfoInstalmentRequestBody.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\SavePaymentInfo\V2\SavePaymentInfoRequestBody.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\SavePaymentInfo\V2\SavePaymentInfoRequestBodyANCarClassic.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\SavePaymentInfo\V2\SavePaymentInfoRequestBodyANCarStrata.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\SavePaymentInfo\V2\SavePaymentInfoRequestBodyInstalmntsANCarClassic.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\SavePaymentInfo\V2\SavePaymentInfoRequestBodyPaymentMethodANCarClassic.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\ReferenceDataService\V0\AutonetVan_Reference data.xlsx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\ReferenceDataService\V0\BeWiser_Reference data.xlsx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\ReferenceDataService\V0\AN Car Classic_Reference data.xlsx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\ReferenceDataService\V0\ANCarClassicReferenceData1.xlsx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\ReferenceDataService\V0\ANCarClassicReferenceData.xlsx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\ReferenceDataService\V0\CNBike - Reference data.xlsx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\ReferenceDataService\V0\CNSB - Reference data.xlsx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\ReferenceDataService\V0\MetadataBodyBeWiser.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\ReferenceDataService\V0\MetadataBodyANCarClassic.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\ReferenceDataService\V0\MetadataBodyByValue.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\ReferenceDataService\V0\MetadataBodyByValueBeWiser.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\ReferenceDataService\V0\MetadataBodyByValueANCarClassic.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\ReferenceDataService\V0\MetadataBodyByValueCNBike.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\ReferenceDataService\V0\MetadataBodyByValueCNSBike.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\ReferenceDataService\V0\MetadataBodyByValueScenicMH.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\ReferenceDataService\V0\MetadataBodyByValueSG.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\ReferenceDataService\V0\MetadataBodyCNBike.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\ReferenceDataService\V0\MetadataBodyCNSBike.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\ReferenceDataService\V0\MetadataBodyMultiRefTypesBeWiser.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\ReferenceDataService\V0\MetadataBodyMultiRefTypesANCarClassic.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\ReferenceDataService\V0\MetadataBodyMultiRefTypesCNBike.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\ReferenceDataService\V0\MetadataBodyMultiRefTypesCNSBike.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\ReferenceDataService\V0\MetadataBodyScenicMH.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\ReferenceDataService\V0\MetadataBodyScenicSG.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\ReferenceDataService\V0\MetadataBodySingleReferenceTypeBeWiser.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\ReferenceDataService\V0\MetadataBodySingleReferenceTypeANCarClassic.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\ReferenceDataService\V0\ReferenceDataByKeyWordBody.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\ReferenceDataService\V0\ReferenceDataByKeyWordBodyBeWiser.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\ReferenceDataService\V0\ReferenceDataByKeyWordBodyCNBike.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\ReferenceDataService\V0\ReferenceDataByKeyWordBodyCNSBike.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\ReferenceDataService\V0\ReferenceDataByKeyWordBodyScenicMH.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\ReferenceDataService\V0\Safeguard Reference Data v0.4.xlsx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\ReferenceDataService\V0\Senic MH_Reference data.xlsx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\SaveCardConsentService\V0\SaveCardConsentBody.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\SaveCardConsentService\V0\SaveCardConsentBodyForSG.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\SaveCardConsentService\V0\SaveCardConsentBodyMissingSessionIdSG.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\SaveCardConsentService\V1\SaveCardConsentBody.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\SaveCardConsentService\V2\SaveCardConsentBodyForSG.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\SaveCardConsentService\V2\SaveCardConsentBody.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\SaveCardConsentService\V2\SaveCardConsentBodyMissingSessionIdSG.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\SaveCardConsentService\V2\SaveCardConsentBodyMissingSessionIdScenicMH.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\SaveCardConsentService\V2\SaveCardConsentBodyScenicMH.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\VehicleService\V1\Motorhome_VehicleType_Make_Model_DUQ_Matrix----------new.xlsx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\VehicleService\V1\Motorhome_VehicleType_Make_Model_DUQ_Matrix.xlsx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\VehicleService\V1\VehicleSearchBody.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\VehicleService\V1\VehicleSearchBody2Parameters.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\VehicleService\V1\VehicleSearchBody2ParametersCNBike.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\VehicleService\V1\VehicleSearchBodyCNBike.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\VehicleService\V1\VehicleSearchBodyInvalidData.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\VehicleService\V1\VehicleSearchBodyInvalidDataCNBike.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\VehicleService\V1\VehicleSearchBodyNoContent.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\VehicleService\V1\VehicleSearchBodyNoContentCNBike.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\VehicleService\V1\VehicleSearchNoContentBody.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\VehicleService\V1\VehicleSearchNoContentBodyCNBike.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\VehicleService\V1\VehicleTypeBody.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\VehicleService\V2\VehicleSearchBodyBeWiser.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\VehicleService\V2\VehicleSearchBodyANCarClassic.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\VehicleService\V2\VehicleSearchBodyCNSBike.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\VehicleService\V2\VehicleSearchBodyNoContentBeWiser.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\VehicleService\V2\VehicleSearchBodyNoContentANCarClassic.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\VehicleService\V2\VehicleSearchBodyNoContent.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\VehicleService\V2\VehicleSearchBodyInvalidData.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\VehicleService\V2\VehicleSearchBody.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\AddressService\V2\AddressResponseBody.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V2\ValidQuote.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\Quotes\V2\ValidQuoteForPrepurchase.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\SaveDebit\V2\SaveDebitRequestBody.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\SaveMarketing\V1\SaveMarketingDuplicateId.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\SaveMarketing\V1\SaveMarketingInvalidRegInfos.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\SaveMarketing\V1\SaveMarketingDuplicateVRN.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\SaveMarketing\V1\SaveMarketingMissingAgreementConfirmation.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\SaveMarketing\V1\SaveMarketingRequestBody.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\SavePaymentInfo\V1\SavePaymentInfoRequestBodyPaymentMethod.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\SavePaymentInfo\V1\SavePaymentInfoRequestBody.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\QuoteService\SavePaymentInfo\V1\SavePaymentInfoRequestBodyNoOpex.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\ReferenceDataService\V0\MetadataBody.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\ReferenceDataService\V0\ReferenceDataByKeyWordBodyANCarClassic.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\VehicleService\V2\VehicleSearchBodyNoContentCNSBike.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\VehicleService\V2\VehicleSearchBodySG.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\VehicleService\V2\VehicleSearchBodyWithModelAndMakeBeWiser.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\VehicleService\V2\VehicleSearchBodyWithModelAndMakeANCarClassic.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\VehicleService\V2\VehicleSearchBodyWithModelAndMake.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\VehicleService\V2\VehicleSearchBodyWithModelAndMakeCNSBike.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\VehicleService\V2\VehicleSearchBodyWithModelAndYear.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\WebHookService\V1\WebHookBody.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\WebHookService\V1\WebHookBodyCNBike.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\WebHookService\V1\WebHookBodyCNSBike.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\WebHookService\V1\WebHookBodyMissingStartMonth.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\WebHookService\V1\WebHookBodyMissingStartMonthCNBike.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\WebHookService\V1\WebHookBodyMissingStartMonthCNSBike.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\WebHookService\V1\WebHookBodyMissingStartMonthScenicMH.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\WebHookService\V1\WebHookBodyScenicMH.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\WebHookService\V1\WebHookValidationBody.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\WebHookService\V1\WebHookValidationBodyCNBike.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\WebHookService\V1\WebHookValidationBodyCNSBike.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\WebHookService\V1\WebHookValidationBodyScenicMH.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\WebHookService\V2\WebHookBodyBeWiser.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\WebHookService\V2\WebHookBodyANCarClassic.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\WebHookService\V2\WebHookBodyCNSBike.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\WebHookService\V2\WebHookBodyMissingStartMonthBeWiser.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\WebHookService\V2\WebHookBodyMissingStartMonthANCarClassic.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\WebHookService\V2\WebHookBodyMissingStartMonthCNSBike.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\WebHookService\V2\WebHookBodyNavigationStatusTIMEOUTBeWiser.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\WebHookService\V2\WebHookBodyNavigationStatusTIMEOUTANCarClassic.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\WebHookService\V2\WebHookBodyNavigationStatusTIMEOUT.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\WebHookService\V2\WebHookBodyScenicMH.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\WebHookService\V2\WebHookBodyScenicSG.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\WebHookService\V2\WebHookBodyWithoutCardConsentBeWiser.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\WebHookService\V2\WebHookBodyWithoutCardConsentANCarClassic.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\WebHookService\V2\WebHookBodyWithoutCardConsent.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\WebHookService\V2\WebHookBody.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\WebHookService\V2\WebHookBodyMissingStartMonth.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\WebHookService\V2\WebHookValidationBody.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\WebHookService\V2\WebHookValidationBodyCNSBike.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <SpecFlowFeatureFiles Update="Feature\ANVanClassic\AddressService\V2\AddressDataValidationCases.feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="Feature\ANVanClassic\AddressService\V2\AddressInvalidRequestCases.feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="Feature\ANVanClassic\AddressService\V2\AddressNormalCases.feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="Feature\ANVanClassic\Aggregator\V2\CheckDataPaymentByDeepLink.feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="Feature\ANVanClassic\BrandService\V1\BrandingAggreator.feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+      <LastGenOutput>BrandingAggreator.feature.cs</LastGenOutput>
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="Feature\ANVanClassic\BrandService\V1\BrandingOpenHours.feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+      <LastGenOutput>BrandingOpenHours.feature.cs</LastGenOutput>
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="Feature\ANVanClassic\PaymentService\V3\RegisterPaymentInvalidRequestCases.feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="Feature\ANVanClassic\PaymentService\V3\RegisterPaymentRequestNormalCases.feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="Feature\ANVanClassic\PaymentService\V3\RegisterPaymentValidationCase.feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+      <LastGenOutput>RegisterPaymentValidationCase.feature.cs</LastGenOutput>
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="Feature\ANVanClassic\QuoteService\PartialQuote\V3\GetPartialQuoteContextValidation.feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="Feature\ANVanClassic\QuoteService\PartialQuote\V3\GetPartialQuoteInvalidRequest.feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="Feature\ANVanClassic\QuoteService\PartialQuote\V3\GetPartialQuoteNormalCase.feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="Feature\ANVanClassic\QuoteService\PartialQuote\V3\PartialQuoteSingleFieldDataValidationExcel.feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="Feature\ANVanClassic\QuoteService\Quotes\V3\GetQuoteContextValidation.feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="Feature\ANVanClassic\QuoteService\Quotes\V3\GetQuoteInvalidRequest.feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="Feature\ANVanClassic\QuoteService\Quotes\V3\GetQuoteNormalCase.feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="Feature\ANVanClassic\QuoteService\Quotes\V3\QuoteSingleFieldDataValidationExcel.feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="Feature\ANVanClassic\QuoteService\Recall\V3\RecallInvalidRequestCases.feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="Feature\ANVanClassic\QuoteService\Recall\V3\RecallQuoteValidation.feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="Feature\ANVanClassic\QuoteService\Recall\V3\RecallRequestCheckDoQuote.feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="Feature\ANVanClassic\QuoteService\Recall\V3\RecallRequestNormalCases.feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="Feature\ANVanClassic\QuoteService\SaveDebit\V3\SaveDebitInvalidRequestCases.feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="Feature\ANVanClassic\QuoteService\SaveDebit\V3\SaveDebitNormalCases.feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="Feature\ANVanClassic\QuoteService\SaveDebit\V3\SaveDebitValidationCasesSingleField.feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="Feature\ANVanClassic\QuoteService\SaveDebit\V3\SaveDebitWithOldSessionId.feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="Feature\ANVanClassic\QuoteService\SaveMarketing\V1-V3\SaveMarketingDuplicateField.feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="Feature\ANVanClassic\QuoteService\SaveMarketing\V1-V3\SaveMarketingInvalidRequestCase.feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="Feature\ANVanClassic\QuoteService\SaveMarketing\V1-V3\SaveMarketingNormalCases.feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="Feature\ANVanClassic\QuoteService\SaveMarketing\V1-V3\SaveMarketingRegNumberValidation.feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="Feature\ANVanClassic\QuoteService\SaveMarketing\V1-V3\SaveMarketingValidationCasesPart1.feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="Feature\ANVanClassic\QuoteService\SaveMarketing\V1-V3\SaveMarketingWithOldSessionId.feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="Feature\ANVanClassic\QuoteService\SavePaymentInfo\V2\SavePaymentInfoInvalidRequestCases.feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="Feature\ANVanClassic\QuoteService\SavePaymentInfo\V2\SavePaymentInfoNormalCases.feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="Feature\ANVanClassic\QuoteService\SavePaymentInfo\V2\SavePaymentInfoTotalAmountSentToCDL.feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="Feature\ANVanClassic\QuoteService\SavePaymentInfo\V2\SavePaymentInfoValidationCasesSingleField.feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="Feature\ANVanClassic\QuoteService\SavePaymentInfo\V2\SavePaymentInfoValidationCasesSingleFieldCDL.feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="Feature\ANVanClassic\QuoteService\SavePaymentInfo\V2\SavePaymentInfoWithOldSessionId.feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="Feature\ANVanClassic\ReferenceDataService\V0\CheckHeaderValidationAndNormalCases.feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="Feature\ANVanClassic\ReferenceDataService\V0\CheckReferenceDataOrderFromExcel .feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="Feature\ANVanClassic\ReferenceDataService\V0\CheckReferenceDataSourceFromExcel.feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="Feature\ANVanClassic\ReferenceDataService\V0\MetaDataByKeyWordNormalCase.feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="Feature\ANVanClassic\ReferenceDataService\V0\MetaDataByKeyWordValidate.feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="Feature\ANVanClassic\ReferenceDataService\V0\MetaDataByValueNormalCase.feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="Feature\ANVanClassic\ReferenceDataService\V0\MetaDataByValueValidate.feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="Feature\ANVanClassic\ReferenceDataService\V0\MetaDataNormalCase.feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="Feature\ANVanClassic\ReferenceDataService\V0\MetaDataValidate.feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="Feature\ANVanClassic\WebHookService\V3\PaymentOutcomeMissingStartYear.feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="Feature\ANVanClassic\WebHookService\V3\PaymentOutcomeNormalCase.feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="Feature\ANVanClassic\WebHookService\V3\PaymentOutcomeNormalCaseWithoutCardConsent.feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="Feature\ANVanClassic\WebHookService\V3\PaymentOutcomeValidation.feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="Feature\ANVanClassic\WebHookService\V3\PaymentOutcomeValidationCasesInstalments.feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="Feature\ANVanClassic\WebHookService\V3\PaymentOutcomeValidationInvalidCasesPayInFull.feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="Feature\ANCarClassic\QuoteService\Quotes\V3\GetQuoteContextValidation.feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="Feature\ANCarClassic\QuoteService\Quotes\V3\GetQuoteInvalidRequest.feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="Feature\ANCarClassic\QuoteService\Quotes\V3\GetQuoteNormalCase.feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="Feature\ANCarClassic\QuoteService\Quotes\V3\QuoteSingleFieldDataValidationExcel.feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="Feature\ANCarClassic - Copy\QuoteService\PartialQuote\V2\PartialQuoteSingleFieldDataValidationGenderM.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="Feature\ANCarClassic - Copy\QuoteService\Quotes\V2\QuoteSingleFieldDataValidationHappyCases.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="Feature\ANCarClassic - Copy\QuoteService\SavePaymentInfo\V1\SavePaymentInfoValidationCasesSingleField.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="Feature\ANCarClassic\Aggregator\V2\CheckDataAfterPaymentByDeepLink.feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="Feature\ANCarClassic\Aggregator\V2\CheckDataBeforePaymentByDeepLink - Copy.feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="Feature\ANCarClassic\Aggregator\V2\CheckDataBeforePaymentByDeepLink.feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="Feature\ANCarClassic\BrandService\V1\BrandingAggreator.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>BrandingAggreator.feature.cs</LastGenOutput>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="Feature\ANCarClassic\BrandService\V1\BrandingOpenHours.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>BrandingOpenHours.feature.cs</LastGenOutput>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="Feature\ANCarClassic\PaymentService\V3\RegisterPaymentInvalidRequestCases.feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="Feature\ANCarClassic\PaymentService\V3\RegisterPaymentRequestNormalCases.feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="Feature\ANCarClassic\PaymentService\V3\RegisterPaymentValidationCase.feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+      <LastGenOutput>RegisterPaymentValidationCase.feature.cs</LastGenOutput>
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="Feature\ANCarClassic\ReferenceDataService\V0\CheckHeaderValidationAndNormalCases.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>CheckHeaderValidationAndNormalCases.feature.cs</LastGenOutput>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="Feature\ANCarClassic\ReferenceDataService\V0\CheckHeaderValidationCases.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>CheckHeaderValidationCases.feature.cs</LastGenOutput>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="Feature\ANCarClassic\ReferenceDataService\V0\CheckReferenceDataOrderFromExcel .feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>CheckReferenceDataOrderFromExcel .feature.cs</LastGenOutput>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="Feature\ANCarClassic\ReferenceDataService\V0\CheckReferenceDataSourceFromExcel.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>CheckReferenceDataSourceFromExcel.feature.cs</LastGenOutput>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="Feature\ANCarClassic\ReferenceDataService\V0\MetaDataByKeyWordNormalCase.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>MetaDataByKeyWordNormalCase.feature.cs</LastGenOutput>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="Feature\ANCarClassic\ReferenceDataService\V0\MetaDataByKeyWordValidate.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>MetaDataByKeyWordValidate.feature.cs</LastGenOutput>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="Feature\ANCarClassic\ReferenceDataService\V0\MetaDataByValueNormalCase.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>MetaDataByValueNormalCase.feature.cs</LastGenOutput>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="Feature\ANCarClassic\ReferenceDataService\V0\MetaDataByValueValidate.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>MetaDataByValueValidate.feature.cs</LastGenOutput>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="Feature\ANCarClassic\ReferenceDataService\V0\MetaDataNormalCase.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>MetaDataNormalCase.feature.cs</LastGenOutput>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="Feature\ANCarClassic\ReferenceDataService\V0\MetaDataValidate.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>MetaDataValidate.feature.cs</LastGenOutput>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="Feature\ANCarClassic\VehicleService\V2\VehicleSearchValidate.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>VehicleSearchValidate.feature.cs</LastGenOutput>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="Feature\CNSelectedBike\QuoteService\Quotes\V2\QuoteSingleFieldDataValidationExcel.feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="Feature\CNSelectedBike\QuoteService\Recall\V2\ValidationRecallQuote.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>ValidationRecallQuote.feature.cs</LastGenOutput>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="Feature\SafeguardMH\AddressService\AddressInvalidRequestCases.feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="Feature\SafeguardMH\AddressService\AddressNormalCases.feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="Feature\SafeguardMH\ReferenceDataService\CheckInvalidHeader.feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+    </SpecFlowFeatureFiles>
+  </ItemGroup>
+
+  <ProjectExtensions><VisualStudio><UserProperties appsettings_1Development_1json__JSONSchema="" /></VisualStudio></ProjectExtensions>
+
+</Project>

@@ -1,0 +1,118 @@
+{
+  "VehicleDetail": [
+    {
+      "Id": 1,
+      "ModificationInd": null,
+      "Abs": true,
+      "Vrn": "MK57OBD",
+      "AbiCode": "16541302",
+      "ProductionPeriod": "2006-2008",
+      "YearOfManufacture": "2007",
+      "EngineCc": "1248",
+      "PowerOutput": null,
+      "FuelType": "FuelDiesel",
+      "Manufacturer": "FIAT",
+      "WhereManufactured": null,
+      "Model": "PUNTO (GRANDE) DYNAMIC JTDM (75)",
+      "BodyStyle": "---5",
+      "Seats": "5",
+      "TransmissionType": "TransMan",
+      "NumberOfDoors": "5",
+      "HandednessDrivingType": true,
+      "DatePurchased": "2020-05-26T00:00:00",
+      "Modifications": null,
+      "Owner": "Proposer",
+      "RegisteredKeeper": true,
+      "LocationParkedOvernight": "Driveway",
+      "PostCodeParkedOvernight": "SK1 1AA",
+      "ClassOfUse": "SDPexC",
+      "CurrentValue": "500",
+      "PurchasePrice": "500",
+      "CoverType": "C",
+      "MainDriverId": 2,
+      "PrivateCar": null,
+      "GoodsVehicle": null,
+      "Motorhome": null,
+      "Mileage": [
+        {
+          "Type": "UK",
+          "Value": "2999"
+        }
+      ],
+      "Motorcycle": {
+        "PillionPassenger": false
+      },
+      "SecurityDevices": [
+        {
+          "Type": "Alarm",
+          "Code": "NONE"
+        },
+        {
+          "Type": "Immobiliser",
+          "Code": "NONE"
+        },
+        {
+          "Type": "Tracking",
+          "Code": "NONE"
+        }
+      ]
+    },
+    {
+      "Id": 2,
+      "ModificationInd": null,
+      "Abs": true,
+      "Vrn": "MK57OBD",
+      "AbiCode": "16541302",
+      "ProductionPeriod": "2006-2008",
+      "YearOfManufacture": "2007",
+      "EngineCc": "1248",
+      "PowerOutput": null,
+      "FuelType": "FuelDiesel",
+      "Manufacturer": "FIAT",
+      "WhereManufactured": null,
+      "Model": "PUNTO (GRANDE) DYNAMIC JTDM (75)",
+      "BodyStyle": "---5",
+      "Seats": "5",
+      "TransmissionType": "TransMan",
+      "NumberOfDoors": "5",
+      "HandednessDrivingType": true,
+      "DatePurchased": "2020-05-26T00:00:00",
+      "Modifications": null,
+      "Owner": "Proposer",
+      "RegisteredKeeper": true,
+      "LocationParkedOvernight": "Driveway",
+      "PostCodeParkedOvernight": "SK1 1AA",
+      "ClassOfUse": "SDPexC",
+      "CurrentValue": "500",
+      "PurchasePrice": "500",
+      "CoverType": "C",
+      "MainDriverId": 2,
+      "PrivateCar": null,
+      "GoodsVehicle": null,
+      "Motorhome": null,
+      "Mileage": [
+        {
+          "Type": "UK",
+          "Value": "2999"
+        }
+      ],
+      "Motorcycle": {
+        "PillionPassenger": false
+      },
+      "SecurityDevices": [
+        {
+          "Type": "Alarm",
+          "Code": "NONE"
+        },
+        {
+          "Type": "Immobiliser",
+          "Code": "NONE"
+        },
+        {
+          "Type": "Tracking",
+          "Code": "NONE"
+        }
+      ]
+    }
+  ]
+}

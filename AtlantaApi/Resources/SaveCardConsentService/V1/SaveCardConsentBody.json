@@ -1,0 +1,6 @@
+{
+  "SessionId": "{{sessionID}}",
+  "ProposerIsCardHolder": true,
+  "CardAutoReuseConsent": false,
+  "CardStoreDetailsConsent": false
+}

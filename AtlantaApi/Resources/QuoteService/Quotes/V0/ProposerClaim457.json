@@ -1,0 +1,95 @@
+{
+  "Claims": [
+    {
+      "Id": "1",
+      "PersonId": "1",
+      "Code": "C001",
+      "ClaimDate": "2019-01-01",
+      "NcbAffected": true,
+      "Costs": "500",
+      "ThirdPartyCost": "0",
+      "ThisPolicy": false,
+      "PersonalInjury": true,
+      "Comments": null,
+      "BrokerReference": null
+    },
+    {
+      "Id": "2",
+      "PersonId": "1",
+      "Code": "C001",
+      "ClaimDate": "2019-01-01",
+      "NcbAffected": true,
+      "Costs": "500",
+      "ThirdPartyCost": "0",
+      "ThisPolicy": false,
+      "PersonalInjury": true,
+      "Comments": null,
+      "BrokerReference": null
+    },
+    {
+      "Id": "3",
+      "PersonId": "1",
+      "Code": "C001",
+      "ClaimDate": "2019-01-01",
+      "NcbAffected": true,
+      "Costs": "500",
+      "ThirdPartyCost": "0",
+      "ThisPolicy": false,
+      "PersonalInjury": true,
+      "Comments": null,
+      "BrokerReference": null
+    },
+    {
+      "Id": "4",
+      "PersonId": "1",
+      "Code": "C001",
+      "ClaimDate": "2019-01-01",
+      "NcbAffected": true,
+      "Costs": "500",
+      "ThirdPartyCost": "0",
+      "ThisPolicy": false,
+      "PersonalInjury": true,
+      "Comments": null,
+      "BrokerReference": null
+    },
+    {
+      "Id": "5",
+      "PersonId": "1",
+      "Code": "C001",
+      "ClaimDate": "2019-01-01",
+      "NcbAffected": true,
+      "Costs": "500",
+      "ThirdPartyCost": "0",
+      "ThisPolicy": false,
+      "PersonalInjury": true,
+      "Comments": null,
+      "BrokerReference": null
+    },
+    {
+      "Id": "6",
+      "PersonId": "1",
+      "Code": "C001",
+      "ClaimDate": "2019-01-01",
+      "NcbAffected": true,
+      "Costs": "500",
+      "ThirdPartyCost": "0",
+      "ThisPolicy": false,
+      "PersonalInjury": true,
+      "Comments": null,
+      "BrokerReference": null
+    },
+    {
+      "Id": "7",
+      "PersonId": "1",
+      "Code": "C001",
+      "ClaimDate": "2019-01-01",
+      "NcbAffected": true,
+      "Costs": "500",
+      "ThirdPartyCost": "0",
+      "ThisPolicy": false,
+      "PersonalInjury": true,
+      "Comments": null,
+      "BrokerReference": null
+    }
+  ]
+}

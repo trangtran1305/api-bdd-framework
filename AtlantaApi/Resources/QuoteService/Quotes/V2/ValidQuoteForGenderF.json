@@ -1,0 +1,368 @@
+{
+  "PolicyId": null,
+  "ProposerId": null,
+  "Risk": {
+    "MaxNumOfQuotesToStore": "1",
+    "MaxNumOfQuotes": "1",
+    "LoyaltyCard": {
+      "CardNumber": null,
+      "BackMatchPermission": null,
+      "BackMatchSuccessLevel": null
+    },
+    "OptionalExtras": [
+      {
+        "Code": "XF",
+        "Amount": 8,
+        "CommissionAmount": 1
+      }
+    ],
+    "WebReference": null,
+    "Affinity": "6270",
+    "ChannelCode": "001",
+    "SchemeCode": "XF",
+    "Proposer": {
+      "Suffix": "Selena",
+      "BankRuptOrCcJ": true,
+      "NonRTAConviction": false,
+      "DrivingLicenceNumber": "123",
+      "Id": "1",
+      "PreviousInsurance": {
+        "Type": "B2",
+        "expiryDate": "2020-06-30",
+        "SchemeCode": "XF"
+      },
+      "AdditionalDrivingExperience": [
+        {
+          "Type": "StarRider",
+          "Code": "2",
+          "Date": null,
+          "YearsClaimFree": "9"
+        }
+      ],
+      "Membership": [
+        {
+          "Type": "motoringorg",
+          "Value": "SC19"
+        },
+        {
+          "Type": "motoringorgType",
+          "Value": "AA"
+        }
+      ],
+      "Address": {
+        "AbodeType": "House",
+        "AddressLine1": "Autonet Insurance Services Ltd",
+        "AddressLine2": " Nile Street",
+        "AddressLine3": " Nile Street",
+        "AddressLine4": "STOKE-ON-TRENT",
+        "HouseNameOrNumber": "test",
+        "PostCode": "EC2N 4AY"
+      },
+      "DateOfBirth": "1970-01-01",
+      "DrivingLicence": [
+        {
+          "Type": "F",
+          "DateObtained": "2000-01-01",
+          "CBTOObtained": "2000-05-15",
+          "HoldCbtCertificate": true,
+          "TypeOf": "bike"
+        },
+        {
+          "Type": "F",
+          "DateObtained": "2000-01-01",
+          "CBTObtained": "2000-05-15",
+          "HoldCbtCertificate": true,
+          "TypeOf": "vehicle"
+        }
+      ],
+      "EmailAddress": "thuong.nguyenthiminh@nashtechglobal.com",
+      "Salutation": "Mr Mary-Jane Laycock",
+      "Employment": [
+        {
+          "EmploymentCode": "FTE",
+          "EmployerCode": "S44",
+          "Type": "fulltime",
+          "OccupationCode": "S44"
+        },
+        {
+          "EmployerCode": "431",
+          "EmploymentCode": "U",
+          "OccupationCode": "463",
+          "Type": "parttime"
+        }
+      ],
+      "Forenames": "Mary-Jane",
+      "Gender": "F",
+      "HomeOwner": false,
+      "MaritalStatus": "M",
+      "MedicalConditions": [
+        {
+          "Type": "GLAB",
+          "Date": "1970-01-01",
+          "NotifiedDvla": true,
+          "RestrictionDvla": true,
+          "Claims": "1",
+          "Status": "stable",
+          "VehicleModified": false,
+          "Treatment": false
+        }
+      ],
+      "NCB": {
+        "OwnOtherBike": true,
+        "OtherBikeEngineCc": "150",
+        "OtherBikeLastRide": "N",
+        "OtherBikeNcd": "5",
+        "OtherBikeOwnership": "P",
+        "OtherBikeYearOfManufacture": "2010",
+        "OtherBikeStyle": "X",
+        "ProtectedBonus": true,
+        "Years": "M"
+      },
+      "PhoneNumbers": [
+        {
+          "Type": "Work",
+          "Number": "07888888888"
+        },
+        {
+          "Type": "Home",
+          "Number": "07999999999"
+        }
+      ],
+      "Preferences": [
+        {
+          "Type": "Marketing",
+          "SubType": "ArdonaghGroupMarketing",
+          "Code": null,
+          "Value": "Huh?"
+        },
+        {
+          "Type": "Marketing",
+          "SubType": "email",
+          "Code": null,
+          "Value": "Huh?"
+        },
+        {
+          "Type": "Marketing",
+          "SubType": "sms",
+          "Code": "",
+          "Value": "Test"
+        },
+        {
+          "Type": "Marketing",
+          "SubType": "post",
+          "Code": null,
+          "Value": "N"
+        },
+        {
+          "Type": "Marketing",
+          "SubType": "tel",
+          "Code": "E",
+          "Value": "Y"
+        }
+      ],
+      "RelationshipToProposer": "Proposer",
+      "OtherVehicleUse": "true",
+      "Surname": "Laycock",
+      "Title": "Mr",
+      "UKResidentSinceDate": "1970-01-01"
+    },
+    "ExtraDuqs": [
+      {
+        "Number": 246,
+        "Value": "Please read credit consent statement to client and select answer"
+      },
+      {
+        "Number": 72,
+        "Value": "Does the proposer own a private car?"
+      },
+      {
+        "Number": 73,
+        "Value": "How many years' NCB have been earned on the private car policy?"
+      }
+    ],
+    "Product": {
+      //add
+      "AutoRenewal": true,
+      "PolicyComment": "123",
+      "PolicyMemo": "123",
+      "PolicyInceptionTime": "01:00",
+      "PolicyInceptionDate": "2021-02-02T00:00:00",
+      "PolicytTargetPremium": "123",
+      "PromoCode": {
+        "Added": "123",
+        "Code": "123",
+        "Description": "123",
+        "Effective": "123",
+        "Obsolete": "123",
+        "Process": "123"
+      },
+
+      "Claims": [
+        {
+          "Id": "1",
+          "PersonId": "1",
+          "Code": "C001",
+          "Date": "2005-01-01",
+          "NcbAffected": true,
+          "Costs": "500",
+          "ThirdPartyCost": "0",
+          "ThisPolicy": null,
+          "PersonalInjury": true
+        }
+      ],
+      "Convictions": [
+        {
+          "Id": "1",
+          "PersonId": "1",
+          "Code": "DR40",
+          "Date": "2005-01-01",
+          "Type": "AC10",
+          "BanLength": "0",
+          "FineAmount": "0",
+          "PenaltyPoints": "1",
+          "DrinkReading": "br",
+          "DrinkReadingLevel": "250"
+        }
+      ],
+      "HowDoYouPayForInsurance": "Anual",
+      "InsuranceRefused": false,
+      "PolicyStartDate": "2021-12-15T23:05:00.7218688+00:00",
+      "VoluntaryExcess": "50",
+      "Vehicle": {
+        "VehicleDetail": [
+          {
+            "Imported": "1",
+            "SideCar": true,
+            "AccessoriesValue": "123",
+            "Abs": true,
+            "BodyStyle": "5",
+            "Seats": "5",
+            "VRN": " GX08 NNT ",
+            "ABICode": "81320048",
+            "ProductionPeriod": "2006 -2008",
+            "ClassOfUse": "SDPexC",
+            "CoverType": "TPO",
+            "CurrentValue": "1500",
+            "DatePurchased": "2019-01-01",
+            "EngineCc": "100",
+            "LocationParkedOvernight": "G",
+            "HandednessDrivingType": null,
+            "MainDriverId": "2",
+            "Manufacturer": "Honda",
+            "Mileage": [
+              {
+                "Type": "UK",
+                "Value": "12000"
+              }
+            ],
+            "Model": "GP 150",
+            "Modifications": [
+              {
+                "ModificationCode": "89"
+              }
+            ],
+            "Owner": "Spouse",
+            "PostCodeParkedOvernight": "EC2N 4Ay",
+            "PurchasePrice": "1700",
+            "RegisteredKeeper": true,
+            "SecurityDevices": [
+              {
+                "Type": "Alarm",
+                "Code": "DATA"
+              },
+              {
+                "Type": "GroundAnchor",
+                "Code": "NONE"
+              },
+              {
+                "Type": "Immobiliser",
+                "Code": "NONE"
+              },
+              {
+                "Type": "Physicaldevice",
+                "Code": "NONE"
+              },
+              {
+                "Type": "Tracking",
+                "Code": "NONE"
+              }
+            ],
+            "YearOfManufacture": "2018",
+            "Motorcycle": {
+              "PillionPassenger": true
+            }
+          }
+        ],
+        "AdditionalDrivers": [
+          {
+            "Suffix": "Selena",
+            "NonRTAConviction": false,
+            "BankRuptOrCcJ": true,
+            "DrivingLicenceNumber": "123",
+            "VehicleUse": "123",
+
+            "Id": "2",
+            "AdditionalDrivingExperience": [
+              {
+                "Type": "CV"
+              }
+            ],
+            "Address": {
+              "AddressLine1": "Autonet Insurance Services Ltd",
+              "AddressLine2": " Nile Street",
+              "AddressLine3": "STOKE-ON-TRENT",
+              "AddressLine4": "STOKE-ON-TRENT",
+              "AddressLine5": "STOKE-ON-TRENT",
+              "HouseNameOrNumber": "sjdfkjsdk",
+              "PostCode": "EC2N4AY"
+            },
+            "DateOfBirth": "1970-01-01",
+            "DrivingLicence": [
+              {
+                "Type": "F",
+                "DateObtained": "2000-01-01",
+                "CBTOObtained": "2020-06-09",
+                "HoldCbtCertificate": true,
+                "TypeOf": "bike"
+              }
+            ],
+            "EmailAddress": "thuong.nguyenthiminh@nashtechglobal.com",
+            "Salutation": "Mr Mary-Jane Laycock",
+            "Employment": [
+              {
+                "EmploymentCode": "FTE",
+                "EmployerCode": "S44",
+                "Type": "fulltime",
+                "OccupationCode": "S44"
+              },
+              {
+                "EmploymentCode": "H",
+                "EmployerCode": "111",
+                "OccupationCode": "111",
+                "Type": "parttime"
+              }
+            ],
+            "Forenames": "Rod",
+            "Gender": "M",
+            "MaritalStatus": "M",
+            "OtherVehicleUse": "true",
+            "PhoneNumbers": [
+              {
+                "Type": "Work",
+                "Number": "07888888888"
+              },
+              {
+                "Type": "Home",
+                "Number": "07999999999"
+              }
+            ],
+            "RelationshipToProposer": "P",
+            "Surname": "Laycock",
+            "Title": "Mr",
+            "UKResidentSinceDate": "1970-01-01"
+          }
+        ]
+      }
+    }
+  }
+}

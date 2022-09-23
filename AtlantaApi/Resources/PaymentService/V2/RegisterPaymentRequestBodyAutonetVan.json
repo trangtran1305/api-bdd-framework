@@ -1,0 +1,7 @@
+{
+  "SessionId": "{{sessionID}}",
+  "CpaOverrides": {
+    "CardAutoReuseAnswer": false,
+    "CardStoreDetailsAnswer": false
+  }
+}

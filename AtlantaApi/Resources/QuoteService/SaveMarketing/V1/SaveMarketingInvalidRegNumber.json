@@ -1,0 +1,17 @@
+{
+  "SessionId": "{{sessionID}}",
+  "AgreementConfirmation": false,
+  "PreferredDeliveryMethod": "Download",
+  "RegNumbers": [
+    {
+      "id": "5",
+      "VRN": "GX08NNT"
+    }
+  ],
+  "Email": "jordan.knott@autonetinsurance.co.uk",
+  "PhoneNumber": "07888888888888",
+  "MarkTel": "YES",
+  "MarkSms": "YES",
+  "MarkEm": "YES",
+  "MarkP": "YES"
+}

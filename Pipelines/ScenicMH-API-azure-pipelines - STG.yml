@@ -1,0 +1,44 @@
+# ASP.NET Core (.NET Framework)
+
+# Build and test ASP.NET Core projects targeting the full .NET Framework.
+# Add steps that publish symbols, save build artifacts, and more:
+# https://docs.microsoft.com/azure/devops/pipelines/languages/dotnet-core
+
+trigger:
+- master
+
+pool:
+  vmImage: 'windows-latest'
+
+variables:
+  solution: '**/*.sln'
+  buildPlatform: 'Any CPU'
+  buildConfiguration: 'STG'
+
+steps:
+
+- task: UseDotNet@2
+  displayName: Set .NET version
+  inputs:
+    packageType: 'sdk'
+    version: '3.1.x'
+
+- task: PowerShell@2
+  displayName: Set Environment
+  inputs:
+    targetType: 'inline'
+    script: |
+      # Write your PowerShell commands here.
+      setx ASPNETCORE_ENVIRONMENT STG
+
+- script: dotnet build --configuration $(buildConfiguration)  
+  displayName: 'Build project'
+
+- task: DotNetCoreCLI@2
+  displayName: Run test
+  inputs:
+    command: 'test'
+    projects: 'AtlantaApi/AtlantaApi.csproj'
+    arguments: '--filter Category=ScenicMH --configuration $(buildConfiguration)'
+    testRunTitle: 'Run test ScenicMHAPI'
+

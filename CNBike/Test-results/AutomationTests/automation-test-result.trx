@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="0a2710d5-d1e8-4512-adad-9649da67b467" name="luyhoangt@HN-SD-0707-WK 2020-09-11 13:56:08" runUser="HARVEYNASH\luyhoangt" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2020-09-11T13:56:08.8226314+07:00" queuing="2020-09-11T13:56:08.8226333+07:00" start="2020-09-11T13:53:31.4768531+07:00" finish="2020-09-11T13:56:08.8665485+07:00" />
+  <TestSettings name="default" id="5502ebcb-fa48-45a6-81ea-42e60d76ca23">
+    <Deployment runDeploymentRoot="luyhoangt_HN-SD-0707-WK_2020-09-11_13_56_08" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="631e0e47-655d-40ab-bdec-80cc26f9948c" testId="e96c4d71-8da5-907d-0ee5-02cf8c5878db" testName="CNBike.Tests.TestDemo.TestMultiBikeWithABICode(testCaseID: &quot;TC127&quot;, testCaseDesc: &quot;Check recall quote successful with When would you &quot;..., testResult: &quot;Failed&quot;)" computerName="HN-SD-0707-WK" duration="00:00:00.0010000" startTime="2020-09-11T13:56:08.6769480+07:00" endTime="2020-09-11T13:56:08.6769484+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="631e0e47-655d-40ab-bdec-80cc26f9948c">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Equal() Failure&#xD;
+          ↓ (pos 0)&#xD;
+Expected: Passed&#xD;
+Actual:   Failed&#xD;
+          ↑ (pos 0)</Message>
+          <StackTrace>   at CNBike.Tests.TestDemo.TestMultiBikeWithABICode(String testCaseID, String testCaseDesc, String testResult) in D:\Project\02_Autonet\02Git\01_Azure\Automation Test Scripts\CNBike\Tests\TestDemo.cs:line 27</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="be658526-0add-4e1e-ba05-2bc779c3759a" testId="14d0b88e-cfa0-2433-e015-4ccb0ade7304" testName="CNBike.Tests.TestDemo.TestMultiBikeWithABIDumpCode(testCaseID: &quot;TC1&quot;, testCaseDesc: &quot;Check behaivor of system when select Multi Bike an&quot;..., testResult: &quot;Failed&quot;)" computerName="HN-SD-0707-WK" duration="00:00:00.0010000" startTime="2020-09-11T13:56:08.6778391+07:00" endTime="2020-09-11T13:56:08.6778393+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="be658526-0add-4e1e-ba05-2bc779c3759a">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Equal() Failure&#xD;
+          ↓ (pos 0)&#xD;
+Expected: Passed&#xD;
+Actual:   Failed&#xD;
+          ↑ (pos 0)</Message>
+          <StackTrace>   at CNBike.Tests.TestDemo.TestMultiBikeWithABIDumpCode(String testCaseID, String testCaseDesc, String testResult) in D:\Project\02_Autonet\02Git\01_Azure\Automation Test Scripts\CNBike\Tests\TestDemo.cs:line 33</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3e540311-2afb-4244-8215-bf35b3dee6d5" testId="c52da056-213f-95de-0dc8-6ce0ae822c72" testName="CNBike.Tests.TestDemo.TestSingleBikeJourney(testCaseID: &quot;TC50&quot;, testCaseDesc: &quot;Check Get Quote successful&quot;, testResult: &quot;Failed&quot;)" computerName="HN-SD-0707-WK" duration="00:00:00.0010000" startTime="2020-09-11T13:56:08.6752913+07:00" endTime="2020-09-11T13:56:08.6752917+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3e540311-2afb-4244-8215-bf35b3dee6d5">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Equal() Failure&#xD;
+          ↓ (pos 0)&#xD;
+Expected: Passed&#xD;
+Actual:   Failed&#xD;
+          ↑ (pos 0)</Message>
+          <StackTrace>   at CNBike.Tests.TestDemo.TestSingleBikeJourney(String testCaseID, String testCaseDesc, String testResult) in D:\Project\02_Autonet\02Git\01_Azure\Automation Test Scripts\CNBike\Tests\TestDemo.cs:line 21</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="138c5971-96e1-491f-9359-060f412bcad0" testId="5b2b3c90-3551-97b7-8cc4-1b13553e641e" testName="CNBike.Tests.TestDemo.TestMultiBikeWithABICode(testCaseID: &quot;TC128&quot;, testCaseDesc: &quot;Check recall quote successful with When would you &quot;..., testResult: &quot;Failed&quot;)" computerName="HN-SD-0707-WK" duration="00:00:00.0010000" startTime="2020-09-11T13:56:08.6775814+07:00" endTime="2020-09-11T13:56:08.6775818+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="138c5971-96e1-491f-9359-060f412bcad0">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Equal() Failure&#xD;
+          ↓ (pos 0)&#xD;
+Expected: Passed&#xD;
+Actual:   Failed&#xD;
+          ↑ (pos 0)</Message>
+          <StackTrace>   at CNBike.Tests.TestDemo.TestMultiBikeWithABICode(String testCaseID, String testCaseDesc, String testResult) in D:\Project\02_Autonet\02Git\01_Azure\Automation Test Scripts\CNBike\Tests\TestDemo.cs:line 27</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2d965f17-495c-4369-81fb-427b16280266" testId="b270abf0-b8c8-568f-adca-30a3564b23ce" testName="CNBike.Tests.TestDemo.TestSingleBikeJourney(testCaseID: &quot;&quot;, testCaseDesc: &quot;Add new Quote with default value , without hidden &quot;..., testResult: &quot;Failed&quot;)" computerName="HN-SD-0707-WK" duration="00:00:00.0060000" startTime="2020-09-11T13:56:08.6682974+07:00" endTime="2020-09-11T13:56:08.6682980+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2d965f17-495c-4369-81fb-427b16280266">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Equal() Failure&#xD;
+          ↓ (pos 0)&#xD;
+Expected: Passed&#xD;
+Actual:   Failed&#xD;
+          ↑ (pos 0)</Message>
+          <StackTrace>   at CNBike.Tests.TestDemo.TestSingleBikeJourney(String testCaseID, String testCaseDesc, String testResult) in D:\Project\02_Autonet\02Git\01_Azure\Automation Test Scripts\CNBike\Tests\TestDemo.cs:line 21</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="CNBike.Tests.TestDemo.TestMultiBikeWithABICode(testCaseID: &quot;TC127&quot;, testCaseDesc: &quot;Check recall quote successful with When would you &quot;..., testResult: &quot;Failed&quot;)" storage="d:\project\02_autonet\02git\01_azure\automation test scripts\cnbike\bin\debug\netcoreapp2.2\cnbike.dll" id="e96c4d71-8da5-907d-0ee5-02cf8c5878db">
+      <Execution id="631e0e47-655d-40ab-bdec-80cc26f9948c" />
+      <TestMethod codeBase="D:\Project\02_Autonet\02Git\01_Azure\Automation Test Scripts\CNBike\bin\Debug\netcoreapp2.2\CNBike.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="CNBike.Tests.TestDemo" name="TestMultiBikeWithABICode" />
+    </UnitTest>
+    <UnitTest name="CNBike.Tests.TestDemo.TestSingleBikeJourney(testCaseID: &quot;TC50&quot;, testCaseDesc: &quot;Check Get Quote successful&quot;, testResult: &quot;Failed&quot;)" storage="d:\project\02_autonet\02git\01_azure\automation test scripts\cnbike\bin\debug\netcoreapp2.2\cnbike.dll" id="c52da056-213f-95de-0dc8-6ce0ae822c72">
+      <Execution id="3e540311-2afb-4244-8215-bf35b3dee6d5" />
+      <TestMethod codeBase="D:\Project\02_Autonet\02Git\01_Azure\Automation Test Scripts\CNBike\bin\Debug\netcoreapp2.2\CNBike.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="CNBike.Tests.TestDemo" name="TestSingleBikeJourney" />
+    </UnitTest>
+    <UnitTest name="CNBike.Tests.TestDemo.TestMultiBikeWithABIDumpCode(testCaseID: &quot;TC1&quot;, testCaseDesc: &quot;Check behaivor of system when select Multi Bike an&quot;..., testResult: &quot;Failed&quot;)" storage="d:\project\02_autonet\02git\01_azure\automation test scripts\cnbike\bin\debug\netcoreapp2.2\cnbike.dll" id="14d0b88e-cfa0-2433-e015-4ccb0ade7304">
+      <Execution id="be658526-0add-4e1e-ba05-2bc779c3759a" />
+      <TestMethod codeBase="D:\Project\02_Autonet\02Git\01_Azure\Automation Test Scripts\CNBike\bin\Debug\netcoreapp2.2\CNBike.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="CNBike.Tests.TestDemo" name="TestMultiBikeWithABIDumpCode" />
+    </UnitTest>
+    <UnitTest name="CNBike.Tests.TestDemo.TestMultiBikeWithABICode(testCaseID: &quot;TC128&quot;, testCaseDesc: &quot;Check recall quote successful with When would you &quot;..., testResult: &quot;Failed&quot;)" storage="d:\project\02_autonet\02git\01_azure\automation test scripts\cnbike\bin\debug\netcoreapp2.2\cnbike.dll" id="5b2b3c90-3551-97b7-8cc4-1b13553e641e">
+      <Execution id="138c5971-96e1-491f-9359-060f412bcad0" />
+      <TestMethod codeBase="D:\Project\02_Autonet\02Git\01_Azure\Automation Test Scripts\CNBike\bin\Debug\netcoreapp2.2\CNBike.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="CNBike.Tests.TestDemo" name="TestMultiBikeWithABICode" />
+    </UnitTest>
+    <UnitTest name="CNBike.Tests.TestDemo.TestSingleBikeJourney(testCaseID: &quot;&quot;, testCaseDesc: &quot;Add new Quote with default value , without hidden &quot;..., testResult: &quot;Failed&quot;)" storage="d:\project\02_autonet\02git\01_azure\automation test scripts\cnbike\bin\debug\netcoreapp2.2\cnbike.dll" id="b270abf0-b8c8-568f-adca-30a3564b23ce">
+      <Execution id="2d965f17-495c-4369-81fb-427b16280266" />
+      <TestMethod codeBase="D:\Project\02_Autonet\02Git\01_Azure\Automation Test Scripts\CNBike\bin\Debug\netcoreapp2.2\CNBike.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="CNBike.Tests.TestDemo" name="TestSingleBikeJourney" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="e96c4d71-8da5-907d-0ee5-02cf8c5878db" executionId="631e0e47-655d-40ab-bdec-80cc26f9948c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="14d0b88e-cfa0-2433-e015-4ccb0ade7304" executionId="be658526-0add-4e1e-ba05-2bc779c3759a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c52da056-213f-95de-0dc8-6ce0ae822c72" executionId="3e540311-2afb-4244-8215-bf35b3dee6d5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5b2b3c90-3551-97b7-8cc4-1b13553e641e" executionId="138c5971-96e1-491f-9359-060f412bcad0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b270abf0-b8c8-568f-adca-30a3564b23ce" executionId="2d965f17-495c-4369-81fb-427b16280266" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Failed">
+    <Counters total="5" executed="5" passed="0" failed="5" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.4.2+2d84eb3141 (64-bit .NET Core 4.6.28207.03)&#xD;
+[xUnit.net 00:00:01.33]   Discovering: CNBike&#xD;
+[xUnit.net 00:02:35.66]   Discovered:  CNBike&#xD;
+[xUnit.net 00:02:35.67]   Starting:    CNBike&#xD;
+[xUnit.net 00:02:35.90]       Assert.Equal() Failure&#xD;
+[xUnit.net 00:02:35.90]                 ↓ (pos 0)&#xD;
+[xUnit.net 00:02:35.90]       Expected: Passed&#xD;
+[xUnit.net 00:02:35.90]       Actual:   Failed&#xD;
+[xUnit.net 00:02:35.90]                 ↑ (pos 0)&#xD;
+[xUnit.net 00:02:35.90]       Stack Trace:&#xD;
+[xUnit.net 00:02:35.90]         D:\Project\02_Autonet\02Git\01_Azure\Automation Test Scripts\CNBike\Tests\TestDemo.cs(21,0): at CNBike.Tests.TestDemo.TestSingleBikeJourney(String testCaseID, String testCaseDesc, String testResult)&#xD;
+[xUnit.net 00:02:35.91]       Assert.Equal() Failure&#xD;
+[xUnit.net 00:02:35.91]                 ↓ (pos 0)&#xD;
+[xUnit.net 00:02:35.91]       Expected: Passed&#xD;
+[xUnit.net 00:02:35.91]       Actual:   Failed&#xD;
+[xUnit.net 00:02:35.91]                 ↑ (pos 0)&#xD;
+[xUnit.net 00:02:35.91]       Stack Trace:&#xD;
+[xUnit.net 00:02:35.91]         D:\Project\02_Autonet\02Git\01_Azure\Automation Test Scripts\CNBike\Tests\TestDemo.cs(21,0): at CNBike.Tests.TestDemo.TestSingleBikeJourney(String testCaseID, String testCaseDesc, String testResult)&#xD;
+[xUnit.net 00:02:35.91]       Assert.Equal() Failure&#xD;
+[xUnit.net 00:02:35.91]                 ↓ (pos 0)&#xD;
+[xUnit.net 00:02:35.91]       Expected: Passed&#xD;
+[xUnit.net 00:02:35.91]       Actual:   Failed&#xD;
+[xUnit.net 00:02:35.91]                 ↑ (pos 0)&#xD;
+[xUnit.net 00:02:35.91]       Stack Trace:&#xD;
+[xUnit.net 00:02:35.91]         D:\Project\02_Autonet\02Git\01_Azure\Automation Test Scripts\CNBike\Tests\TestDemo.cs(27,0): at CNBike.Tests.TestDemo.TestMultiBikeWithABICode(String testCaseID, String testCaseDesc, String testResult)&#xD;
+[xUnit.net 00:02:35.91]       Assert.Equal() Failure&#xD;
+[xUnit.net 00:02:35.91]                 ↓ (pos 0)&#xD;
+[xUnit.net 00:02:35.91]       Expected: Passed&#xD;
+[xUnit.net 00:02:35.91]       Actual:   Failed&#xD;
+[xUnit.net 00:02:35.91]                 ↑ (pos 0)&#xD;
+[xUnit.net 00:02:35.91]       Stack Trace:&#xD;
+[xUnit.net 00:02:35.91]         D:\Project\02_Autonet\02Git\01_Azure\Automation Test Scripts\CNBike\Tests\TestDemo.cs(27,0): at CNBike.Tests.TestDemo.TestMultiBikeWithABICode(String testCaseID, String testCaseDesc, String testResult)&#xD;
+[xUnit.net 00:02:35.91]       Assert.Equal() Failure&#xD;
+[xUnit.net 00:02:35.91]                 ↓ (pos 0)&#xD;
+[xUnit.net 00:02:35.91]       Expected: Passed&#xD;
+[xUnit.net 00:02:35.91]       Actual:   Failed&#xD;
+[xUnit.net 00:02:35.91]                 ↑ (pos 0)&#xD;
+[xUnit.net 00:02:35.91]       Stack Trace:&#xD;
+[xUnit.net 00:02:35.91]         D:\Project\02_Autonet\02Git\01_Azure\Automation Test Scripts\CNBike\Tests\TestDemo.cs(33,0): at CNBike.Tests.TestDemo.TestMultiBikeWithABIDumpCode(String testCaseID, String testCaseDesc, String testResult)&#xD;
+[xUnit.net 00:02:35.91]   Finished:    CNBike&#xD;
+</StdOut>
+    </Output>
+    <RunInfos>
+      <RunInfo computerName="HN-SD-0707-WK" outcome="Error" timestamp="2020-09-11T13:56:08.6625246+07:00">
+        <Text>[xUnit.net 00:02:35.89]     CNBike.Tests.TestDemo.TestSingleBikeJourney(testCaseID: "", testCaseDesc: "Add new Quote with default value , without hidden "..., testResult: "Failed") [FAIL]</Text>
+      </RunInfo>
+      <RunInfo computerName="HN-SD-0707-WK" outcome="Error" timestamp="2020-09-11T13:56:08.6753531+07:00">
+        <Text>[xUnit.net 00:02:35.91]     CNBike.Tests.TestDemo.TestSingleBikeJourney(testCaseID: "TC50", testCaseDesc: "Check Get Quote successful", testResult: "Failed") [FAIL]</Text>
+      </RunInfo>
+      <RunInfo computerName="HN-SD-0707-WK" outcome="Error" timestamp="2020-09-11T13:56:08.6783969+07:00">
+        <Text>[xUnit.net 00:02:35.91]     CNBike.Tests.TestDemo.TestMultiBikeWithABICode(testCaseID: "TC127", testCaseDesc: "Check recall quote successful with When would you "..., testResult: "Failed") [FAIL]</Text>
+      </RunInfo>
+      <RunInfo computerName="HN-SD-0707-WK" outcome="Error" timestamp="2020-09-11T13:56:08.6788071+07:00">
+        <Text>[xUnit.net 00:02:35.91]     CNBike.Tests.TestDemo.TestMultiBikeWithABICode(testCaseID: "TC128", testCaseDesc: "Check recall quote successful with When would you "..., testResult: "Failed") [FAIL]</Text>
+      </RunInfo>
+      <RunInfo computerName="HN-SD-0707-WK" outcome="Error" timestamp="2020-09-11T13:56:08.6789947+07:00">
+        <Text>[xUnit.net 00:02:35.91]     CNBike.Tests.TestDemo.TestMultiBikeWithABIDumpCode(testCaseID: "TC1", testCaseDesc: "Check behaivor of system when select Multi Bike an"..., testResult: "Failed") [FAIL]</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+</TestRun>

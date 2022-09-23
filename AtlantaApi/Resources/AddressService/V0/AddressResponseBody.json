@@ -1,0 +1,19 @@
+{
+  "IsSuccess": true,
+  "Messages": [
+    "Get addresses successfully"
+  ],
+  "ResultObj": {
+    "Addresses": [
+      {
+        "HouseNameOrNumber": "1",
+        "AddressLine1": "Meridian Road",
+        "AddressLine2": "LONDON",
+        "AddressLine3": "",
+        "AddressLine4": "",
+        "PostCode": "SE7 8QJ"
+      }
+    ],
+    "SiAudTransactionId": "5068613176"
+  }
+}

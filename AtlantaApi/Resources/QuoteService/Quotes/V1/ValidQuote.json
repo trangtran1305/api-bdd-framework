@@ -1,0 +1,445 @@
+{
+  "PolicyId": null,
+  "ProposerId": null,
+  "Risk": {
+    "Id": null,
+    "Affinity": "SWIN",
+    "ChannelCode": null,
+    "SchemeCode": null,
+    "OptionalExtras": [
+      {
+        "Code": "AF",
+        "Amount": 500,
+        "CommissionAmount": 500
+      }
+    ],
+    "ExtraDuqs": [],
+    "SourceOfSale": null,
+    "WebReference": "90811-08211-90211",
+    "SchemeGroup": "PCWEB",
+    "MaxNumOfQuotes": "5",
+    "MaxNumOfQuotesToStore": "3",
+    "NameOfInsured": null,
+    "SourceOfBusiness": "Website",
+    "Frequency": "PlcyAnnual",
+    "QuoteType": "NewQuotTyp",
+    "ScratchData": null,
+    "SubAgentCodes": null,
+    "QuoteGrade": "ALL",
+    "TrailerCover": null,
+    "FsaSaleType": "NON-ADV",
+    "Proposer": {
+      "MedicalConditions": [
+        {
+          "Type": "GLAR",
+          "Date": "1970-01-01",
+          "NotifiedDvla": true,
+          "RestrictionDvla": true,
+          "Claims": "1",
+          "Status": "STABLE",
+          "VehicleModified": false,
+          "Treatment": false,
+          "TreatmentDescription": null,
+          "InsulinInjections": null,
+          "InsulinUnits": null,
+          "CoronaryAttacks": null,
+          "CoronaryByPass": true,
+          "CoronaryDate": "1/1/0001"
+        }
+      ],
+      "Employment": [
+        {
+          "Type": "fulltime",
+          "EmploymentCode": "Employee",
+          "EmploymentDesc": null,
+          "OccupationCode": "501",
+          "EmployerCode": "354",
+          "EmployerDesc": null
+        },
+        {
+          "Type": "parttime",
+          "EmploymentCode": "None",
+          "EmploymentDesc": null,
+          "OccupationCode": "220",
+          "EmployerCode": "186",
+          "EmployerDesc": null
+        }
+      ],
+      "DrivingLicence": [
+        {
+          "Type": "Full Licence",
+          "DateObtained": "2001-01-01T00:00:00",
+          "CbtObtained": "0001-01-01T00:00:00",
+          "licenceDate": {
+            "day": "03",
+            "month": "07",
+            "year": "2011"
+          },
+          "HoldCbtCertificate": true,
+          "TypeOf": "Vehicle"
+        }
+      ],
+      "PhoneNumbers": [
+        {
+          "Type": "Home",
+          "Number": "07711911911"
+        }
+      ],
+      "Address": {
+        "HouseNameOrNumber": "1",
+        "AddressLine1": "Exchange Street",
+        "AddressLine2": "STOCKPORT",
+        "AddressLine3": "Cheshire",
+        "AddressLine4": "",
+        "PostCode": "SK1 1AA",
+        "AbodeType": "House",
+        "Usage": "Main",
+        "CountryCode": "GB"
+      },
+      "AdditionalDrivingExperience": [],
+      "Membership": [
+        {
+          "Type": "motoringOrgType",
+          "Value": "BLANK"
+        }
+      ],
+      "NCB": {
+        "OtherBikeEngineCc": null,
+        "OtherBikeLastRide": null,
+        "OtherBikeNcd": null,
+        "OtherBikeOwnership": null,
+        "OtherBikeStyle": null,
+        "OtherBikeYearOfManufacture": null,
+        "OwnOtherBike": false,
+        "ProtectedBonus": false,
+        "PreviousNCBProtected": false,
+        "Years": "3",
+        "AppliedToOtherVehicle": null,
+        "BonusProofType": null
+      },
+      "Preferences": [
+        {
+          "Type": "Marketing",
+          "SubType": "Post",
+          "Code": null,
+          "Value": "No"
+        },
+        {
+          "Type": "Marketing",
+          "SubType": "Email",
+          "Code": null,
+          "Value": "No"
+        },
+        {
+          "Type": "Marketing",
+          "SubType": "Tel",
+          "Code": null,
+          "Value": "No"
+        },
+        {
+          "Type": "Marketing",
+          "SubType": "SMS",
+          "Code": null,
+          "Value": "No"
+        },
+        {
+          "Type": "Marketing",
+          "SubType": "ArdonaghGroupMarketing",
+          "Code": null,
+          "Value": "No"
+        }
+      ],
+      "PreviousInsurance": {
+        "Type": "PC",
+        "ExpiryDate": "2020-05-26T00:00:00",
+        "YearsHeld": null,
+        "InsurerCode": null,
+        "InsurerName": null,
+        "PolicyNumber": null
+      },
+      "InsureOtherVehicle": true,
+      "LargestNcbInOtherVehicle": "5",
+      "OtherVehicleUse": "BLANK",
+      "RelationshipToProposer": "Proposer",
+      "HomeOwner": true,
+      "ClientCategory": null,
+      "ClientStatus": "Prospect",
+      "DriverType": "NmdDrvr",
+      "FsaClass": "RETAIL",
+      "IamCert": null,
+      "NonRTAConviction": false,
+      "Smoker": false,
+      "StarRider ": null,
+      "Suffix": null,
+      "Tests": "1",
+      "VatRegistered": false,
+      "EmailAddress": "uat@swinton.co.uk",
+      "Id": 1,
+      "Salutation": "Ms Elsa Brown",
+      "Title": "Ms",
+      "Forenames": "Elsa",
+      "Surname": "Brown",
+      "Gender": "F",
+      "DateOfBirth": "1970-01-01T00:00:00",
+      "UKResidentSinceDate": "1970-01-01T00:00:00",
+      "MaritalStatus": "M"
+    },
+    "Product": {
+      "InsuranceRefused": false,
+      "HowDoYouPayForInsurance": "ANNUALLY",
+      "NumberOfVehiclesInHousehold": "0",
+      "PaymentMethod": "Annual",
+      "NumberOfVehicles": null,
+      "PolicyStartDate": "<<PolicyStartDate>>",
+      "PolicyDuration": null,
+      "VoluntaryExcess": "25000",
+      "RenewalDate": "1/1/0001",
+      "QuoteDate": "2020-09-15T00:00:00",
+      "EndDate": "1/1/0001",
+      "PolicyInceptionDate": "2020-09-15T00:00:00",
+      "PreferredDeliveryMethod": null,
+      "Restrict": "NMDDRVRS",
+      "Claims": [
+        {
+          "Id": "1",
+          "PersonId": "1",
+          "Code": "C001",
+          "Date": "2005-01-01",
+          "NcbAffected": true,
+          "Costs": "500",
+          "ThirdPartyCost": "0",
+          "thisPolicy": false,
+          "PersonalInjury": true,
+          "Comments": null,
+          "BrokerReference": null
+        },
+        {
+          "Id": "2",
+          "PersonId": "1",
+          "Code": "C001",
+          "Date": "2005-01-01",
+          "NcbAffected": true,
+          "Costs": "500",
+          "ThirdPartyCost": "0",
+          "thisPolicy": false,
+          "PersonalInjury": true,
+          "Comments": null,
+          "BrokerReference": null
+        },
+        {
+          "Id": "3",
+          "PersonId": "1",
+          "Code": "C001",
+          "Date": "2005-01-01",
+          "NcbAffected": true,
+          "Costs": "500",
+          "ThirdPartyCost": "0",
+          "thisPolicy": false,
+          "PersonalInjury": true,
+          "Comments": null,
+          "BrokerReference": null
+        }
+      ],
+      "Convictions": [
+        {
+          "Id": "1",
+          "PersonId": "1",
+          "Code": "DR40",
+          "Date": "2005-01-01",
+          "Type": "BA40",
+          "BanLength": "0",
+          "FineAmount": "0",
+          "PenaltyPoints": "1",
+          "DrinkReading": "BLOOD",
+          "DrinkReadingLevel": "250",
+          "RelatedAccident": null,
+          "OffenceDate": "2001-10-10"
+        },
+        {
+          "Id": "2",
+          "PersonId": "1",
+          "Code": "BA42",
+          "Date": "2005-01-01",
+          "Type": "AC10",
+          "BanLength": "1",
+          "FineAmount": "200",
+          "PenaltyPoints": "1",
+          "RelatedAccident": null,
+          "OffenceDate": "2001-10-10"
+        },
+        {
+          "Id": "3",
+          "PersonId": "1",
+          "Code": "BA44",
+          "Date": "2005-01-01",
+          "Type": "AC10",
+          "BanLength": "1",
+          "FineAmount": "200",
+          "PenaltyPoints": "1",
+          "RelatedAccident": null,
+          "OffenceDate": "2001-10-10"
+        }
+      ],
+      "Vehicle": {
+        "VehicleDetail": [
+          {
+            "Id": null,
+            "ModificationInd": null,
+            "Abs": true,
+            "Vrn": "MK57OBD",
+            "AbiCode": "16541302",
+            "ProductionPeriod": "2006-2008",
+            "YearOfManufacture": "2007",
+            "EngineCc": "1248",
+            "PowerOutput": null,
+            "FuelType": "FuelDiesel",
+            "Manufacturer": "FIAT",
+            "WhereManufactured": null,
+            "Model": "PUNTO (GRANDE) DYNAMIC JTDM (75)",
+            "BodyStyle": "---5",
+            "Seats": "5",
+            "TransmissionType": "TransMan",
+            "NumberOfDoors": "5",
+            "HandednessDrivingType": "LeftHand",
+            "DatePurchased": "2020-05-26T00:00:00",
+            "Modifications": null,
+            "Owner": "Proposer",
+            "RegisteredKeeper": true,
+            "LocationParkedOvernight": "Driveway",
+            "PostcodeParkedOvernight": "SK1 1AA",
+            "ClassOfUse": "SDPexC",
+            "CurrentValue": "500",
+            "PurchasePrice": "500",
+            "CoverType": "C",
+            "MainDriverId": 1,
+            "PrivateCar": null,
+            "GoodsVehicle": null,
+            "Motorhome": null,
+            "Mileage": [
+              {
+                "Type": "UK",
+                "Value": "2999"
+              }
+            ],
+            "Motorcycle": {
+              "PillionPassenger": false
+            },
+            "SecurityDevices": [
+              {
+                "Type": "Alarm",
+                "Code": "NONE"
+              },
+              {
+                "Type": "Immobiliser",
+                "Code": "NONE"
+              },
+              {
+                "Type": "Tracking",
+                "Code": "NONE"
+              }
+            ]
+          }
+        ],
+        "AdditionalDrivers": [
+          {
+            "Id": "2",
+            "DateOfBirth": "1970-01-01",
+            "ClientCategory": null,
+            "ClientStatus": "Prospect",
+            "DriverType": "NmdDrvr",
+            "FsaClass": "RETAIL",
+            "IamCert": null,
+            "NonRTAConviction": false,
+            "Smoker": false,
+            "StarRider ": null,
+            "Suffix": null,
+            "Tests": "1",
+            "VatRegistered": false,
+            "EmailAddress": "thuong.nguyenthiminh@nashtechglobal.com",
+            "Salutation": "Mr Rod Sparrow",
+            "Forenames": "Rod",
+            "Gender": "M",
+            "MaritalStatus": "M",
+            "OtherVehicleUse": "BLANK",
+            "RelationshipToProposer": "Proposer",
+            "Surname": "Laycock",
+            "Title": "Dr",
+            "UKResidentSinceDate": "1970-01-01",
+            "AdditionalDrivingExperience": [],
+            "Address": {
+              "AddressLine1": "Autonet Insurance Services Ltd",
+              "AddressLine2": " Nile Street",
+              "AddressLine3": " Cheshire",
+              "AddressLine4": "STOKE-ON-TRENT",
+              "AddressLine5": "Nile Street",
+              "HouseNameOrNumber": "sjdfkjsdk",
+              "PostCode": "EC2N4AY",
+              "AbodeType": "House",
+              "Usage": "Main",
+              "CountryCode": "GB"
+            },
+            "DrivingLicence": [
+              {
+                "Type": "Full Licence",
+                "DateObtained": "2001-01-01T00:00:00",
+                "CbtObtained": "0001-01-01T00:00:00",
+                "licenceDate": {
+                  "day": "03",
+                  "month": "07",
+                  "year": "2011"
+                },
+                "HoldCbtCertificate": true,
+                "TypeOf": "Vehicle"
+              }
+            ],
+            "Employment": [
+              {
+                "Type": "fulltime",
+                "EmploymentCode": "Employee",
+                "EmploymentDesc": null,
+                "OccupationCode": "501",
+                "EmployerCode": "354",
+                "EmployerDesc": null
+              },
+              {
+                "Type": "parttime",
+                "EmploymentCode": "None",
+                "EmploymentDesc": null,
+                "OccupationCode": "220",
+                "EmployerCode": "186",
+                "EmployerDesc": null
+              }
+            ],
+            "Membership": [
+              {
+                "Type": "motoringOrgType",
+                "Value": "BLANK",
+                "Number": null
+              }
+            ],
+            "PhoneNumbers": [
+              {
+                "Id": null,
+                "Type": "Work",
+                "Number": "07888888888",
+                "Extension": null
+              },
+              {
+                "Id": null,
+                "Type": "Home",
+                "Number": "07999999999",
+                "Extension": null
+              }
+            ],
+            "MedicalConditions": []
+          }
+        ]
+      },
+      "Property": {
+        "AdditionalItems": null,
+        "HomeOrLandlord": null,
+        "JointProposer": null
+      }
+    }
+  }
+}

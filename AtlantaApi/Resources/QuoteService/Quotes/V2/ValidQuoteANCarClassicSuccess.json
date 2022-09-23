@@ -1,0 +1,317 @@
+{
+  "policyId": null,
+  "proposerId": null,
+  "risk": {
+    "affinity": "SCAR",
+    "channelCode": "",
+    "schemeCode": "",
+    "optionalExtras": null,
+    "extraDuqs": null,
+    "product": {
+      "vehicle": {
+        "vehicleDetail": [
+          {
+            "vrn": "FY67OTW",
+            "abiCode": "52325658",
+            "productionPeriod": "2015-2019",
+            "yearOfManufacture": "2017",
+            "engineCc": "1399",
+            "engineGroup": "",
+            "fuelType": "P",
+            "manufacturer": "VAUXHALL",
+            "model": "ASTRA SRI TURBO 150",
+            "bodyStyle": "H",
+            "seats": "1",
+            "transmissionType": "M",
+            "handednessDrivingType": "LeftHand",
+            "datePurchased": "2021-10-22",
+            "owner": "Proposer",
+            "registeredKeeper": true,
+            "locationParkedOvernight": "G",
+            "postcodeParkedOvernight": "ST3 5ED",
+            "parkOvernightAtHome": true,
+            "classOfUse": "SDPexC",
+            "mileage": [
+              {
+                "type": "Total",
+                "value": "2999"
+              }
+            ],
+            "currentValue": "1234",
+            "purchasePrice": "1234",
+            "mainDriverId": 1,
+            "securityDevices": [
+              {
+                "type": "Immobiliser",
+                "code": "NONE"
+              },
+              {
+                "type": "Tracking",
+                "code": "NONE"
+              },
+              {
+                "type": "alarm",
+                "code": "FACT"
+              }
+            ],
+            "isModified": false,
+            "abs": null,
+            "notBoughtYet": true,
+            "numberOfDoors": "5",
+            "coverType": "C"
+          }
+        ],
+        "additionalDrivers": [
+          {
+            "additionalDrivingExperience": [],
+            "address": null,
+            "clientCategory": null,
+            "clientStatus": null,
+            "dateOfBirth": "1975-01-16",
+            "driverType": null,
+            "drivingLicence": [
+              {
+                "type": "F",
+                "typeOf": "Vehicle",
+                "dateObtained": "2014-10-22",
+                "cbtObtained": null,
+                "holdCbtCertificate": null
+              }
+            ],
+            "emailAddress": null,
+            "employment": [
+              {
+                "type": "fulltime",
+                "employmentCode": "O",
+                "employmentDesc": null,
+                "occupationCode": "A94",
+                "employerCode": "462",
+                "employerDesc": null
+              }
+            ],
+            "forenames": "Viet",
+            "fsaClass": null,
+            "gender": "M",
+            "homeOwner": null,
+            "iamCert": null,
+            "id": 2,
+            "insureOtherVehicle": null,
+            "largestNcbInOtherVehicle": "",
+            "maritalStatus": "M",
+            "medicalConditions": [
+              {
+                "type": "GLAR",
+                "date": "1970-01-01",
+                "notifiedDvla": false,
+                "restrictionDvla": true,
+                "claims": "1",
+                "status": "STABLE",
+                "vehicleModified": false,
+                "treatment": false,
+                "treatmentDescription": null,
+                "insulinInjections": null,
+                "insulinUnits": null,
+                "coronaryAttacks": null,
+                "coronaryByPass": false,
+                "coronaryDate": "1/1/0001"
+              }
+            ],
+            "membership": null,
+            "ncb": {
+              "otherBikeEngineCc": null,
+              "otherBikeLastRide": null,
+              "otherBikeNcd": null,
+              "otherBikeOwnership": null,
+              "otherBikeStyle": null,
+              "otherBikeYearOfManufacture": null,
+              "ownOtherBike": false,
+              "protectedBonus": null,
+              "previousNCBProtected": false,
+              "years": null,
+              "appliedToOtherVehicle": false,
+              "bonusProofType": null
+            },
+            "nonRTAConviction": null,
+            "otherVehicleUse": "NAOV",
+            "phoneNumbers": [],
+            "preferences": [],
+            "previousInsurance": {
+              "type": null,
+              "expiryDate": "2020-05-26T00:00:00",
+              "yearsHeld": null,
+              "insurerCode": null,
+              "insurerName": null,
+              "policyNumber": null
+            },
+            "relationshipToProposer": "S",
+            "salutation": "Mr Beo",
+            "smoker": null,
+            "starRider": null,
+            "suffix": null,
+            "surname": "Beo",
+            "tests": "",
+            "title": "Mr",
+            "ukResidentSinceDate": "1975-01-16",
+            "vatRegistered": null
+          }
+        ]
+      },
+      "policyStartDate": "<<PolicyStartDate>>",
+      "voluntaryExcess": "250",
+      "claims": [],
+      "convictions": [],
+      "numberOfVehiclesInHousehold": "1",
+      "howDoYouPayForInsurance": "F",
+      "notHadPreviousInsurance": false,
+      "preferredPaymentMethod": null
+    },
+    "proposer": {
+      "additionalDrivingExperience": [],
+      "address": {
+        "addressLine1": "1 Albert Street",
+        "addressLine2": "STOKE-ON-TRENT",
+        "addressLine3": "",
+        "addressLine4": "",
+        "addressLine5": "",
+        "postCode": "ST3 5ED",
+        "abodeType": "",
+        "usage": "Main",
+        "countryCode": "GB",
+        "houseNameOrNumber": ""
+      },
+      "clientCategory": null,
+      "clientStatus": null,
+      "dateOfBirth": "1980-02-01",
+      "driverType": null,
+      "drivingLicence": [
+        {
+          "type": "F",
+          "typeOf": "Vehicle",
+          "dateObtained": "2014-10-22",
+          "cbtObtained": null,
+          "holdCbtCertificate": null
+        }
+      ],
+      "emailAddress": "nashtech.atlanta@outlook.com",
+      "employment": [
+        {
+          "type": "fulltime",
+          "employmentCode": "E",
+          "employmentDesc": null,
+          "occupationCode": "A12",
+          "employerCode": "190",
+          "employerDesc": null
+        }
+      ],
+      "forenames": "Hoan",
+      "fsaClass": null,
+      "gender": "F",
+      "homeOwner": true,
+      "iamCert": null,
+      "id": 1,
+      "maritalStatus": "M",
+      "medicalConditions": [
+        {
+          "type": "GLAR",
+          "date": "1970-01-01",
+          "notifiedDvla": false,
+          "restrictionDvla": true,
+          "claims": "1",
+          "status": "STABLE",
+          "vehicleModified": false,
+          "treatment": false,
+          "treatmentDescription": null,
+          "insulinInjections": null,
+          "insulinUnits": null,
+          "coronaryAttacks": null,
+          "coronaryByPass": false,
+          "coronaryDate": "1/1/0001"
+        }
+      ],
+      "membership": [],
+      "ncb": {
+        "otherBikeEngineCc": null,
+        "otherBikeLastRide": null,
+        "otherBikeNcd": null,
+        "otherBikeOwnership": null,
+        "otherBikeStyle": null,
+        "otherBikeYearOfManufacture": null,
+        "ownOtherBike": false,
+        "protectedBonus": null,
+        "previousNCBProtected": false,
+        "years": "6",
+        "appliedToOtherVehicle": false,
+        "bonusProofType": null
+      },
+      "nonRTAConviction": null,
+      "phoneNumbers": [
+        {
+          "type": "Work",
+          "number": "07343544654",
+          "id": null,
+          "extension": ""
+        }
+      ],
+      "preferences": [
+        {
+          "type": "Marketing",
+          "subType": "Post",
+          "code": null,
+          "value": "No",
+          "displaySubType": "Post"
+        },
+        {
+          "type": "Marketing",
+          "subType": "Email",
+          "code": null,
+          "value": "No",
+          "displaySubType": "Email"
+        },
+        {
+          "type": "Marketing",
+          "subType": "Tel",
+          "code": null,
+          "value": "No",
+          "displaySubType": "Phone"
+        },
+        {
+          "type": "Marketing",
+          "subType": "SMS",
+          "code": null,
+          "value": "No",
+          "displaySubType": "SMS"
+        },
+        {
+          "type": "Marketing",
+          "subType": "ArdonaghGroupMarketing",
+          "code": null,
+          "value": "N"
+        }
+      ],
+      "previousInsurance": {
+        "type": null,
+        "expiryDate": "2020-05-26T00:00:00",
+        "yearsHeld": null,
+        "insurerCode": null,
+        "insurerName": null,
+        "policyNumber": null
+      },
+      "relationshipToProposer": null,
+      "salutation": "Miss Trinh",
+      "smoker": null,
+      "starRider": null,
+      "suffix": null,
+      "surname": "Trinh",
+      "tests": "",
+      "title": "Miss",
+      "ukResidentSinceDate": "1980-02-01",
+      "vatRegistered": null,
+      "otherVehicleUse": "NAOV",
+      "insureOtherVehicle": false,
+      "largestNcbInOtherVehicle": null
+    },
+    "sourceOfSale": "",
+    "webReference": null
+  },
+  "providerCodeList": []
+}

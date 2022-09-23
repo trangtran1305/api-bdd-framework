@@ -1,0 +1,16 @@
+{
+  "SessionId": "{{sessionID}}",
+  "PreferredDeliveryMethod": "Print",
+  "RegNumber": [
+    {
+      "vehicleID": "",
+      "VRN": ""
+    }
+  ],
+  "Email": "",
+  "PhoneNumber": "",
+  "MarkTel": "YES",
+  "MarkSms": "YES",
+  "MarkEm": "YES",
+  "MarkP": "YES"
+}

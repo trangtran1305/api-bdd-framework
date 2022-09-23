@@ -1,0 +1,328 @@
+{
+  "VehicleDetail": [
+    {
+      "VRN": " GX08  NNT ",
+      "AbiCode": "81320048",
+      "ClassOfUse": "SDPexC",
+      "CoverType": "TPO",
+      "CurrentValue": "1500",
+      "DatePurchased": "2019-01-01",
+      "EngineCC": "100",
+      "LocationParkedOvernight": "G",
+      "MainDriverId": "2",
+      "Manufacturer": "Honda",
+      "Mileage": [
+        {
+          "Type": "UK",
+          "Value": "12000"
+        }
+      ],
+      "Model": "GP 150",
+      "Modifications": [
+        {
+          "ModificationCode": "89"
+        }
+      ],
+      "Owner": "Spouse",
+      "PostcodeParkedOvernight": "EC2N 4Ay",
+      "PurchasePrice": "1700",
+      "RegisteredKeeper": true,
+      "SecurityDevices": [
+        {
+          "Type": "Alarm",
+          "Code": "DATA"
+        },
+        {
+          "Type": "GroundAnchor",
+          "Code": "NONE"
+        },
+        {
+          "Type": "Immobiliser",
+          "Code": "NONE"
+        },
+        {
+          "Type": "Physicaldevice",
+          "Code": "NONE"
+        },
+        {
+          "Type": "Tracking",
+          "Code": "NONE"
+        }
+      ],
+      "YearOfManufacture": "2018",
+      "Motorcycle": {
+        "PillionPassenger": true
+      }
+    },
+    {
+      "VRN": " GX08  NNT ",
+      "AbiCode": "81320048",
+      "ClassOfUse": "SDPexC",
+      "CoverType": "TPO",
+      "CurrentValue": "1500",
+      "DatePurchased": "2019-01-01",
+      "EngineCC": "100",
+      "LocationParkedOvernight": "G",
+      "MainDriverId": "2",
+      "Manufacturer": "Honda",
+      "Mileage": [
+        {
+          "Type": "UK",
+          "Value": "12000"
+        }
+      ],
+      "Model": "GP 150",
+      "Modifications": [
+        {
+          "ModificationCode": "89"
+        }
+      ],
+      "Owner": "Spouse",
+      "PostcodeParkedOvernight": "EC2N 4Ay",
+      "PurchasePrice": "1700",
+      "RegisteredKeeper": true,
+      "SecurityDevices": [
+        {
+          "Type": "Alarm",
+          "Code": "DATA"
+        },
+        {
+          "Type": "GroundAnchor",
+          "Code": "NONE"
+        },
+        {
+          "Type": "Immobiliser",
+          "Code": "NONE"
+        },
+        {
+          "Type": "Physicaldevice",
+          "Code": "NONE"
+        },
+        {
+          "Type": "Tracking",
+          "Code": "NONE"
+        }
+      ],
+      "YearOfManufacture": "2018",
+      "Motorcycle": {
+        "PillionPassenger": true
+      }
+    },
+    {
+      "VRN": " GX08  NNT ",
+      "AbiCode": "81320048",
+      "ClassOfUse": "SDPexC",
+      "CoverType": "TPO",
+      "CurrentValue": "1500",
+      "DatePurchased": "2019-01-01",
+      "EngineCC": "100",
+      "LocationParkedOvernight": "G",
+      "MainDriverId": "2",
+      "Manufacturer": "Honda",
+      "Mileage": [
+        {
+          "Type": "UK",
+          "Value": "12000"
+        }
+      ],
+      "Model": "GP 150",
+      "Modifications": [
+        {
+          "ModificationCode": "89"
+        }
+      ],
+      "Owner": "Spouse",
+      "PostcodeParkedOvernight": "EC2N 4Ay",
+      "PurchasePrice": "1700",
+      "RegisteredKeeper": true,
+      "SecurityDevices": [
+        {
+          "Type": "Alarm",
+          "Code": "DATA"
+        },
+        {
+          "Type": "GroundAnchor",
+          "Code": "NONE"
+        },
+        {
+          "Type": "Immobiliser",
+          "Code": "NONE"
+        },
+        {
+          "Type": "Physicaldevice",
+          "Code": "NONE"
+        },
+        {
+          "Type": "Tracking",
+          "Code": "NONE"
+        }
+      ],
+      "YearOfManufacture": "2018",
+      "Motorcycle": {
+        "PillionPassenger": true
+      }
+    },
+    {
+      "VRN": " GX08  NNT ",
+      "AbiCode": "81320048",
+      "ClassOfUse": "SDPexC",
+      "CoverType": "TPO",
+      "CurrentValue": "1500",
+      "DatePurchased": "2019-01-01",
+      "EngineCC": "100",
+      "LocationParkedOvernight": "G",
+      "MainDriverId": "2",
+      "Manufacturer": "Honda",
+      "Mileage": [
+        {
+          "Type": "UK",
+          "Value": "12000"
+        }
+      ],
+      "Model": "GP 150",
+      "Modifications": [
+        {
+          "ModificationCode": "89"
+        }
+      ],
+      "Owner": "Spouse",
+      "PostcodeParkedOvernight": "EC2N 4Ay",
+      "PurchasePrice": "1700",
+      "RegisteredKeeper": true,
+      "SecurityDevices": [
+        {
+          "Type": "Alarm",
+          "Code": "DATA"
+        },
+        {
+          "Type": "GroundAnchor",
+          "Code": "NONE"
+        },
+        {
+          "Type": "Immobiliser",
+          "Code": "NONE"
+        },
+        {
+          "Type": "Physicaldevice",
+          "Code": "NONE"
+        },
+        {
+          "Type": "Tracking",
+          "Code": "NONE"
+        }
+      ],
+      "YearOfManufacture": "2018",
+      "Motorcycle": {
+        "PillionPassenger": true
+      }
+    },
+    {
+      "VRN": " GX08  NNT ",
+      "AbiCode": "81320048",
+      "ClassOfUse": "SDPexC",
+      "CoverType": "TPO",
+      "CurrentValue": "1500",
+      "DatePurchased": "2019-01-01",
+      "EngineCC": "100",
+      "LocationParkedOvernight": "G",
+      "MainDriverId": "2",
+      "Manufacturer": "Honda",
+      "Mileage": [
+        {
+          "Type": "UK",
+          "Value": "12000"
+        }
+      ],
+      "Model": "GP 150",
+      "Modifications": [
+        {
+          "ModificationCode": "89"
+        }
+      ],
+      "Owner": "Spouse",
+      "PostcodeParkedOvernight": "EC2N 4Ay",
+      "PurchasePrice": "1700",
+      "RegisteredKeeper": true,
+      "SecurityDevices": [
+        {
+          "Type": "Alarm",
+          "Code": "DATA"
+        },
+        {
+          "Type": "GroundAnchor",
+          "Code": "NONE"
+        },
+        {
+          "Type": "Immobiliser",
+          "Code": "NONE"
+        },
+        {
+          "Type": "Physicaldevice",
+          "Code": "NONE"
+        },
+        {
+          "Type": "Tracking",
+          "Code": "NONE"
+        }
+      ],
+      "YearOfManufacture": "2018",
+      "Motorcycle": {
+        "PillionPassenger": true
+      }
+    },
+    {
+      "VRN": " GX08  NNT ",
+      "AbiCode": "81320048",
+      "ClassOfUse": "SDPexC",
+      "CoverType": "TPO",
+      "CurrentValue": "1500",
+      "DatePurchased": "2019-01-01",
+      "EngineCC": "100",
+      "LocationParkedOvernight": "G",
+      "MainDriverId": "2",
+      "Manufacturer": "Honda",
+      "Mileage": [
+        {
+          "Type": "UK",
+          "Value": "12000"
+        }
+      ],
+      "Model": "GP 150",
+      "Modifications": [
+        {
+          "ModificationCode": "89"
+        }
+      ],
+      "Owner": "Spouse",
+      "PostcodeParkedOvernight": "EC2N 4Ay",
+      "PurchasePrice": "1700",
+      "RegisteredKeeper": true,
+      "SecurityDevices": [
+        {
+          "Type": "Alarm",
+          "Code": "DATA"
+        },
+        {
+          "Type": "GroundAnchor",
+          "Code": "NONE"
+        },
+        {
+          "Type": "Immobiliser",
+          "Code": "NONE"
+        },
+        {
+          "Type": "Physicaldevice",
+          "Code": "NONE"
+        },
+        {
+          "Type": "Tracking",
+          "Code": "NONE"
+        }
+      ],
+      "YearOfManufacture": "2018",
+      "Motorcycle": {
+        "PillionPassenger": true
+      }
+    }
+  ]
+}

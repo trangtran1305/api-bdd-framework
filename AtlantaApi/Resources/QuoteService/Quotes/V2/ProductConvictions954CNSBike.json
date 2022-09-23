@@ -1,0 +1,66 @@
+{
+  "Convictions": [
+    {
+      "Id": "1",
+      "PersonId": "1",
+      "Code": "DR40",
+      "Date": "2005-01-01",
+      "Type": "AC10",
+      "BanLength": "0",
+      "FineAmount": "0",
+      "PenaltyPoints": "1",
+      "DrinkReading": "br",
+      "DrinkReadingLevel": "250"
+    },
+    {
+      "Id": "2",
+      "PersonId": "1",
+      "Code": "AC10",
+      "Date": "2005-01-01",
+      "Type": "AC10",
+      "BanLength": "1",
+      "FineAmount": "200",
+      "PenaltyPoints": "1"
+    },
+    {
+      "Id": "3",
+      "PersonId": "2",
+      "Code": "AC10",
+      "Date": "2005-01-01",
+      "Type": "AC10",
+      "BanLength": "1",
+      "FineAmount": "200",
+      "PenaltyPoints": "1"
+    },
+    {
+      "Id": "4",
+      "PersonId": "1",
+      "Code": "AC10",
+      "Date": "2005-01-01",
+      "Type": "AC10",
+      "BanLength": "1",
+      "FineAmount": "200",
+      "PenaltyPoints": "1"
+    },
+    {
+      "Id": "5",
+      "PersonId": "2",
+      "Code": "AC10",
+      "Date": "2005-01-01",
+      "Type": "AC10",
+      "BanLength": "1",
+      "FineAmount": "200",
+      "PenaltyPoints": "1"
+    },
+    {
+      "Id": "6",
+      "PersonId": "1",
+      "Code": "AC10",
+      "Date": "2005-01-01",
+      "Type": "AC10",
+      "BanLength": "1",
+      "FineAmount": "200",
+      "PenaltyPoints": "1"
+    }
+  ]
+}

@@ -1,0 +1,234 @@
+﻿{
+  "PolicyId": null,
+  "ProposerId": null,
+  "Risk": {
+    "Affinity": "SAFE",
+    "ChannelCode": "",
+    "SchemeCode": "",
+    "OptionalExtras": null,
+    "ExtraDuqs": null,
+    "Product": {
+      "Vehicle": {
+        "VehicleDetail": [
+          {
+            "VRN": "ABC123",
+            "AbiCode": "92100101",
+            "ProductionPeriod": "2012-2019",
+            "YearOfManufacture": "2019",
+            "EngineCc": "1998",
+            "EngineGroup": "",
+            "FuelType": "FuelPetrol",
+            "Manufacturer": "<UNLISTED>",
+            "Model": "Caterpillar-4x4 Direct Conversion-Friendee conversion",
+            "BodyStyle": "",
+            "Seats": "3",
+            "TransmissionType": "TransMan",
+            "HandednessDrivingType": "RightHand",
+            "DatePurchased": "2019-01-01",
+            "Modifications": [],
+            "Owner": "Proposer",
+            "RegisteredKeeper": true,
+            "LocationParkedOvernight": "Garage",
+            "PostcodeParkedOvernight": "ST16 3WJ",
+            "ParkOvernightAtHome": true,
+            "ClassOfUse": "SDPexC",
+            "Mileage": [
+              {
+                "Type": "Total",
+                "Value": "10000"
+              },
+              {
+                "Type": "EU",
+                "Value": "0"
+              }
+            ],
+            "CurrentValue": "10000",
+            "PurchasePrice": "10000",
+            "MainDriverId": 1,
+            "SecurityDevices": [
+              {
+                "Type": "Immobiliser",
+                "Code": "NONE"
+              },
+              {
+                "Type": "Tracking",
+                "Code": "NONE"
+              }
+            ],
+            "IsModified": false,
+            "Abs": null,
+            "EuDriving": false,
+            "ForeignUseDuration": "N",
+            "ForeignUseDurationText": "None",
+            "VehicleTypeId": "d86c86bc-3f43-4884-bb2e-0f8a4c8bd219",
+            "ManufactureCached": "9c4de98d-f1b9-41e7-bca5-c6396ced0458",
+            "ModelCached": "3db3cc1f-2eab-46fa-bab8-91f305ab4a3b",
+            "NoImmobiliserType": false,
+            "NoTrackerType": false,
+            "NumberOfDoors": "3",
+            "Motorhome": {
+              "Converted": "N",
+              "BaseVehicle": "Caterpillar",
+              "MHType": "2"
+            },
+            "CoverType": "C"
+          }
+        ],
+        "AdditionalDrivers": []
+      },
+      "PaymentMethod": "",
+      "NumberOfVehiclesInHousehold": "3",
+      "PolicyStartDate": "<<PolicyStartDate>>",
+      "VoluntaryExcess": "100",
+      "Claims": [],
+      "Convictions": [],
+      "HowDoYouPayForInsurance": "ANNUALLY",
+      "PreferredPaymentMethod": null
+    },
+    "Proposer": {
+      "AdditionalDrivingExperience": [],
+      "Address": {
+        "AddressLine1": "Pearl Brook Avenue",
+        "AddressLine2": "STAFFORD",
+        "AddressLine3": "",
+        "AddressLine4": "",
+        "AddressLine5": "",
+        "PostCode": "ST16 3WJ",
+        "AbodeType": "",
+        "Usage": "",
+        "CountryCode": "",
+        "HouseNameOrNumber": "6 "
+      },
+      "ClientCategory": null,
+      "ClientStatus": null,
+      "DateOfBirth": "1980-01-01",
+      "DriverType": null,
+      "DrivingLicence": [
+        {
+          "Type": "Full Licence",
+          "TypeOf": "Vehicle",
+          "DateObtained": "2006-08-11",
+          "CbtObtained": null,
+          "HoldCbtCertificate": null
+        }
+      ],
+      "EmailAddress": "careena.kodiyan@autonetinsurance.co.uk",
+      "Employment": [
+        {
+          "Type": "fulltime",
+          "EmploymentCode": "Employee",
+          "EmploymentDesc": null,
+          "OccupationCode": "604",
+          "EmployerCode": "253",
+          "EmployerDesc": null
+        },
+        {
+          "Type": "parttime",
+          "EmploymentCode": "None",
+          "EmploymentDesc": null,
+          "OccupationCode": "220",
+          "EmployerCode": "186",
+          "EmployerDesc": null
+        }
+      ],
+      "Forenames": "Test",
+      "FsaClass": null,
+      "Gender": "M",
+      "HomeOwner": null,
+      "IamCert": null,
+      "Id": 1,
+      "InsureOtherVehicle": null,
+      "LargestNcbInOtherVehicle": null,
+      "MaritalStatus": "M",
+      "MedicalConditions": null,
+      "Membership": [
+        {
+          "Type": "MotorCaravanClub",
+          "Value": "N",
+          "Number": null
+        }
+      ],
+      "Ncb": {
+        "OtherBikeEngineCc": null,
+        "OtherBikeLastRide": null,
+        "OtherBikeNcd": null,
+        "OtherBikeOwnership": null,
+        "OtherBikeStyle": null,
+        "OtherBikeYearOfManufacture": null,
+        "OwnOtherBike": false,
+        "ProtectedBonus": false,
+        "PreviousNCBProtected": false,
+        "Years": "8",
+        "AppliedToOtherVehicle": false,
+        "BonusProofType": null
+      },
+      "NonRTAConviction": null,
+      "OtherVehicleUse": "BLANK",
+      "PhoneNumbers": [
+        {
+          "Type": "Work",
+          "Number": "07010010010",
+          "Id": null,
+          "Extension": ""
+        },
+        {
+          "Type": "Home",
+          "Number": "07010010010",
+          "Id": null,
+          "Extension": ""
+        }
+      ],
+      "Preferences": [
+        {
+          "Type": "Marketing",
+          "SubType": "post",
+          "Code": null,
+          "Value": "Yes",
+          "DisplaySubType": "Post"
+        },
+        {
+          "Type": "Marketing",
+          "SubType": "email",
+          "Code": null,
+          "Value": "No",
+          "DisplaySubType": "Email"
+        },
+        {
+          "Type": "Marketing",
+          "SubType": "tel",
+          "Code": null,
+          "Value": "Yes",
+          "DisplaySubType": "Telephone"
+        },
+        {
+          "Type": "Marketing",
+          "SubType": "sms",
+          "Code": null,
+          "Value": "No",
+          "DisplaySubType": "SMS"
+        }
+      ],
+      "PreviousInsurance": {
+        "Type": "PC",
+        "ExpiryDate": "2020-05-26T00:00:00",
+        "YearsHeld": null,
+        "InsurerCode": null,
+        "InsurerName": null,
+        "PolicyNumber": null
+      },
+      "RelationshipToProposer": null,
+      "Salutation": "Mr Test",
+      "Smoker": null,
+      "StarRider": null,
+      "Suffix": null,
+      "Surname": "Test",
+      "Tests": "",
+      "Title": "Mr",
+      "UkResidentSinceDate": "1980-01-01",
+      "VatRegistered": null
+    },
+    "SourceOfSale": null,
+    "WebReference": null,
+    "Referrer": ""
+  }
+}

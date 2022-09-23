@@ -1,0 +1,10 @@
+{
+  "SessionId": "{{sessionID}}",
+  "PreferredDeliveryMethod": "Print",
+  "PaymentMethodType": "Instalmnts",
+  "RegNumber": "",
+  "MarkTel": "YES",
+  "MarkSms": "YES",
+  "MarkEm": "YES",
+  "MarkP": "YES"
+}

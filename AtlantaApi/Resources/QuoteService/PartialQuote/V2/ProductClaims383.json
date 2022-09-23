@@ -1,0 +1,82 @@
+{
+  "Claims": [
+    {
+      "Id": "1",
+      "PersonId": "1",
+      "Code": "C001",
+      "Date": "2005-01-01",
+      "NcbAffected": true,
+      "Costs": "500",
+      "thirdPartyCost": "0",
+      "thisPolicy": false,
+      "PersonalInjury": true,
+      "Comments": null,
+      "BrokerReference": null
+    },
+    {
+      "Id": "2",
+      "PersonId": "1",
+      "Code": "C001",
+      "Date": "2005-01-01",
+      "NcbAffected": true,
+      "Costs": "500",
+      "thirdPartyCost": "0",
+      "thisPolicy": false,
+      "PersonalInjury": true,
+      "Comments": null,
+      "BrokerReference": null
+    },
+    {
+      "Id": "3",
+      "PersonId": "2",
+      "Code": "C001",
+      "Date": "2005-01-01",
+      "NcbAffected": true,
+      "Costs": "500",
+      "thirdPartyCost": "0",
+      "thisPolicy": false,
+      "PersonalInjury": true,
+      "Comments": null,
+      "BrokerReference": null
+    },
+    {
+      "Id": "4",
+      "PersonId": "2",
+      "Code": "C001",
+      "Date": "2005-01-01",
+      "NcbAffected": true,
+      "Costs": "500",
+      "thirdPartyCost": "0",
+      "thisPolicy": false,
+      "PersonalInjury": true,
+      "Comments": null,
+      "BrokerReference": null
+    },
+    {
+      "Id": "5",
+      "PersonId": "2",
+      "Code": "C001",
+      "Date": "2005-01-01",
+      "NcbAffected": true,
+      "Costs": "500",
+      "thirdPartyCost": "0",
+      "thisPolicy": false,
+      "PersonalInjury": true,
+      "Comments": null,
+      "BrokerReference": null
+    },
+    {
+      "Id": "6",
+      "PersonId": "2",
+      "Code": "C001",
+      "Date": "2005-01-01",
+      "NcbAffected": true,
+      "Costs": "500",
+      "thirdPartyCost": "0",
+      "thisPolicy": false,
+      "PersonalInjury": true,
+      "Comments": null,
+      "BrokerReference": null
+    }
+  ]
+}

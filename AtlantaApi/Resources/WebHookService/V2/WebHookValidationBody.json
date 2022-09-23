@@ -1,0 +1,17 @@
+{
+  "cardTypeCode": "2",
+  "cardTypeValue": "Mastercard",
+  "cardHolderName": "Nhu",
+  "maskedCardNumber": "************5454",
+  "expiryMonth": "01",
+  "expiryYear": "2020",
+  "IIN": "545454",
+  "merchantID": "AUTONETJSP",
+  "paymentTransactionID": "T000000000IBL93549",
+  "paymentType": "SINGLE",
+  "AmountPaid": "<<amountPaid>>",
+  "NavigationStatus": "<<navigationStatus>>",
+  "PaymentStatus": "<<paymentStatus>>",
+  "SessionID": "<<sessionID>>",
+  "WebReference": "<<webReference>>"
+}

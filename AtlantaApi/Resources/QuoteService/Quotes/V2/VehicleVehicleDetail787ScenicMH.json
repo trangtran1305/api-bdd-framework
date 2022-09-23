@@ -1,0 +1,138 @@
+{
+  "VehicleDetail": [
+    {
+      "VRN": "EX70NKJ",
+      "AbiCode": "",
+      "ProductionPeriod": "",
+      "YearOfManufacture": "1995",
+      "EngineCc": "2287",
+      "EngineGroup": "",
+      "FuelType": "FuelDiesel",
+      "Manufacturer": "Unlisted",
+      "Model": "Fiat-1st Time Leisure-Friendee conversion",
+      "BodyStyle": "",
+      "Seats": "1",
+      "TransmissionType": "TransMan",
+      "HandednessDrivingType": "RightHand",
+      "DatePurchased": "2021-05-11",
+      "Modifications": [
+        {
+          "ModificationCode": "137"
+        }
+      ],
+      "Owner": "Spouse",
+      "RegisteredKeeper": true,
+      "LocationParkedOvernight": "Driveway",
+      "PostcodeParkedOvernight": "ST3 5ED",
+      "ParkOvernightAtHome": true,
+      "ClassOfUse": "SDPexC",
+      "Mileage": [
+        {
+          "Type": "Total",
+          "Value": "2999"
+        },
+        {
+          "Type": "EU",
+          "Value": "1"
+        }
+      ],
+      "CurrentValue": "1234",
+      "PurchasePrice": "1234",
+      "MainDriverId": 1,
+      "SecurityDevices": [
+        {
+          "Type": "Immobiliser",
+          "Code": "NONE"
+        },
+        {
+          "Type": "Tracking",
+          "Code": "NONE"
+        }
+      ],
+      "IsModified": true,
+      "Abs": null,
+      "NotBoughtYet": true,
+      "EuDriving": true,
+      "ForeignUseDuration": "C",
+      "VehicleTypeId": "d86c86bc-3f43-4884-bb2e-0f8a4c8bd219",
+      "ManufactureCached": "85022d70-cebc-4f71-a029-5f3a3decb093",
+      "ModelCached": "3db3cc1f-2eab-46fa-bab8-91f305ab4a3b",
+      "NoImmobiliserType": false,
+      "NoTrackerType": false,
+      "NumberOfDoors": "2",
+      "Motorhome": {
+        "Converted": "Y",
+        "BaseVehicle": "Fiat",
+        "MHType": "2"
+      },
+      "CoverType": "C"
+    },
+    {
+      "VRN": "EX70NKJ",
+      "AbiCode": "",
+      "ProductionPeriod": "",
+      "YearOfManufacture": "1995",
+      "EngineCc": "2287",
+      "EngineGroup": "",
+      "FuelType": "FuelDiesel",
+      "Manufacturer": "Unlisted",
+      "Model": "Fiat-1st Time Leisure-Friendee conversion",
+      "BodyStyle": "",
+      "Seats": "1",
+      "TransmissionType": "TransMan",
+      "HandednessDrivingType": "RightHand",
+      "DatePurchased": "2021-05-11",
+      "Modifications": [
+        {
+          "ModificationCode": "137"
+        }
+      ],
+      "Owner": "Spouse",
+      "RegisteredKeeper": true,
+      "LocationParkedOvernight": "Driveway",
+      "PostcodeParkedOvernight": "ST3 5ED",
+      "ParkOvernightAtHome": true,
+      "ClassOfUse": "SDPexC",
+      "Mileage": [
+        {
+          "Type": "Total",
+          "Value": "2999"
+        },
+        {
+          "Type": "EU",
+          "Value": "1"
+        }
+      ],
+      "CurrentValue": "1234",
+      "PurchasePrice": "1234",
+      "MainDriverId": 1,
+      "SecurityDevices": [
+        {
+          "Type": "Immobiliser",
+          "Code": "NONE"
+        },
+        {
+          "Type": "Tracking",
+          "Code": "NONE"
+        }
+      ],
+      "IsModified": true,
+      "Abs": null,
+      "NotBoughtYet": true,
+      "EuDriving": true,
+      "ForeignUseDuration": "C",
+      "VehicleTypeId": "d86c86bc-3f43-4884-bb2e-0f8a4c8bd219",
+      "ManufactureCached": "85022d70-cebc-4f71-a029-5f3a3decb093",
+      "ModelCached": "3db3cc1f-2eab-46fa-bab8-91f305ab4a3b",
+      "NoImmobiliserType": false,
+      "NoTrackerType": false,
+      "NumberOfDoors": "2",
+      "Motorhome": {
+        "Converted": "Y",
+        "BaseVehicle": "Fiat",
+        "MHType": "2"
+      },
+      "CoverType": "C"
+    }
+  ]
+}

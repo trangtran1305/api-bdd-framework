@@ -1,0 +1,10 @@
+{
+  "GetMetadataModel": [
+    {
+      "ReferenceType": "MotorbikeModifications"
+    },
+    {
+      "ReferenceType": "EmploymentStatusFullTime"
+    }
+  ]
+}

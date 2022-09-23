@@ -1,0 +1,18 @@
+{
+    "SessionId": "{{sessionID}}",
+    "AgreementConfirmation": true,
+    "PreferredDeliveryMethod": "Email",
+    "Email": "nashtech.atlanta@outlook.com",
+    "PhoneNumber": "0745738545",
+    "RegNumbers": [
+        {
+            "Id": "1",
+            "VRN": "LK66WBX"
+        }
+    ],
+    "MarkEm": "N",
+    "MarkP": "N",
+    "MarkSms": "N",
+    "MarkTel": "N",
+    "GroupPartnerContact": "N"
+}

@@ -1,0 +1,184 @@
+{
+  "AdditionalDrivers": [
+    {
+      "Id": "2",
+      "DateOfBirth": "1970-01-01",
+      "ClientCategory": null,
+      "ClientStatus": "Prospect",
+      "DriverType": "NmdDrvr",
+      "FsaClass": "RETAIL",
+      "IamCert": null,
+      "NonRTAConviction": false,
+      "Smoker": false,
+      "StarRider ": null,
+      "Suffix": null,
+      "Tests": "1",
+      "VatRegistered": false,
+      "EmailAddress": "thuong.nguyenthiminh@nashtechglobal.com",
+      "Salutation": "Mr Rod Sparrow",
+      "Forenames": "Rod",
+      "Gender": "M",
+      "MaritalStatus": "M",
+      "OtherVehicleUse": "BLANK",
+      "RelationshipToProposer": "Proposer",
+      "Surname": "Laycock",
+      "Title": "Dr",
+      "UKResidentSinceDate": "1970-01-01",
+      "AdditionalDrivingExperience": [],
+      "Address": {
+        "AddressLine1": "Autonet Insurance Services Ltd",
+        "AddressLine2": " Nile Street",
+        "AddressLine4": "STOKE-ON-TRENT",
+        "HouseNameOrNumber": "sjdfkjsdk",
+        "PostCode": "EC2N4AY",
+        "AbodeType": "House",
+        "Usage": "Main",
+        "CountryCode": "GB"
+      },
+      "DrivingLicence": [
+        {
+          "Type": "Full Licence",
+          "DateObtained": "2001-01-01T00:00:00",
+          "CbtObtained": "0001-01-01T00:00:00",
+          "licenceDate": {
+            "day": "03",
+            "month": "07",
+            "year": "2011"
+          },
+          "HoldCbtCertificate": true,
+          "TypeOf": "Vehicle"
+        }
+      ],
+      "Employment": [
+        {
+          "Type": "fulltime",
+          "EmploymentCode": "Employee",
+          "EmploymentDesc": null,
+          "OccupationCode": "501",
+          "EmployerCode": "354",
+          "EmployerDesc": null
+        },
+        {
+          "Type": "parttime",
+          "EmploymentCode": "None",
+          "EmploymentDesc": null,
+          "OccupationCode": "220",
+          "EmployerCode": "186",
+          "EmployerDesc": null
+        }
+      ],
+      "Membership": [
+        {
+          "Type": "motoringOrgType",
+          "Value": "BLANK",
+          "Number": null
+        }
+      ],
+      "PhoneNumbers": [
+        {
+          "Id": null,
+          "Type": "Work",
+          "Number": "07888888888",
+          "Extension": null
+        },
+        {
+          "Id": null,
+          "Type": "Home",
+          "Number": "07999999999",
+          "Extension": null
+        }
+      ],
+      "MedicalConditions": []
+    },
+    {
+      "Id": "2",
+      "DateOfBirth": "1970-01-01",
+      "ClientCategory": null,
+      "ClientStatus": "Prospect",
+      "DriverType": "NmdDrvr",
+      "FsaClass": "RETAIL",
+      "IamCert": null,
+      "NonRTAConviction": false,
+      "Smoker": false,
+      "StarRider ": null,
+      "Suffix": null,
+      "Tests": "1",
+      "VatRegistered": false,
+      "EmailAddress": "thuong.nguyenthiminh@nashtechglobal.com",
+      "Salutation": "Mr Rod Sparrow",
+      "Forenames": "Rod",
+      "Gender": "M",
+      "MaritalStatus": "M",
+      "OtherVehicleUse": "BLANK",
+      "RelationshipToProposer": "Proposer",
+      "Surname": "Laycock",
+      "Title": "Dr",
+      "UKResidentSinceDate": "1970-01-01",
+      "AdditionalDrivingExperience": [],
+      "Address": {
+        "AddressLine1": "Autonet Insurance Services Ltd",
+        "AddressLine2": " Nile Street",
+        "AddressLine4": "STOKE-ON-TRENT",
+        "HouseNameOrNumber": "sjdfkjsdk",
+        "PostCode": "EC2N4AY",
+        "AbodeType": "House",
+        "Usage": "Main",
+        "CountryCode": "GB"
+      },
+      "DrivingLicence": [
+        {
+          "Type": "Full Licence",
+          "DateObtained": "2001-01-01T00:00:00",
+          "CbtObtained": "0001-01-01T00:00:00",
+          "licenceDate": {
+            "day": "03",
+            "month": "07",
+            "year": "2011"
+          },
+          "HoldCbtCertificate": true,
+          "TypeOf": "Vehicle"
+        }
+      ],
+      "Employment": [
+        {
+          "Type": "fulltime",
+          "EmploymentCode": "Employee",
+          "EmploymentDesc": null,
+          "OccupationCode": "501",
+          "EmployerCode": "354",
+          "EmployerDesc": null
+        },
+        {
+          "Type": "parttime",
+          "EmploymentCode": "None",
+          "EmploymentDesc": null,
+          "OccupationCode": "220",
+          "EmployerCode": "186",
+          "EmployerDesc": null
+        }
+      ],
+      "Membership": [
+        {
+          "Type": "motoringOrgType",
+          "Value": "BLANK",
+          "Number": null
+        }
+      ],
+      "PhoneNumbers": [
+        {
+          "Id": null,
+          "Type": "Work",
+          "Number": "07888888888",
+          "Extension": null
+        },
+        {
+          "Id": null,
+          "Type": "Home",
+          "Number": "07999999999",
+          "Extension": null
+        }
+      ],
+      "MedicalConditions": []
+    }
+  ]
+}

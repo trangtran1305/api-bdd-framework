@@ -1,0 +1,424 @@
+{
+  "policyId": null,
+  "proposerId": null,
+  "risk": {
+    "affinity": "SCAR",
+    "channelCode": "",
+    "schemeCode": "",
+    "optionalExtras": null,
+    "extraDuqs": null,
+    "product": {
+      "vehicle": {
+        "vehicleDetail": [
+          {
+            "vrn": "MK56YCO",
+            "abiCode": "41579902",
+            "productionPeriod": "2004-2007",
+            "yearOfManufacture": "2006",
+            "engineCc": "1598",
+            "engineGroup": "",
+            "fuelType": "P",
+            "manufacturer": "RENAULT",
+            "model": "MODUS DYNAMIQUE",
+            "bodyStyle": "H",
+            "seats": "4",
+            "transmissionType": "A",
+            "handednessDrivingType": "RightHand",
+            "datePurchased": "2021-09-06",
+            "owner": "Proposer",
+            "registeredKeeper": true,
+            "locationParkedOvernight": "G",			 
+            "postcodeParkedOvernight": "ST3 5ED",
+            "parkOvernightAtHome": true,
+            "classOfUse": "SDPexC",
+            "mileage": [
+              {
+                "type": "Total",
+                "value": "3888"
+              }
+            ],
+            "currentValue": "5999",
+            "purchasePrice": "5999",
+            "mainDriverId": 1,
+            "securityDevices": [
+              {
+                "type": "Immobiliser",
+                "code": "I099"
+              },
+              {
+                "type": "Tracking",
+                "code": "NONE"
+              },
+              {
+                "type": "alarm",
+                "code": "PROF"
+              }
+            ],
+            "isModified": false,
+            "abs": null,
+            "notBoughtYet": true,
+            "numberOfDoors": "5",
+			"locationParkedDaily": "HOME",
+            "coverType": "C"
+          }
+        ],
+        "additionalDrivers": [
+          {
+            "additionalDrivingExperience": [],
+            "address": null,
+            "clientCategory": null,
+            "clientStatus": null,
+            "dateOfBirth": "1990-01-01",
+            "driverType": null,
+            "drivingLicence": [
+              {
+                "type": "F",
+                "typeOf": "Vehicle",
+                "dateObtained": "2016-09-06",
+                "cbtObtained": null,
+                "holdCbtCertificate": null
+              }
+            ],
+            "emailAddress": null,
+            "employment": [
+              {
+                "type": "fulltime",
+                "employmentCode": "R",
+                "employmentDesc": null,
+                "occupationCode": "R09",
+                "employerCode": "947",
+                "employerDesc": null
+              }
+            ],
+            "forenames": "Fd",
+            "fsaClass": null,
+            "gender": "F",
+            "homeOwner": null,
+            "iamCert": null,
+            "id": 2,
+            "insureOtherVehicle": null,
+            "largestNcbInOtherVehicle": "",
+            "maritalStatus": "M",
+            "medicalConditions": [
+              {
+                "type": "GLAR",
+                "date": "1970-01-01",
+                "notifiedDvla": false,
+                "restrictionDvla": true,
+                "claims": "1",
+                "status": "STABLE",
+                "vehicleModified": false,
+                "treatment": false,
+                "treatmentDescription": null,
+                "insulinInjections": null,
+                "insulinUnits": null,
+                "coronaryAttacks": null,
+                "coronaryByPass": false,
+                "coronaryDate": "1/1/0001"
+              }
+            ],
+            "membership": null,
+            "ncb": {
+              "otherBikeEngineCc": null,
+              "otherBikeLastRide": null,
+              "otherBikeNcd": null,
+              "otherBikeOwnership": null,
+              "otherBikeStyle": null,
+              "otherBikeYearOfManufacture": null,
+              "ownOtherBike": false,
+              "protectedBonus": null,
+              "previousNCBProtected": false,
+              "years": null,
+              "appliedToOtherVehicle": false,
+              "bonusProofType": null
+            },
+            "nonRTAConviction": null,
+            "otherVehicleUse": "OOC",
+            "phoneNumbers": [],
+            "preferences": [],
+            "previousInsurance": {
+              "type": null,
+              "expiryDate": "2020-05-26T00:00:00",
+              "yearsHeld": null,
+              "insurerCode": null,
+              "insurerName": null,
+              "policyNumber": null
+            },
+            "relationshipToProposer": "S",
+            "salutation": "Mrs Dfg",
+            "smoker": null,
+            "starRider": null,
+            "suffix": null,
+            "surname": "Dfg",
+            "tests": "",
+            "title": "Mrs",
+            "ukResidentSinceDate": "1990-01-01",
+            "vatRegistered": null
+          }
+        ]
+      },
+      "policyStartDate": "<<PolicyStartDate>>",
+      "voluntaryExcess": "250",
+      "claims": [
+        {
+          "id": 1,
+          "personId": 2,
+          "code": "S003",
+          "date": "2021-01-01",
+          "ncbAffected": true,
+          "costs": "0",
+          "personalInjury": false,
+          "thisPolicy": true,
+          "thirdPartyCost": null,
+          "comments": null,
+          "brokerReference": null
+        }
+      ],
+      "convictions": [
+        {
+          "id": 1,
+          "personId": 1,
+          "type": null,
+          "code": "TS10",
+          "date": "2021-01-01",
+          "banLength": "0",
+          "fineAmount": "0",
+          "penaltyPoints": "0",
+          "drinkReading": null,
+          "drinkReadingLevel": null,
+          "relatedAccident": null,
+          "offenceDate": "2021-01-01"
+        },
+        {
+          "id": 2,
+          "personId": 1,
+          "type": null,
+          "code": "TS10",
+          "date": "2021-01-01",
+          "banLength": "0",
+          "fineAmount": "0",
+          "penaltyPoints": "0",
+          "drinkReading": null,
+          "drinkReadingLevel": null,
+          "relatedAccident": null,
+          "offenceDate": "2021-01-01"
+        },
+        {
+          "id": 3,
+          "personId": 1,
+          "type": null,
+          "code": "TS10",
+          "date": "2021-01-01",
+          "banLength": "0",
+          "fineAmount": "0",
+          "penaltyPoints": "0",
+          "drinkReading": null,
+          "drinkReadingLevel": null,
+          "relatedAccident": null,
+          "offenceDate": "2021-01-01"
+        },
+        {
+          "id": 4,
+          "personId": 1,
+          "type": null,
+          "code": "TS10",
+          "date": "2021-01-01",
+          "banLength": "0",
+          "fineAmount": "0",
+          "penaltyPoints": "0",
+          "drinkReading": null,
+          "drinkReadingLevel": null,
+          "relatedAccident": null,
+          "offenceDate": "2021-01-01"
+        },
+        {
+          "id": 5,
+          "personId": 1,
+          "type": null,
+          "code": "TS10",
+          "date": "2021-01-01",
+          "banLength": "0",
+          "fineAmount": "0",
+          "penaltyPoints": "0",
+          "drinkReading": null,
+          "drinkReadingLevel": null,
+          "relatedAccident": null,
+          "offenceDate": "2021-01-01"
+        },
+        {
+          "id": 6,
+          "personId": 1,
+          "type": null,
+          "code": "TS10",
+          "date": "2021-01-01",
+          "banLength": "0",
+          "fineAmount": "0",
+          "penaltyPoints": "0",
+          "drinkReading": null,
+          "drinkReadingLevel": null,
+          "relatedAccident": null,
+          "offenceDate": "2021-01-01"
+        }
+      ],
+      "numberOfVehiclesInHousehold": "1",
+	    "insuranceRefused": false,
+      "howDoYouPayForInsurance": "F",
+      "notHadPreviousInsurance": false,
+      "preferredPaymentMethod": null
+    },
+    "proposer": {
+		"PublicLiability": true,
+      "additionalDrivingExperience": [
+        {
+          "type": "Private",
+          "yearsClaimFree": "4"
+        }
+      ],
+      "address": {
+        "addressLine1": "11 Albert Street",
+        "addressLine2": "STOKE-ON-TRENT",
+        "addressLine3": "",
+        "addressLine4": "",
+        "addressLine5": "",
+        "postCode": "ST3 5ED",
+        "abodeType": "",
+        "usage": "Main",
+        "countryCode": "GB",
+        "houseNameOrNumber": ""
+      },
+      "clientCategory": null,
+      "clientStatus": null,
+      "dateOfBirth": "1990-01-01",
+      "driverType": null,
+      "drivingLicence": [
+        {
+          "type": "F",
+          "typeOf": "Vehicle",
+          "dateObtained": "2016-09-06",
+          "cbtObtained": null,
+          "holdCbtCertificate": null
+        }
+      ],
+      "emailAddress": "hien1.hathi@nashtechglobal.com",
+      "employment": [
+        {
+          "type": "fulltime",
+          "employmentCode": "R",
+          "employmentDesc": null,
+          "occupationCode": "R09",
+          "employerCode": "947",
+          "employerDesc": null
+        }
+      ],
+      "forenames": "Xuan",
+      "fsaClass": null,
+      "gender": "F",
+      "homeOwner": true,
+      "iamCert": null,
+      "id": 1,
+      "maritalStatus": "M",
+      "medicalConditions": [
+        {
+          "type": "GLAR",
+          "date": "1970-01-01",
+          "notifiedDvla": false,
+          "restrictionDvla": true,
+          "claims": "1",
+          "status": "STABLE",
+          "vehicleModified": false,
+          "treatment": false,
+          "treatmentDescription": null,
+          "insulinInjections": null,
+          "insulinUnits": null,
+          "coronaryAttacks": null,
+          "coronaryByPass": false,
+          "coronaryDate": "1/1/0001"
+        }
+      ],
+      "membership": [],
+      "ncb": {
+        "otherBikeEngineCc": null,
+        "otherBikeLastRide": null,
+        "otherBikeNcd": null,
+        "otherBikeOwnership": null,
+        "otherBikeStyle": null,
+        "otherBikeYearOfManufacture": null,
+        "ownOtherBike": false,
+        "protectedBonus": null,
+        "previousNCBProtected": false,
+        "years": "1",
+        "appliedToOtherVehicle": false,
+        "bonusProofType": null
+      },
+      "nonRTAConviction": null,
+      "phoneNumbers": [
+        {
+          "type": "Work",
+          "number": "0745738545",
+          "id": null,
+          "extension": ""
+        }
+      ],
+      "preferences": [
+        {
+          "type": "Marketing",
+          "subType": "Post",
+          "code": null,
+          "value": "No",
+          "displaySubType": "Post"
+        },
+        {
+          "type": "Marketing",
+          "subType": "Email",
+          "code": null,
+          "value": "No",
+          "displaySubType": "Email"
+        },
+        {
+          "type": "Marketing",
+          "subType": "Tel",
+          "code": null,
+          "value": "No",
+          "displaySubType": "Phone"
+        },
+        {
+          "type": "Marketing",
+          "subType": "SMS",
+          "code": null,
+          "value": "No",
+          "displaySubType": "SMS"
+        },
+        {
+          "type": "Marketing",
+          "subType": "ArdonaghGroupMarketing",
+          "code": null,
+          "value": "N"
+        }
+      ],
+      "previousInsurance": {
+        "type": null,
+        "expiryDate": "2020-05-26T00:00:00",
+        "yearsHeld": null,
+        "insurerCode": null,
+        "insurerName": null,
+        "policyNumber": null
+      },
+      "relationshipToProposer": null,
+      "salutation": "Mrs Do",
+      "smoker": null,
+      "starRider": null,
+      "suffix": null,
+      "surname": "Do",
+      "tests": "",
+      "title": "Mrs",
+      "ukResidentSinceDate": "1990-01-01",
+      "vatRegistered": null,
+      "otherVehicleUse": "NDOC",
+      "insureOtherVehicle": false,
+      "largestNcbInOtherVehicle": null
+    },
+    "sourceOfSale": "",
+    "webReference": null
+  },
+  "providerCodeList": []
+}

@@ -1,0 +1,12 @@
+{
+  "SessionId": "{{sessionID}}",
+  "AgreementConfirmation": true,
+  "PreferredDeliveryMethod": "Email",
+  "GroupPartnerContact": "Y",
+  "Email": "thuong.nguyenthiminh@nashtechglobal.com",
+  "PhoneNumber": "07888888888",
+  "MarkTel": "YES",
+  "MarkSms": "YES",
+  "MarkEm": "YES",
+  "MarkP": "YES"
+}

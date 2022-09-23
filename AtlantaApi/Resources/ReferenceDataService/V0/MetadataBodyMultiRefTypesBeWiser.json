@@ -1,0 +1,10 @@
+{
+  "GetMetadataModel": [
+    {
+      "ReferenceType": "BusinessUse"
+    },
+    {
+      "ReferenceType": "employee"
+    }
+  ]
+}

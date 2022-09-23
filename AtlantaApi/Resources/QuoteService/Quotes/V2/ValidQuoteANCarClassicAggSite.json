@@ -1,0 +1,334 @@
+{
+  "policyId": null,
+  "proposerId": null,
+  "risk": {
+    "affinity": "MCAR",
+    "channelCode": "",
+    "schemeCode": "",
+    "optionalExtras": null,
+    "extraDuqs": null,
+    "product": {
+      "vehicle": {
+        "vehicleDetail": [
+          {
+            "vrn": "FH09JWA",
+            "abiCode": "31525801",
+            "productionPeriod": "2007-2015",
+            "yearOfManufacture": "2009",
+            "engineCc": "1498",
+            "engineGroup": "",
+            "fuelType": "P",
+            "manufacturer": "MAZDA",
+            "model": "2 SPORT",
+            "bodyStyle": "H",
+            "seats": "1",
+            "transmissionType": "M",
+            "handednessDrivingType": "LeftHand",
+            "datePurchased": "2021-10-04",
+            "owner": "Proposer",
+            "registeredKeeper": true,
+            "locationParkedOvernight": "G",
+            "postcodeParkedOvernight": "SW8 1TF",
+            "parkOvernightAtHome": true,
+            "classOfUse": "SDPexC",
+            "mileage": [
+              {
+                "type": "Total",
+                "value": "2999"
+              }
+            ],
+            "currentValue": "1234",
+            "purchasePrice": "1234",
+            "mainDriverId": 1,
+            "securityDevices": [
+              {
+                "type": "Immobiliser",
+                "code": "I099"
+              },
+              {
+                "type": "Tracking",
+                "code": "NONE"
+              },
+              {
+                "type": "alarm",
+                "code": "FACT"
+              }
+            ],
+            "isModified": false,
+            "abs": null,
+            "notBoughtYet": true,
+            "numberOfDoors": "5",
+            "coverType": "C"
+          }
+
+        ],
+        "additionalDrivers": [
+          {
+            "additionalDrivingExperience": [],
+            "address": null,
+            "clientCategory": null,
+            "clientStatus": null,
+            "dateOfBirth": "1970-02-01",
+            "driverType": null,
+            "drivingLicence": [
+              {
+                "type": "F",
+                "typeOf": "Vehicle",
+                "dateObtained": "2011-10-04",
+                "cbtObtained": null,
+                "holdCbtCertificate": null
+              }
+            ],
+            "emailAddress": null,
+            "employment": [
+              {
+                "type": "fulltime",
+                "employmentCode": "E",
+                "employmentDesc": null,
+                "occupationCode": "391",
+                "employerCode": "001",
+                "employerDesc": null
+              },
+              {
+                "type": "parttime",
+                "employmentCode": "E",
+                "employmentDesc": null,
+                "occupationCode": "03A",
+                "employerCode": "190",
+                "employerDesc": null
+              }
+            ],
+            "forenames": "Viet",
+            "fsaClass": null,
+            "gender": "M",
+            "homeOwner": null,
+            "iamCert": null,
+            "id": 2,
+            "insureOtherVehicle": null,
+            "largestNcbInOtherVehicle": "",
+            "maritalStatus": "M",
+            "medicalConditions": [
+              {
+                "type": "GLAR",
+                "date": "1970-01-01",
+                "notifiedDvla": false,
+                "restrictionDvla": true,
+                "claims": "1",
+                "status": "STABLE",
+                "vehicleModified": false,
+                "treatment": false,
+                "treatmentDescription": null,
+                "insulinInjections": null,
+                "insulinUnits": null,
+                "coronaryAttacks": null,
+                "coronaryByPass": false,
+                "coronaryDate": "1/1/0001"
+              }
+            ],
+            "membership": null,
+            "ncb": {
+              "otherBikeEngineCc": null,
+              "otherBikeLastRide": null,
+              "otherBikeNcd": null,
+              "otherBikeOwnership": null,
+              "otherBikeStyle": null,
+              "otherBikeYearOfManufacture": null,
+              "ownOtherBike": false,
+              "protectedBonus": null,
+              "previousNCBProtected": false,
+              "years": null,
+              "appliedToOtherVehicle": false,
+              "bonusProofType": null
+            },
+            "nonRTAConviction": null,
+            "otherVehicleUse": "NDOC",
+            "phoneNumbers": [],
+            "preferences": [],
+            "previousInsurance": {
+              "type": null,
+              "expiryDate": "2020-05-26T00:00:00",
+              "yearsHeld": null,
+              "insurerCode": null,
+              "insurerName": null,
+              "policyNumber": null
+            },
+            "relationshipToProposer": "S",
+            "salutation": null,
+            "smoker": null,
+            "starRider": null,
+            "suffix": null,
+            "surname": "Beo",
+            "tests": "",
+            "title": "Mr",
+            "ukResidentSinceDate": "1970-02-01",
+            "vatRegistered": null
+          }
+        ]
+      },
+      "policyStartDate": "<<PolicyStartDate>>",
+      "voluntaryExcess": "250",
+      "claims": [],
+      "convictions": [],
+      "numberOfVehiclesInHousehold": "5",
+      "howDoYouPayForInsurance": "F",
+      "notHadPreviousInsurance": false,
+      "preferredPaymentMethod": null
+    },
+    "proposer": {
+      "additionalDrivingExperience": [],
+      "address": {
+        "addressLine1": "Vine Housing Co-Operative",
+        "addressLine2": "37 Bonnington Square",
+        "addressLine3": "LONDON",
+        "addressLine4": "",
+        "addressLine5": "",
+        "postCode": "SW8 1TF",
+        "abodeType": "",
+        "usage": "Main",
+        "countryCode": "GB",
+        "houseNameOrNumber": ""
+      },
+      "clientCategory": null,
+      "clientStatus": null,
+      "dateOfBirth": "1980-02-01",
+      "driverType": null,
+      "drivingLicence": [
+        {
+          "type": "F",
+          "typeOf": "Vehicle",
+          "dateObtained": "2013-10-04",
+          "cbtObtained": null,
+          "holdCbtCertificate": null
+        }
+      ],
+      "emailAddress": "nashtech.atlanta@outlook.com",
+      "employment": [
+        {
+          "type": "fulltime",
+          "employmentCode": "E",
+          "employmentDesc": null,
+          "occupationCode": "01A",
+          "employerCode": "001",
+          "employerDesc": null
+        },
+        {
+          "type": "parttime",
+          "employmentCode": "E",
+          "employmentDesc": null,
+          "occupationCode": "03A",
+          "employerCode": "190",
+          "employerDesc": null
+        }
+      ],
+      "forenames": "Hoan",
+      "fsaClass": null,
+      "gender": "F",
+      "homeOwner": true,
+      "iamCert": null,
+      "id": 1,
+      "maritalStatus": "M",
+      "medicalConditions": [
+        {
+          "type": "GLAR",
+          "date": "1970-01-01",
+          "notifiedDvla": false,
+          "restrictionDvla": true,
+          "claims": "1",
+          "status": "STABLE",
+          "vehicleModified": false,
+          "treatment": false,
+          "treatmentDescription": null,
+          "insulinInjections": null,
+          "insulinUnits": null,
+          "coronaryAttacks": null,
+          "coronaryByPass": false,
+          "coronaryDate": "1/1/0001"
+        }
+      ],
+      "membership": [],
+      "ncb": {
+        "otherBikeEngineCc": null,
+        "otherBikeLastRide": null,
+        "otherBikeNcd": null,
+        "otherBikeOwnership": null,
+        "otherBikeStyle": null,
+        "otherBikeYearOfManufacture": null,
+        "ownOtherBike": false,
+        "protectedBonus": null,
+        "previousNCBProtected": false,
+        "years": "6",
+        "appliedToOtherVehicle": false,
+        "bonusProofType": null
+      },
+      "nonRTAConviction": null,
+      "phoneNumbers": [
+        {
+          "type": "Work",
+          "number": "07435345454",
+          "id": null,
+          "extension": ""
+        }
+      ],
+      "preferences": [
+        {
+          "type": "Marketing",
+          "subType": "Post",
+          "code": null,
+          "value": "No",
+          "displaySubType": "Post"
+        },
+        {
+          "type": "Marketing",
+          "subType": "Email",
+          "code": null,
+          "value": "No",
+          "displaySubType": "Email"
+        },
+        {
+          "type": "Marketing",
+          "subType": "Tel",
+          "code": null,
+          "value": "No",
+          "displaySubType": "Phone"
+        },
+        {
+          "type": "Marketing",
+          "subType": "SMS",
+          "code": null,
+          "value": "No",
+          "displaySubType": "SMS"
+        },
+        {
+          "type": "Marketing",
+          "subType": "ArdonaghGroupMarketing",
+          "code": null,
+          "value": "N"
+        }
+      ],
+      "previousInsurance": {
+        "type": null,
+        "expiryDate": "2020-05-26T00:00:00",
+        "yearsHeld": null,
+        "insurerCode": null,
+        "insurerName": null,
+        "policyNumber": null
+      },
+      "relationshipToProposer": null,
+      "salutation": "Miss Trinh",
+      "smoker": null,
+      "starRider": null,
+      "suffix": null,
+      "surname": "Trinh",
+      "tests": "",
+      "title": "Miss",
+      "ukResidentSinceDate": "1980-02-01",
+      "vatRegistered": null,
+      "otherVehicleUse": "NAOV",
+      "insureOtherVehicle": null,
+      "largestNcbInOtherVehicle": null
+    },
+    "sourceOfSale": "",
+    "webReference": null
+  },
+  "providerCodeList": []
+}

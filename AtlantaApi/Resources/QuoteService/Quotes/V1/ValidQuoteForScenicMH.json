@@ -1,0 +1,318 @@
+﻿{
+  "Risk": {
+    "Product": {
+      "Claims": [],
+      "Convictions": null,
+      "Vehicle": {
+        "VehicleDetail": [
+          {
+            "HandednessDrivingType": "RightHand",
+            "IsModified": false,
+            "EngineGroup": null,
+            "ForeignUseDuration": null,
+            "ModificationTypes": null,
+            "Modifications": null,
+            "Id": "150252426",
+            "Abs": true,
+            "Imported": null,
+            "SideCar": null,
+            "AccessoriesValue": null,
+            "VRN": "EX70NKJ",
+            "ABICode": "92100101",
+            "ProductionPeriod": "2019-2021",
+            "YearOfManufacture": "2020",
+            "EngineCc": "2287",
+            "PowerOutput": null,
+            "FuelType": "FuelDiesel",
+            "Manufacturer": "Unlisted",
+            "WhereManufactured": null,
+            "Model": "Fiat-25seven Camper Conversions-Van Conversion",
+            "BodyStyle": "Mcaravan",
+            "Seats": "1",
+            "TransmissionType": "TransMan",
+            "NumberOfDoors": "2",
+            "DatePurchased": "2021-05-13T00:00:00",
+            "Owner": "Proposer",
+            "RegisteredKeeper": true,
+            "LocationParkedOvernight": "Driveway",
+            "PostCodeParkedOvernight": "ST3 5ED",
+            "classOfUse": "SDPexC",
+            "Mileage": [
+              {
+                "Type": "Total",
+                "Value": "2999"
+              },
+              {
+                "Type": "EU",
+                "Value": "0"
+              }
+            ],
+            "CurrentValue": "1234",
+            "PurchasePrice": "1234",
+            "CoverType": "C",
+            "MainDriverId": 1,
+            "PrivateCar": null,
+            "GoodsVehicle": null,
+            "Motorhome": {
+              "BaseVehicle": null,
+              "Converted": "No",
+              "MhType": "Group 2"
+            },
+            "Motorcycle": null,
+            "SecurityDevices": [
+              {
+                "Type": "Immobiliser",
+                "Code": "NONE"
+              },
+              {
+                "Type": "Tracking",
+                "Code": "NONE"
+              },
+              {
+                "Type": "Alarm",
+                "Code": "NONE"
+              }
+            ]
+          }
+        ],
+        "AdditionalDrivers": null
+      },
+      "RenewalDate": "2022-05-13T00:00:00",
+      "QuoteDate": "2021-05-13T11:42:42.029",
+      "EndDate": "2022-05-12T23:59:59",
+      "PolicyInceptionDate": "2021-05-13T00:00:00",
+      "PreferredDeliveryMethod": null,
+      "Restrict": "INSONLY",
+      "AutoRenewal": null,
+      "PolicyComment": null,
+      "PolicyMemo": null,
+      "PolicyInceptionTime": null,
+      "PolicytTargetPremium": null,
+      "PromoCode": null,
+      "PnsuranceRefused": false,
+      "HowDoYouPayForInsurance": "MONTHLY",
+      "NumberOfVehiclesInHousehold": "3",
+      "PaymentMethod": null,
+      "NumberOfVehicles": null,
+      "PolicyStartDate": "<<PolicyStartDate>>",
+      "PolicyDuration": null,
+      "VoluntaryExcess": "100",
+      "Property": null
+    },
+    "Proposer": {
+      "MedicalConditions": null,
+      "PhoneNumbers": [
+        {
+          "Id": "150252433",
+          "Extension": null,
+          "Type": "Work",
+          "Number": "077777777"
+        },
+        {
+          "Id": "150252435",
+          "Extension": null,
+          "Type": "Home",
+          "Number": "0122343543645"
+        }
+      ],
+      "Address": {
+        "AbodeType": "House",
+        "Usage": "Main",
+        "CountryCode": "GB",
+        "HouseNameOrNumber": "12",
+        "AddressLine1": "Albert Street",
+        "AddressLine2": "STOKE-ON-TRENT",
+        "AddressLine3": null,
+        "AddressLine4": null,
+        "AddressLine5": null,
+        "PostCode": "ST3 5ED"
+      },
+      "Membership": [
+        {
+          "Number": null,
+          "Type": "MotoringOrgType",
+          "Value": "BLANK"
+        },
+        {
+          "Number": null,
+          "Type": "MotorCaravanClub",
+          "Value": "N"
+        }
+      ],
+      "Ncb": {
+        "PreviousNcbProtected": false,
+        "AppliedToOtherVehicle": false,
+        "BonusProofType": null,
+        "OtherBikeEngineCc": null,
+        "OtherBikeLastRIde": null,
+        "OtherBikeNcd": null,
+        "OtherBikeOwnership": null,
+        "OtherBikeStyle": null,
+        "OtherBikeYearOfManufacture": null,
+        "OwnOtherBike": null,
+        "ProtectedBonus": false,
+        "Years": "4"
+      },
+      "PreviousInsurance": {
+        "YearsHeld": null,
+        "InsurerCode": null,
+        "InsurerName": null,
+        "PolicyNumber": null,
+        "SchemeCode": null,
+        "Type": "PC",
+        "expiryDate": "2020-05-26T00:00:00"
+      },
+      "drivingLicence": [
+        {
+          "cbtObtained": null,
+          "holdCbtCertificate": null,
+          "Type": "Full Licence",
+          "TypeOf": "Vehicle",
+          "dateObtained": "2015-05-13T00:00:00"
+        }
+      ],
+      "additionalDrivingExperience": null,
+      "OtherVehicleUse": "Owner",
+      "clientCategory": null,
+      "clientStatus": "Prospect",
+      "driverType": "Prpsr",
+      "fsaClass": null,
+      "iamCert": null,
+      "nonRtaConviction": null,
+      "smoker": false,
+      "starRIder": null,
+      "suffix": null,
+      "tests": "1",
+      "vatRegistered": false,
+      "drivingLicenceNumber": null,
+      "bankruptOrCcj": null,
+      "relationshipToProposer": "Proposer",
+      "homeOwner": false,
+      "emailAddress": "hoant.trinhthi@nashtechglobal.com",
+      "insureOtherVehicle": false,
+      "largestNcbInOtherVehicle": "",
+      "Id": 1,
+      "salutation": "Miss Sfdf",
+      "title": "Miss",
+      "foreNames": "Hoantrinh",
+      "surName": "Sfdf",
+      "gender": "F",
+      "dateOfBirth": "1980-02-01T00:00:00",
+      "ukResIdentSinceDate": "1980-02-01T00:00:00",
+      "maritalStatus": "M",
+      "employment": [
+        {
+          "Type": "fulltime",
+          "employmentCode": "Employee",
+          "employmentDesc": null,
+          "occupationCode": "01A",
+          "occupationDesc": null,
+          "employerCode": "190",
+          "employerDesc": null
+        },
+        {
+          "Type": "parttime",
+          "employmentCode": "None",
+          "employmentDesc": null,
+          "occupationCode": "220",
+          "occupationDesc": null,
+          "employerCode": "186",
+          "employerDesc": null
+        }
+      ],
+      "pReferences": [
+        {
+          "Type": "Marketing",
+          "subType": "post",
+          "Code": "MARKP",
+          "Value": "Yes"
+        },
+        {
+          "Type": "Marketing",
+          "subType": "email",
+          "Code": "MARKEM",
+          "Value": "No"
+        },
+        {
+          "Type": "Marketing",
+          "subType": "tel",
+          "Code": "MARKTEL",
+          "Value": "Yes"
+        },
+        {
+          "Type": "Marketing",
+          "subType": "sms",
+          "Code": "MARKSMS",
+          "Value": "No"
+        },
+        {
+          "Type": "Consent",
+          "subType": "DriverMedicalConditions",
+          "Code": null,
+          "Value": "NotKnown"
+        },
+        {
+          "Type": "Consent",
+          "subType": "DriverConvictions",
+          "Code": null,
+          "Value": "NotKnown"
+        }
+      ]
+    },
+    "Id": null,
+    "SchemeGroup": null,
+    "MaxNumOfQuotes": null,
+    "MaxNumOfQuotesToStore": null,
+    "NameOfInsured": null,
+    "SourceOfBusiness": "Website",
+    "Frequency": "PlcyAnnual",
+    "FsaSaleType": "NON-ADV",
+    "QuoteType": "NewQuotTyp",
+    "ScratchData": null,
+    "SubAgentCodes": null,
+    "QuoteGrade": null,
+    "TrailerCover": null,
+    "Enrichments": [
+      {
+        "EnrichmentName": "012B",
+        "ErrorCode": null,
+        "ErrorDateTime": "0001-01-01T00:00:00",
+        "ErrorDescription": null,
+        "ErrorDetail": null,
+        "RawXmlData": "H4sIAAAAAAAAAO1WS2/bMAy+F+h/KHp3/UrqpFBdbFm3FVsfa9oddhlkiU6EylIqyVn770c5Tho3ybBhlx12iUV+pPhRpKiQs6dKHszBWKHV6WF8FB0egGKaCzU5Pby/ex8MDs/y/T1iwM60spCTwgqeR8Ah7g2zYJAdx0GvN+ABjbzYz3olO84G6SAjYWNK5jAVTMInmLnRlKoJ2Dwi4RYtMbUEO3bawFvveUXCVxoyLayjrrb5+H40Oh+PSbjSNMQuqWPTzzAHmXsxKJmd8fmCyRq25HShHEgpJpgyZlZpd6E4PAG/FBLoBDzPTSWR1IF17/D3xsBIz/15kHCLFnfkIJMxQ/6LvV5EH+2a6wocmFug/sDbcK+1q7Pqsp1hwFKbKrfOUEdJuFIQJqmo1s66I5PHWiPTc2UEm1agHNrXxuDiiwfGuja4PRcGmPsBBXpvoqQwVLHpBc+TLMEAK3GxOe6osafyETo3i932M4P2zAG/YsUtPNZ4hNBUfjuA9lAC8uE39NmTvwQ31fwgzIk2YiIUles8C8oedFkKBiTchhM3FXZH2q8hMteyVo6a5/MnBta+kIoj38+7UMKQrcAmB/Yw8ldIOU8X2yMmoW8S7F/T9E0ep0HUD5IoQeRFS5yocCtazXIPeZM4vYujk15ykg6PoiT7hmxXNiRsa/C/FL9fiuRvShENT9L4JEqP+snwF6UYaWSF9w9PQQrls6CqmYT4wZmiuNSmnSTtmjBqmvuLH7+mrcdySYpaSD8j7LWSzx7pKrD2ODIw6BLuyIhWBRLhH3HeLNA1mRTiodE2X6zZkrVWf8I+/kfYt6TDTiU4fbZjgdP0nBopsGhNk3m3HQiplcBmejOZGJhQfJbsV2GFby302Ym1UbsjV6u5YA5f3fU5vaEkpTBt8I22fAUtXs8PoACfA+CdF7SrbbPAO1/QJGNZfBwUwMqgl5RRMBwOi6CgZRLxLOn1af97fxDF6TK91Yy3eIGcEUXt/BuVLnPsaDH68m/D/t5P/EJKjWsIAAA=",
+        "ReferenceOne": null,
+        "ReferenceTwo": null,
+        "ScIdCode": null,
+        "Factors": null
+      }
+    ],
+    "LoyaltyCard": null,
+    "Affinity": "SCEN",
+    "Referrer": null,
+    "ChannelCode": null,
+    "SchemeCode": null,
+    "E1xtraDuqs": null,
+    "OptionalExtras": [
+      {
+        "Code": "SCBDN2O",
+        "Amount": null,
+        "CommissionAmount": null,
+        "Status": null
+      },
+      {
+        "Code": "SCMALPO",
+        "Amount": null,
+        "CommissionAmount": null,
+        "Status": null
+      }
+    ],
+    "SourceOfSale": null,
+    "WebReference": null
+  },
+  "Status": null,
+  "Message": "Quote",
+  "PolicyId": null,
+  "ProposerId": null,
+  "DoQuote": false,
+  "IsAggregator": false
+}

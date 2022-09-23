@@ -1,0 +1,24 @@
+{
+  "SessionID": "<<sessionID>>",
+  "WebReference": "<<webReference>>",
+  "AmountPaid": 201613,
+  "CardTypeCode": 2,
+  "CardTypeValue": "Mastercard",
+  "CardHolderName": "Nhu",
+  "MaskedCardNumber": "************5454",
+  "ExpiryMonth": "03",
+  "ExpiryYear": 2025,
+  "IIN": 545454,
+  "MerchantID": "SWINTONECOMM",
+  "NavigationStatus": "COMPLETED",
+  "PaymentStatus": "AUTHORISED",
+  "PaymentTransactionId": "T000000000IBL93549",
+  "PaymentType": "SINGLE",
+  "StartMonth": "01",
+  "StartYear": 2018,
+  "IssueNumber": 556,
+  "PreviousTransactionDate": "01",
+  "PreviousTransactionId": "T000000000IBL95555",
+  "CardFee": "300"
+}
+

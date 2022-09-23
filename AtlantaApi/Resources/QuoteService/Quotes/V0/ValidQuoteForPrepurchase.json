@@ -1,0 +1,310 @@
+{
+    "QuoteStore": {
+        "PolicyId": null,
+      "Risk": {
+        "PreviousInsurance": {
+          "Ncb": {
+            "Years": "2",
+            "protectedBonus": false
+          },
+          "PreviousPolicyBonusProtected": false,
+          "PreviousPolicyBonusProtectedSpecified": true,
+          "ExpiryDate": "<<ExpiryDate>>"
+        },
+        "Cover": "C",
+        "TotalMileage": "5000",
+        "ClassOfUse": "SDP",
+        "Vehicle": {
+          "Doors": "5",
+          "Seats": "6",
+          "Alarm": "NONE",
+          "lhd": false,
+          "Purchased": "2019-04-15T00:00:00",
+          "Cc": "2000",
+          "Fuel": "FuelPetrol",
+          "Immob": "1003",
+          "Manufacturer": "<UNLISTED>",
+          "ModelDescription": "Bedford - 1st Time Leisure - Friendee conversion",
+          "Owner": "Proposer",
+          "Value": "30000",
+          "Paid": "30000",
+          "keeper": true,
+          "WhereManufactured": "UK",
+          "RegNumber": "MK57OBD",
+          "Tracker": "NONE",
+          "Transmission": "TransAuto",
+          "WhereKept": "Driveway",
+          "KeptPostcode": "S74 0LJ",
+          "YearOfManufacture": "2019",
+          "ModificationInd": true
+        },
+        "Id": null,
+        "VolXs": "10000",
+        "StartDate": "<<StartDate>>",
+        "Proposer": {
+          "FullTimeOccupation": {
+            "Type": "Employee",
+            "OccCode": "01A",
+            "EmpCode": "009"
+          },
+          "PartTimeOccupation": {
+            "Type": "None",
+            "OccCode": "",
+            "EmpCode": ""
+          },
+          "Licence": {
+            "Type": "Full Licence",
+            "Date": "2015-02-03T00:00:00",
+            "ConvictionSpecified": false,
+            "Convictions": [
+              {
+                "Id": "1",
+                "points": "0",
+                "PersonId": "1",
+                "Code": "DR10",
+                "Date": "2019-01-01",
+                "Type": "BA40",
+                "BanLength": "0",
+                "FineAmount": "999999",
+                "PenaltyPoints": "1",
+                "DrinkReading": "BLOOD",
+                "DrinkReadingLevel": "250",
+                "RelatedAccident": null,
+                "OffenceDate": "2019-10-10",
+                "disqualification": "99",
+                "fine": "999999"
+              }
+            ]
+          },
+          "Name": {
+            "Title": "Mrs",
+            "Forenames": "Phuong",
+            "Surname": "Tran"
+          },
+          "DateOfBirth": "1989-01-05T00:00:00",
+          "ResidentSince": "1989-12-01T00:00:00",
+          "InsuranceRefused": false,
+          "MaritalStatus": "M",
+          "MedicalCondition": {
+            "Code": "CERE",
+            "Date": "2019-02-01T00:00:00",
+            "dvlcNotified": true
+          },
+          "NonRtaConviction": false,
+          "AccessToOtherVehicles": "Owner",
+          "VehicleUse": "MainUser",
+          "NumberOfOtherVehicles": "1",
+          "Id": null,
+          "Address": {
+            "PostCode": "ST6 2BA",
+            "HouseNameOrNumber": "9",
+            "AddressLine1": "9 Nile Street",
+            "AddressLine2": "STOKE-ON-TRENT",
+            "AddressLine3": "",
+            "AddressLine4": ""
+          },
+          "ClaimSpecified": false,
+          "Claims": [
+            {
+              "Id": "1",
+              "PersonId": "1",
+              "Code": "C001",
+              "claimDate": "2019-01-01",
+              "NcbAffected": true,
+              "Costs": "500",
+              "thirdPartyCost": "0",
+              "thisPolicy": false,
+              "PersonalInjury": true,
+              "Comments": null,
+              "BrokerReference": null
+            }
+          ],
+          "TelephoneNumbers": [
+            {
+              "Id": null,
+              "AreaCode": "01132",
+              "PhoneNumber": "581614",
+              "Usage": "Home"
+            }
+          ],
+          "Email": "thuong.nguyenthiminh@nashtechglobal.com",
+          "RelationshipToProposer": "Proposer"
+        },
+        "AdditionalInsuredSet": [
+          {
+            "FullTimeOccupation": {
+              "Type": "Employee",
+              "OccCode": "01A",
+              "EmpCode": "009"
+            },
+            "PartTimeOccupation": {
+              "Type": "None",
+              "OccCode": "",
+              "EmpCode": ""
+            },
+            "Licence": {
+              "Type": "Full Licence",
+              "Date": "2015-02-03T00:00:00",
+              "ConvictionSpecified": false,
+              "Convictions": null
+            },
+            "Name": {
+              "Title": "Mrs",
+              "Forenames": "Phuong",
+              "Surname": "Tran"
+            },
+            "DateOfBirth": "1989-01-05T00:00:00",
+            "ResidentSince": "1989-12-01T00:00:00",
+            "InsuranceRefused": false,
+            "MaritalStatus": "M",
+            "MedicalCondition": null,
+            "NonRtaConviction": false,
+            "AccessToOtherVehicles": "Owner",
+            "VehicleUse": "Frequently",
+            "NumberOfOtherVehicles": "1",
+            "Id": null,
+            "Address": {
+              "PostCode": "ST6 2BA",
+              "HouseNameOrNumber": "9",
+              "AddressLine1": "9 Nile Street",
+              "AddressLine2": "STOKE-ON-TRENT",
+              "AddressLine3": "",
+              "AddressLine4": ""
+            },
+            "ClaimSpecified": false,
+            "Claims": null,
+            "TelephoneNumbers": [
+              {
+                "Id": null,
+                "AreaCode": "01132",
+                "PhoneNumber": "581614",
+                "Usage": "Home"
+              }
+            ],
+            "Email": "thuong.nguyenthiminh@nashtechglobal.com",
+            "RelationshipToProposer": "Proposer"
+          }
+        ],
+        "Duqs": [
+          {
+            "Id": null,
+            "QuestionNumber": "527",
+            "Response": "YES",
+            "ShortResponse": "Y",
+            "ScreenPrompt": ""
+          },
+          {
+            "Id": null,
+            "QuestionNumber": "687",
+            "Response": "223",
+            "ShortResponse": "223",
+            "ScreenPrompt": ""
+          },
+          {
+            "Id": null,
+            "QuestionNumber": "552",
+            "Response": "Yes",
+            "ShortResponse": "Y",
+            "ScreenPrompt": null
+          },
+          {
+            "Id": null,
+            "QuestionNumber": "620",
+            "Response": "Yes",
+            "ShortResponse": "Y",
+            "ScreenPrompt": ""
+          },
+          {
+            "Id": null,
+            "QuestionNumber": "877",
+            "Response": "1",
+            "ShortResponse": "1",
+            "ScreenPrompt": ""
+          },
+          {
+            "Id": null,
+            "QuestionNumber": "878",
+            "Response": "2000",
+            "ShortResponse": "2000",
+            "ScreenPrompt": ""
+          },
+          {
+            "Id": null,
+            "QuestionNumber": "534",
+            "Response": "YES",
+            "ShortResponse": "Y",
+            "ScreenPrompt": ""
+          },
+          {
+            "Id": null,
+            "QuestionNumber": "429",
+            "Response": "YES",
+            "ShortResponse": "Y",
+            "ScreenPrompt": ""
+          },
+          {
+            "Id": null,
+            "QuestionNumber": "430",
+            "Response": "YES",
+            "ShortResponse": "Y",
+            "ScreenPrompt": ""
+          },
+          {
+            "Id": null,
+            "QuestionNumber": "876",
+            "Response": "YES",
+            "ShortResponse": "Y",
+            "ScreenPrompt": ""
+          }
+        ],
+        "UserFields": [
+          {
+            "ScreenPrompt": "43234",
+            "IsList": true,
+            "Code": "PAY",
+            "Response": "MONTHLY",
+            "ShortResponse": "MONTHLY"
+          },
+          {
+            "ScreenPrompt": "43234",
+            "IsList": true,
+            "Code": "MARKTEL",
+            "Response": "NO",
+            "ShortResponse": "NO"
+          },
+          {
+            "ScreenPrompt": "43234",
+            "IsList": true,
+            "Code": "MARKSMS",
+            "Response": "NO",
+            "ShortResponse": "NO"
+          },
+          {
+            "ScreenPrompt": "43234",
+            "IsList": true,
+            "Code": "MARKEM",
+            "Response": "YES",
+            "ShortResponse": "YES"
+          },
+          {
+            "ScreenPrompt": "43234",
+            "IsList": true,
+            "Code": "MARKP",
+            "Response": "NO",
+            "ShortResponse": "NO"
+          },
+          {
+            "ScreenPrompt": "43234",
+            "IsList": true,
+            "Code": "SOURCE",
+            "Response": "abc",
+            "ShortResponse": "DIRECTWE"
+          }
+        ]
+      },
+        "Context": {
+            "PartyId": null,
+            "PolicyId": null
+        }
+    }
+}
